@@ -1,0 +1,957 @@
+---
+title: "Prolific AVT first experiment"
+author: "Ana Guerberof Arenas"
+date: "Generated on: `r date()`"
+output:
+  html_document:
+    code_folding: show
+    number_sections: yes
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+---
+
+
+# Load Libraries and Data
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(viridis)
+library(hrbrthemes)
+library(effsize) # for effect size of wilcox test
+library(car) # leveneTest
+library("ggpubr")
+library(psych)
+library(ltm)
+library(lme4)
+library(FSA)
+library(DescTools)
+library(broom)
+library(conover.test)
+
+# Load the file for AVT Engagement downloaded from Qualtrics
+df <- read.csv("AVT+Engagement+Prolific+1st+anonymised.csv")
+```
+
+# Preprocess Data
+
+```{r}
+
+# reading condition A = PE, B = MT, C = HT
+table(df$Condition) # show number of responses per condition
+
+# gender 1 = female, 2 = male, 3 = non-binary, 4 = prefer not to say
+#70 females, 47 males, 2 non-binary
+table(df$Q1.1)
+
+# age 2 = 18-24, 3= 25-34,  4= 35-44, 5 = 45-54, 6 = 55-64, 7= 65-74, 8= 75-84, 9= 85 or older
+# 46 in the age bracket 18-24; 60 in the 25-34; 12 in the 35-44; 1 in 45-54. 
+# None in the others, so the range is 18-54, the majority being in the 18-34 bracket.
+df$VAL_1 <- factor(df$VAL_1)
+table(df$VAL_1)
+
+#Mother Tongue  1 is English, 2 Spanish, 3 English and Spanish, 4 Another Language
+# All English speakers. This was also a requirement in Prolific.
+table(df$VAL_2) 
+table(df$VAL_2, df$Condition)# The distribution per condition is 40 PE, 38 MT, 41 HT
+LangCond <- table(df$VAL_2, df$Condition)
+addmargins(LangCond)
+
+# studies 1 = Less than secondary school, 2 = Secondary School, 3= Some college education, 4 = BA, 5 = Master, 6 = Professional Degree, 7= Doctorate)
+# The biggest group is BA.
+table(df$Q1.2)
+
+# profession 1, 2, 3, 4, 5 are related to language, 6 is others.
+table(df$Q1.3)
+df$prof <- NULL
+df$prof[is.na(df$Q1.3)]= 0
+df$prof[df$Q1.3==6] <- 6
+df$prof[is.na(df$prof)==TRUE & is.na(df$Q1.3)==FALSE & df$Q1.3 != ""] <- 1
+df$prof[is.na(df$prof)] = 0
+df$prof <- as.factor(df$prof)
+table(df$prof)
+# 1 is professions related to languages and 6 is others)
+# 11 people are in group 1 and 73 in group 6 and 35 are blank.
+
+chisq.test(df$prof, df$Condition)
+chisq.test(df$prof, df$Condition, simulate.p.value = TRUE)
+
+#distribution of profession by condition
+table(df$prof, df$Condition)
+ProfCond <- table(df$prof, df$Condition)
+addmargins(ProfCond)
+prop.table(ProfCond, margin = 2)
+addmargins(round(100*prop.table(ProfCond, margin = 2), digits = 0))
+
+# The group A, PE, has the highest percentage of language related professions.
+
+# CrossTable to see the frequency per condition
+#install.packages("gmodels")
+library(gmodels)
+CrossTable(df$prof, df$Condition, prop.t=TRUE, prop.r=TRUE, prop.c=TRUE)
+
+
+#install.packages("descr")
+library (descr)
+library(dplyr)
+library(Hmisc)
+crosstab(df$prof, df$Condition, prop.c=T, plot=F)
+crosstab(df$prof, df$Condition, prop.c=T, plot=T)
+
+
+crosstab(df$prof, df$Condition,
+         expected=T, #Add expected frequency to each cell
+         prop.chisq = T, #Total contribution of each cell 
+         plot=F)
+
+chisq.test(df$prof, df$Condition)
+chisq.test(df$prof, df$Condition, simulate.p.value = TRUE)# The differences between groups is not significant, Because I get a chi.square warning approximation may be incorrect, I have added a simulate p value.
+
+# Level of Spanish 1= No knowledge, 2= A little, 3= A moderate amount, 4= Very good knowledge, 5= Bilingual level
+table(df$Q1.4)
+# Only 1 person has a very good knowledge, 59 no knowledge, 53, a little, 6 a moderate amount. The majority has no to a little knowledge. 112
+
+# Watch subtitles How often do you watched programmes with subtitles in the last 24 months?  1= Never, 2= Once every three months, 3= Once a month, 4= Once or twice per week, 5= Daily)
+table(df$Q1.5) # There is a spread here of how they watch programmes.
+
+# How much do you enjoy watching tv programmes with subtitles  1 = dislike a great deal, 2 = dislike somewhat, 3 = Neither like or dislike, 4= Like somewhat, 5 = Like a lot")
+table(df$Q1.6)# The majority seem to be neutral or like it.
+
+# How many subcriptions to streaming platforms do you have? 1 = None at all, 2 = One, 3 = Between two and three, 4 = Between four and five, 5 = More than 5
+table(df$Q1.8) # Between two and three is the most common answer here.
+
+```
+
+
+# Comprehension Questions
+```{r}
+# We plot the answer to comprehension questioons
+ggplot(data =df,mapping = aes(x = Condition,y = SC6))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Comprehension") +
+    scale_fill_brewer(palette="BuPu")
+
+# means (may be more appropriate since we've ordinal data)
+tapply(df$CorrectAnswers, df$Condition, mean)
+
+summary(df$SC6)
+
+library(psych)
+describeBy(df$SC6, df$Condition)
+
+conover.test (df$SC6, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE) # significance HT and MT!
+
+# To find the mean ranks for Kruskall Wallis
+
+require(pastecs)  # for descriptive statistics
+require(pgirmess) # for post hoc tests
+# creating a rank variable
+
+df$SC6Rank <- rank(df$SC6)
+# getting the descriptive statistics for the groups
+by(df$SC6Rank, df$Condition, stat.desc, basic = FALSE)
+
+# Histograms to check normality
+hist(df$SC6)
+hist(log(df$SC6))
+
+summary(lm(df$SC6 ~ df$Condition)) # no signifcance here, strange
+
+# Check assumptions according to GPTChat
+
+# Fit a linear regression model
+model <- lm(df$SC6 ~ Condition, data = df)
+
+# Create diagnostic plots
+plot(model)
+
+# Test the normality of residuals
+shapiro.test(model$residuals) #it does not meet assumptions of normality
+
+# Test the homoscedasticity of residuals
+library(lmtest)
+bptest(model)
+
+```
+
+# AVT frequency
+```{r}
+# This is the frequency in watching programmes
+df$viewingpatterns <- (df$Q1.5 + df$Q1.6)/2
+# the scale here was 1 to 5, higher values indicate a higher degree of viewing programmes with subtitles
+
+tapply(df$viewingpatterns, df$Condition, mean)
+
+# Is this a scale?
+dataRead <-data.frame(df$Q1.5, df$Q1.6)
+cronbach.alpha(dataRead, CI=TRUE)
+alpha(dataRead, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+tapply(df$Q1.5, df$Condition, mean) # How often have you watched a programme with subtitles in the last 24 months?
+tapply(df$Q1.6, df$Condition, mean) #How much do you enjoy watching television programmes with subtitles?Please consider the last 24 months.
+
+tapply(df$viewingpatterns, df$Condition, mean)
+tapply(df$viewingpatterns, df$Condition, median)
+
+describeBy(df$viewingpatterns, df$Condition)
+
+ggplot(data =df,mapping = aes(x = Condition,y = viewingpatterns))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("AVT frequency") 
+
+summary(lm(df$viewingpatterns ~ df$Condition))
+
+kruskal.test(df$viewingpatterns ~ Condition, data = df)
+dunnTest(df$viewingpatterns ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$viewingpatterns, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE) # No significance between modalities which is good for the experiment
+
+```
+
+
+# Narrative understanding
+```{r}
+df$n_underst <- (df$Q3.1 + df$Q3.2 + df$Q3.3)/3 # this new variable is the average from the three questions on narrative understanding.
+
+tapply(df$Q3.1, df$Condition, mean) # At points, I had a hard time making sense of what was going on in the story
+tapply(df$Q3.2, df$Condition, mean) # My understanding of the characters is unclear.
+tapply(df$Q3.3, df$Condition, mean) # I had a hard time recognizing the thread of the story.
+
+# We plot the data of the variable Narrative understanding by condition.
+ggplot(data =df,mapping = aes(x = Condition,y = n_underst))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+    ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Narrative understanding")
+
+# PE seems to have a higher NA overall followed by HT and MT. Is this significant?
+kruskal.test(n_underst ~ Condition, data = df) # There is significance 
+dunnTest(n_underst ~ Condition, data = df, method="bonferroni") # PE and MT are significantly different
+
+# Using Conover to visualize data better
+conover.test (df$n_underst, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
+
+# Can we fit a linear regression model with this data?
+summary(lm(df$n_underst ~ df$Condition)) # As before significance between PE and MT
+
+#Check assumptions for regression model
+# Regression assumptions
+
+model <- lm(df$n_underst ~ df$Condition)# the predictor
+
+# Model with log values
+lm_log.model = lm(log1p(n_underst) ~ Condition, data = df)
+summary(lm_log.model)
+
+
+# Residuals vs Fitted
+plot(lm_log.model, 1)
+
+#Predictors (x) Are Independent and Observed with Negligible Error
+durbinWatsonTest(lm_log.model)
+
+#The null hypothesis states that the errors are not auto-correlated with themselves (they are independent). Thus, if we achieve a p-value > 0.05, we would fail to reject the null hypothesis. This would give us enough evidence to state that our independence assumption is met!
+
+#Assumption Three: Residual Errors Have a Mean Value of Zero
+#We can easily check this assumption by looking at the same residual vs fitted plot. We would ideally want to see the red line flat on 0, which #would indicate that the residual errors have a mean value of zero.
+
+#Assumption Four: Residual Errors Have Constant Variance
+plot(lm_log.model, 3)
+
+#Homoscedasticity (as before)
+ncvTest(lm_log.model)
+
+#The null hypothesis states that there is constant variance. Thus, if you get a pvalue > 0.05, you would fail to reject the null. This means you have enough evidence to state that your assumption is met!
+
+# Normality
+
+plot(lm_log.model, which = 2)
+
+
+#  Residuals follow a normal distribution
+
+shapiro.test(residuals(lm_log.model)) # The data does not appear to be normally distributed.
+
+# Multicolinearity
+
+#car::vif(model)
+
+
+#Assumption Five: Residual Errors Are Independent from Each Other and Predictors (x)
+
+```
+
+# Attentional Focus
+```{r}
+df$att_focus <- (df$Q3.4 + df$Q3.5 + df$Q3.6)/3 # this new variable is the average from the three questions on attentinal focus.
+
+tapply(df$Q3.4, df$Condition, mean) # I found my mind wandering while reading the story.
+tapply(df$Q3.5, df$Condition, mean) # While reading, I found myself thinking about other things.
+tapply(df$Q3.6, df$Condition, mean) # I had a hard time keeping my mind on the story.
+
+# We plot the data of the variable Attentional Focus by Condition.
+ggplot(data =df,mapping = aes(x = Condition,y = att_focus))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Attentional Focus") 
+
+# We run non-parametric tests as before
+kruskal.test(att_focus ~ Condition, data = df)
+dunnTest(att_focus ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$att_focus, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
+
+# And a model
+summary(lm(df$att_focus ~ df$Condition)) # No significance so we are not checking assumptions.
+
+```
+
+# Narrative presence
+```{r}
+df$n_presence <- (df$Q3.7 + df$Q3.8 + df$Q3.9)/3 # this new variable is the average from the three questions on narrative presence.
+
+tapply(df$Q3.7, df$Condition, mean) #During the reading, my body was in the room, but my mind was inside the world created by the story.
+tapply(df$Q3.8, df$Condition, mean) #The story created a new world, and then that world suddenly disappeared when the story ended.
+tapply(df$Q3.9, df$Condition, mean) #At times during the reading, I was closer to the situation described in the story than the realities of here-and-now
+
+# We plot the data of the variable Narrative presence by condition
+ggplot(data =df,mapping = aes(x = Condition,y = n_presence))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Narrative presence")
+
+# We run non-parametric tests as before
+kruskal.test(n_presence ~ Condition, data = df)
+dunnTest(n_presence ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$n_presence, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
+
+#leveneTest(df$n_presence ~ df$Condition)
+summary(lm(df$n_presence ~ df$Condition)) # significance between PE and MT
+summary(aov(df$n_presence ~ df$Condition))
+
+#Check assumptions for regression model
+# Regression assumptions
+
+model <- lm(df$n_presence ~ df$Condition)# the predictor
+
+# Model with log values
+lm_log.model = lm(log1p(n_presence) ~ Condition, data = df)
+summary(lm_log.model)
+
+
+# Residuals vs Fitted
+plot(lm_log.model, 1)
+
+#Predictors (x) Are Independent and Observed with Negligible Error
+durbinWatsonTest(lm_log.model)
+
+#The null hypothesis states that the errors are not auto-correlated with themselves (they are independent). Thus, if we achieve a p-value > 0.05, we would fail to reject the null hypothesis. This would give us enough evidence to state that our independence assumption is met!
+
+#Assumption Three: Residual Errors Have a Mean Value of Zero
+#We can easily check this assumption by looking at the same residual vs fitted plot. We would ideally want to see the red line flat on 0, which #would indicate that the residual errors have a mean value of zero.
+
+#Assumption Four: Residual Errors Have Constant Variance
+plot(lm_log.model, 3)
+
+#Homoscedasticity (as before)
+ncvTest(lm_log.model)
+
+#The null hypothesis states that there is constant variance. Thus, if you get a pvalue > 0.05, you would fail to reject the null. This means you have enough evidence to state that your assumption is met!
+
+# Normality
+
+plot(lm_log.model, which = 2)
+
+
+#  Residuals follow a normal distribution
+
+shapiro.test(residuals(lm_log.model)) # The data does not appear to be normally distributed.
+
+# Multicolinearity
+
+#car::vif(model)
+
+
+#Assumption Five: Residual Errors Are Independent from Each Other and Predictors (x)
+
+```
+
+# Emotional engagement
+```{r}
+df$e_engag <- (df$Q3.10 + df$Q3.11 + df$Q3.12)/3 # this new variable is the average from the three questions on emotional engagement.
+
+tapply(df$Q3.10, df$Condition, mean) #During the narrative, when a main character suffered, I felt sad.
+tapply(df$Q3.11, df$Condition, mean) #The story affected me emotionally.
+tapply(df$Q3.12, df$Condition, mean) #I felt sorry for some of the characters in the story.
+
+# We plot the data of the variable Emotional engagement by condition
+ggplot(data =df,mapping = aes(x = Condition,y = e_engag))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Emotional engagement") 
+
+# We run non-parametric tests as before
+kruskal.test(e_engag ~ Condition, data = df)
+dunnTest(e_engag ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$e_engag, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
+
+summary(lm(df$e_engag ~ df$Condition)) # no significance
+```
+
+# Narrative engagement overall
+```{r}
+df$engagement <- (df$Q3.1 + df$Q3.2 + df$Q3.3 + df$Q3.4+ df$Q3.5+ df$Q3.6+ df$Q3.7+ df$Q3.8+ df$Q3.9+ df$Q3.10+ df$Q3.11+ df$Q3.12)/12 # this new variable is the average from the 12 items on narrative engagement.
+
+# We use Cronbach's alpha to check the robustness of the scale
+dataEng <- data.frame(df$Q3.1, df$Q3.2, df$Q3.3, df$Q3.4, df$Q3.5, df$Q3.6, df$Q3.7, df$Q3.8, df$Q3.9, df$Q3.10, df$Q3.11, df$Q3.12)
+cronbach.alpha(dataEng, CI=TRUE)
+alpha(dataEng, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+# We plot the data according to condition
+ggplot(data =df,mapping = aes(x = Condition,y = engagement))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Narrative engagement Overall")+
+    scale_fill_brewer(palette="BuPu")
+
+tapply(df$engagement, df$Condition, mean)
+tapply(df$engagement, df$Condition, median)
+
+# Non parametric tests as before 
+kruskal.test(engagement ~ Condition, data = df)
+dunnTest(engagement ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$engagement, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE) # significance PE and MT
+
+# To find the mean ranks for Kruskall Wallis
+
+require(pastecs)  # for descriptive statistics
+require(pgirmess) # for post hoc tests
+# creating a rank variable
+
+df$engagementRank <- rank(df$engagement)
+
+# getting the descriptive statistics for the groups
+by(df$engagementRank, df$Condition, stat.desc, basic = FALSE)
+
+# post-hoc Kruskal MC  test for identifying statistical significant differences between the groups
+kruskalmc(engagement ~ Condition, data = df)
+
+#Let's look at normality
+hist(df$engagement) # the histogram looks normal
+hist(log(df$engagement)) # the data is worse with log
+
+#We run a model for engagement and condition
+summary(lm(df$engagement ~ df$Condition)) # significance PE and MT
+
+#We run a model for engagement and condition and viewing patterns
+summary(lm(df$engagement ~ df$Condition + df$viewingpatterns))
+lm.out <-lm(df$engagement ~ df$Condition + df$viewingpatterns)
+
+#Loading required package: MBESS to calculate effect size
+# install.packages("MBESS")
+# install.packages("yhat")
+
+library(MBESS)
+library(yhat)
+effect.size(lm.out)
+
+# Check assumptions
+# Model
+lm_log.model = lm(engagement ~ Condition + viewingpatterns , data = df)
+summary(lm_log.model)
+
+
+# Residuals vs Fitted
+plot(lm_log.model, 1)
+
+#Predictors (x) Are Independent and Observed with Negligible Error
+durbinWatsonTest(lm_log.model)
+
+#The null hypothesis states that the errors are not auto-correlated with themselves (they are independent). Thus, if we achieve a p-value > 0.05, we would fail to reject the null hypothesis. This would give us enough evidence to state that our independence assumption is met!
+
+#Assumption Three: Residual Errors Have a Mean Value of Zero
+#We can easily check this assumption by looking at the same residual vs fitted plot. We would ideally want to see the red line flat on 0, which #would indicate that the residual errors have a mean value of zero.
+
+#Assumption Four: Residual Errors Have Constant Variance
+plot(lm_log.model, 3)
+
+#Homoscedasticity (as before)
+ncvTest(lm_log.model)
+
+#The null hypothesis states that there is constant variance. Thus, if you get a pvalue > 0.05, you would fail to reject the null. This means you have enough evidence to state that your assumption is met!
+
+# Normality
+
+plot(lm_log.model, which = 2)
+
+
+#  Residuals follow a normal distribution
+
+shapiro.test(residuals(lm_log.model))# The data appears to be distributed so model is good.
+
+# Multicolinearity
+
+#car::vif(model) # more than 2 terms
+
+#Assumption Five: Residual Errors Are Independent from Each Other and Predictors (x)
+
+```
+# Enjoyment
+
+```{r}
+# 
+df$enjoyment <- (df$Q5.1 + df$Q5.2)/2 # this new variable is the average from the 2 items on translation scale.
+ 
+tapply(df$Q5.1, df$Condition, mean) # How much did you enjoy reading the text?
+tapply(df$Q5.2, df$Condition, mean) # Would you recommend this text to a friend?
+
+tapply(df$enjoyment, df$Condition, mean)
+tapply(df$enjoyment, df$Condition, median)
+
+#  We use Cronbach's alpha to check the robustness of the scale, although this might not be a scale really
+dataEnjoy <-data.frame(df$Q5.1, df$Q5.2)
+newdataEnjoy <- na.omit(dataEnjoy)
+cronbach.alpha(newdataEnjoy, CI=TRUE)
+alpha(newdataEnjoy, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+# We plot the data per condition
+ggplot(data =df,mapping = aes(x = Condition,y = enjoyment))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Enjoyment")+
+    scale_fill_brewer(palette="BuPu")
+
+# Non parametric tests
+kruskal.test(enjoyment ~ Condition, data = df)
+dunnTest(enjoyment ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$enjoyment, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE) # significance PE and MT and PE and HT
+
+# To find the mean ranks for Kruskall Wallis
+
+require(pastecs)  # for descriptive statistics
+require(pgirmess) # for post hoc tests
+
+# creating a rank variable
+
+df$enjoymentRank <- rank(df$enjoyment)
+
+# getting the descriptive statistics for the groups
+by(df$enjoymentRank, df$Condition, stat.desc, basic = FALSE)
+
+hist(df$enjoyment)
+hist(log(df$enjoyment))
+summary(lm(df$enjoyment ~ df$Condition))
+summary(lm(df$enjoyment ~ df$Condition +df$viewingpatterns))
+
+# Check assumptions
+# Model with log values
+lm_log.model = lm(enjoyment ~ Condition + viewingpatterns , data = df)
+summary(lm_log.model)
+
+# Residuals vs Fitted
+plot(lm_log.model, 1)
+
+#Predictors (x) Are Independent and Observed with Negligible Error
+durbinWatsonTest(lm_log.model)
+
+#The null hypothesis states that the errors are not auto-correlated with themselves (they are independent). Thus, if we achieve a p-value > 0.05, we would fail to reject the null hypothesis. This would give us enough evidence to state that our independence assumption is met!
+
+#Assumption Three: Residual Errors Have a Mean Value of Zero
+#We can easily check this assumption by looking at the same residual vs fitted plot. We would ideally want to see the red line flat on 0, which #would indicate that the residual errors have a mean value of zero.
+
+#Assumption Four: Residual Errors Have Constant Variance
+plot(lm_log.model, 3)
+
+#Homoscedasticity (as before)
+ncvTest(lm_log.model)
+
+#The null hypothesis states that there is constant variance. Thus, if you get a pvalue > 0.05, you would fail to reject the null. This means you have enough evidence to state that your assumption is met!
+
+# Normality
+
+plot(lm_log.model, which = 2)
+
+
+#  Residuals follow a normal distribution
+
+shapiro.test(residuals(lm_log.model)) # The data does not appear to be normaly distributed.
+
+# Multicolinearity
+
+#car::vif(model)
+
+
+#Assumption Five: Residual Errors Are Independent from Each Other and Predictors (x)
+
+```
+
+
+# Translation Reception
+```{r}
+df$t_rep <- (df$Q4.1 + df$Q4.2 + df$Q4.3 + df$Q4.5 + df$Q4.7)/5 # this new variable is the average from the 5 items on translation scale.
+
+tapply(df$t_rep, df$Condition, mean)
+
+#  We use Cronbach's alpha to check the robustness of the scale Cronbach's alpha
+dataTrans <-data.frame(df$Q4.1, df$Q4.2, df$Q4.3, df$Q4.5, df$Q4.7)
+cronbach.alpha(dataTrans, CI=TRUE, na.rm = TRUE) 
+alpha(dataTrans, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+tapply(df$Q4.1, df$Condition, mean) # How easy was the text to understand?
+tapply(df$Q4.2, df$Condition, mean) # I thought the text was very well written.
+tapply(df$Q4.3, df$Condition, mean) #  I found words, sentences or paragraphs that were difficult to understand. (a higher value indicates that there were no difficulties)
+tapply(df$Q4.5, df$Condition, mean) # I found words, sentences or paragraphs that I specially liked. (a higher value means that there were more objects liked)
+tapply(df$Q4.7, df$Condition, mean) # I was conscious that I was reading a translation.(a higher value indicates no consciousness)
+
+# We plot the data according to condition
+ggplot(data =df,mapping = aes(x = Condition,y = t_rep))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Translation Reception") +
+    scale_fill_brewer(palette="BuPu")
+
+# Non parametric tests as before
+
+kruskal.test(t_rep ~ Condition, data = df)
+dunnTest(t_rep ~ Condition, data = df, method="bonferroni")
+
+conover.test (df$t_rep, df$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE) # significance PE and MT and HT and MT
+# To find the mean ranks for Kruskall Wallis
+
+require(pastecs)  # for descriptive statistics
+require(pgirmess) # for post hoc tests
+
+# creating a rank variable
+
+df$t_repRank <- rank(df$t_rep)
+
+# getting the descriptive statistics for the groups
+by(df$t_repRank, df$Condition, stat.desc, basic = FALSE)
+
+# Linear regression model
+summary(lm(df$t_rep ~ df$Condition))
+summary(lm(log(df$t_rep) ~ df$Condition))
+summary(lm(df$t_rep ~ df$Condition +df$viewingpatterns))
+
+hist(df$t_rep)
+hist(log(df$t_rep)) # Not much of a change
+
+# Check assumptions according to GPTChat
+
+# Fit a linear regression model
+model <- lm(df$t_rep ~ Condition, data = df)
+
+# Create diagnostic plots
+plot(model)
+
+# Test the normality of residuals
+shapiro.test(model$residuals)
+
+# Test the homoscedasticity of residuals
+library(lmtest)
+bptest(model)
+
+# Check assumptions according to Google
+# Model with log values
+lm_log.model = lm(t_rep ~ Condition + viewingpatterns, data = df)
+summary(lm_log.model)
+
+
+# Residuals vs Fitted
+plot(lm_log.model, 1)
+
+#Predictors (x) Are Independent and Observed with Negligible Error
+durbinWatsonTest(lm_log.model)
+
+#The null hypothesis states that the errors are not auto-correlated with themselves (they are independent). Thus, if we achieve a p-value > 0.05, we would fail to reject the null hypothesis. This would give us enough evidence to state that our independence assumption is met!
+
+#Assumption Three: Residual Errors Have a Mean Value of Zero
+#We can easily check this assumption by looking at the same residual vs fitted plot. We would ideally want to see the red line flat on 0, which #would indicate that the residual errors have a mean value of zero.
+
+#Assumption Four: Residual Errors Have Constant Variance
+plot(lm_log.model, 3)
+
+#Homoscedasticity (as before)
+ncvTest(lm_log.model) # this is not met
+
+#The null hypothesis states that there is constant variance. Thus, if you get a pvalue > 0.05, you would fail to reject the null. This means you have enough evidence to state that your assumption is met!
+
+# Normality
+
+plot(lm_log.model, which = 2)
+
+
+#  Residuals follow a normal distribution
+
+shapiro.test(residuals(lm_log.model)) # The data appers to meet normality.
+
+# Multicolinearity
+
+#car::vif(model)
+
+
+#Assumption Five: Residual Errors Are Independent from Each Other and Predictors (x)
+
+# Install the MASS package
+install.packages("MASS")
+
+# Load the MASS package
+library(MASS)
+library(robust)
+library(fit.models)
+
+# Fit a robust linear regression model
+#https://stats.oarc.ucla.edu/r/dae/robust-regression/
+
+summary(ols <- lm(t_rep ~ Condition + viewingpatterns, data = df))
+summary(rr.huber <- rlm(t_rep ~ Condition + viewingpatterns, data = df))
+
+
+
+
+```
+
+
+# Duration (by condition)
+
+The only duration we'll probably keep is by condition, as that variable is the one of interest.
+
+Below, there's also duration by gender and other variables. Probably we will not keep those.
+
+```{r}
+# We plot the data according to the duration in senconds and the condition. We see that the PE is the shortest time.
+
+ggplot(data =df,mapping = aes(x = Condition,y = Duration..in.seconds.))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Duration in seconds") 
+
+# We run a linear regression model to see if there is a significant different between conditions.But there are no significant differences between conditions.
+
+tapply(df$Duration..in.seconds., df$Condition, mean)
+summary(lm(df$Duration..in.seconds. ~ df$Condition))
+
+
+df_duration <- df[which(df$Duration..in.seconds. < 3600),] # remove outliers (very slow ones) People that took longer than 60 minutes to watch the video and answer to the survey.
+
+table(df$Condition)
+table(df_duration$Condition) # There are 6 outliers removed.
+
+# We plot the data again
+
+ggplot(data =df_duration,mapping = aes(x = Condition,y = Duration..in.seconds.))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Duration in seconds") 
+
+tapply(df_duration$Duration..in.seconds., df_duration$Condition, mean)
+summary(lm(df_duration$Duration..in.seconds. ~ df_duration$Condition)) # significantly more in MT
+
+df_duration2 <- df_duration[which(df_duration$Duration..in.seconds. > 1500),] # remove that took less than 25 minutes
+
+table(df_duration2$Condition)
+
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Condition, ylab="Duration (seconds)")
+
+ggplot(data =df_duration2,mapping = aes(x = Condition,y = Duration..in.seconds.))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Duration in seconds") 
+
+tapply(df_duration2$Duration..in.seconds., df_duration2$Condition, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Condition)) # significantly more in MT
+
+hist(df_duration2$Duration..in.seconds.)
+hist(log(df_duration2$Duration..in.seconds.))
+
+# Model to test assumptions
+
+modela = lm((Duration..in.seconds.) ~ Condition, data = df_duration2)
+summary(modela)
+
+# Residuals vs Fitted
+plot(modela, 1)
+
+#Predictors (x) Are Independent and Observed with Negligible Error
+durbinWatsonTest(modela)
+
+#The null hypothesis states that the errors are not auto-correlated with themselves (they are independent). Thus, if we achieve a p-value > 0.05, we would fail to reject the null hypothesis. This would give us enough evidence to state that our independence assumption is met!
+
+#Assumption Three: Residual Errors Have a Mean Value of Zero
+#We can easily check this assumption by looking at the same residual vs fitted plot. We would ideally want to see the red line flat on 0, which #would indicate that the residual errors have a mean value of zero.
+
+#Assumption Four: Residual Errors Have Constant Variance
+plot(modela, 3)
+
+#Homoscedasticity (as before)
+ncvTest(modela)
+
+#The null hypothesis states that there is constant variance. Thus, if you get a pvalue > 0.05, you would fail to reject the null. This means you have enough evidence to state that your assumption is met!
+
+# Normality
+
+plot(modela, which = 2)
+
+
+#  Residuals follow a normal distribution
+
+shapiro.test(residuals(modela)) # The data does not appear to be normaly distributed.
+
+# Multicolinearity
+
+#car::vif(model)
+
+
+#Assumption Five: Residual Errors Are Independent from Each Other and Predictors (x)
+
+
+# Model with log values
+lm_log.model = lm(log1p(Duration..in.seconds.) ~ Condition, data = df_duration2)
+summary(lm_log.model)
+
+
+# the assumptions are not met, perhaps conover again for non-parametric data
+
+conover.test (df_duration2$Duration..in.seconds., df_duration2$Condition, method="holm", kw=TRUE, label=TRUE,
+wrap=FALSE, table=TRUE, list=FALSE, rmc=FALSE, alpha=0.05, altp=FALSE)
+
+
+# No significant differences
+
+```
+
+
+## Duration (by device)
+```{r}
+# 1 = Computer, 2 = Table, 3 = Mobile, 4 = Other
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q6.1, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q6.1, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q6.1)) # no sig
+```
+
+## Duration (by gender)
+```{r}
+#1 = female, 2 = male, 3 = non-binary, 4 = prefer not to say
+
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.1, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q1.1, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.1)) # no sig
+```
+
+## Duration (by age)
+```{r}
+#2 = 18-24, 3= 25-34,  4= 35-44, 5 = 45-54, 6 = 55-64, 7= 65-74, 8= 75-84, 9= 85 or older
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$VAL_1, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$VAL_1, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$VAL_1)) # no sig
+```
+
+## Duration (by profession)
+```{r}
+#1, 2, 3, 4, 5 = related to language; 6 = unrelated to language
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.3, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q1.3, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.3)) # unrelated_lang slower but no sig
+```
+
+
+# Any paragraph liked?
+
+```{r}
+table(df$Q4.5, df$Condition) # Higher value indicates more like
+tapply(df$Q4.5, df$Condition, mean) # Higher value indicates more like
+
+```
+
+# Any paragraph difficult?
+
+```{r}
+table(df$Q4.3, df$Condition) # I found words or sentences that were difficult to understand.
+tapply(df$Q4.3, df$Condition, mean) # Higher value indicates less difficulty.
+
+```
+
+# Correlations between reading patterns & narrative engagement, enjoyment and translation reception
+
+```{r}
+#cor.test(x, y, method=c("pearson", "kendall", "spearman"))
+#SC8 reading patterns, SC9 enjoyment, SC3 translation reception, SC10 narrative engagement
+#age and gender, profession?
+
+ggqqplot(df$SC7, ylab = "Viewing patterns")
+ggqqplot(df$SC8, ylab = "enjoyment")
+shapiro.test(df$SC7) # => p = 0.1229
+shapiro.test(df$SC8) # => p = 0.1229
+cor.test(df$SC8, df$SC7, method=c("spearman"))
+cor.test(df$SC8, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC7", y = "SC8", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "Viewing patterns", ylab = "Enjoyment")
+
+cor.test(df$SC2, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC7", y = "SC2", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "Viewing patterns", ylab = "Translation")
+
+cor.test(df$SC9, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC7", y = "SC9", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "Viewing patterns", ylab = "Narrative Engagement")
+
+
+ggqqplot(df$SC8, ylab = "enjoyment")
+ggqqplot(df$SC2, ylab = "translation")#SC8 reading patterns, SC9 enjoyment, SC3 translation reception, SC10 narrativement engagement
+shapiro.test(df$SC8)
+shapiro.test(df$SC2)
+cor.test(df$SC2, df$SC8, method=c("kendall"))
+ggscatter(df, x = "SC2", y = "SC8", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "translation", ylab = "Enjoyment")
+
+ggqqplot(df$SC9, ylab = "narrative engagement")
+ggqqplot(df$SC2, ylab = "translation")
+shapiro.test(df$SC9)
+shapiro.test(df$SC2)
+cor.test(df$SC2, df$SC9, method=c("kendall"))
+ggscatter(df, x = "SC9", y = "SC2", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "translation", ylab = "narrative engagement")
+
+```
+
