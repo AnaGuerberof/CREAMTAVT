@@ -1,0 +1,456 @@
+---
+title: "AVT - pilot"
+author: "Ana Guerberof Arenas"
+date: "Generated on: `r date()`"
+output:
+  html_document:
+    code_folding: show
+    number_sections: yes
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+---
+
+
+# Load Libraries and Data
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(viridis)
+library(hrbrthemes)
+library(effsize) # for effect size of wilcox test
+library(car) # leveneTest
+library("ggpubr")
+library(psych)
+library(ltm)
+library(lme4)
+library(FSA)
+library(DescTools)
+library(broom)
+
+df <- read.csv("AVT+Engagement+pilot+anonymised.csv")
+```
+
+# Preprocess Data
+
+```{r}
+
+# reading condition A = PE, B = MT, C = HT
+table(df$Condition) # show number of responses per condition
+
+
+# gender 1 = female, 2 = male, 3 = non-binary, 4 = prefer not to say
+table(df$Q1.1)
+
+# age 2 = 18-24, 3= 25-34,  4= 35-44, 5 = 45-54, 6 = 55-64, 7= 65-74, 8= 75-84, 9= 85 or older
+df$Q1.2 <- factor(df$Q1.2)
+table(df$Q1.2)
+#table(df$Q1.2, df$UserLanguage)
+
+#Mother Tongue  1 is English, 2 Spanish, 3 English and Spanish, 4 Another Language
+table(df$Q1.6) 
+table(df$Q1.6, df$Condition) 
+# studies 1 = less than secondary school, 2 = Secondary School, 3= Some college education, 4 = BA, 5 = Master, 6 = Professional Degree, 7= Doctorate)
+table(df$Q1.4)
+
+
+# profession 1, 2, 3, 4, 5 are related to language, 6 is others.
+table(df$Q1.5)
+df$prof <- NULL
+df$prof[df$Q1.5==6] <- 6
+df$prof[is.na(df$prof)==TRUE & is.na(df$Q1.5)==FALSE & df$Q1.5 != ""] <- 1
+df$prof <- as.factor(df$prof)
+table(df$prof)
+# 1 is professions related to languages and 6 is others)
+
+# Level of Spanish 1= No knowledge, 2= A little, 3= A moderate amount, 4= Very good knowledge, 5= Bilingual level
+table(df$Q1.7)
+
+# Level of English 1= No knowledge, 2= A little, 3= A moderate amount, 4= Very good knowledge, 5= Bilingual level
+table(df$Q1.8)
+
+# Watch subtitles How often do you watched programmes with subtitles in the last 24 months?  1= Never, 2= Once every three months, 3= Once a month, 4= Once or twice per week, 5= Daily)
+table(df$Q1.9)
+
+
+# How much do you enjoy watching tv programmes with subtitles  1 = dislike a great deal, 2 = dislike somewhat, 3 = Neither like or dislike, 4= Like somewhat, 5 = Like a lot")
+table(df$Q1.10) 
+
+# How many subcriptions to streaming platforms do you have? 1 = None at all, 2 = One, 3 = Between two and three, 4 = Between four and five, 5 = More than 5
+table(df$Q1.12)
+
+
+```
+
+# Narrative understanding
+```{r}
+df$n_underst <- (df$Q3.1 + df$Q3.2 + df$Q3.3)/3
+
+tapply(df$Q3.1, df$Condition, mean) # At points, I had a hard time making sense of what was going on in the story
+tapply(df$Q3.2, df$Condition, mean) # My understanding of the characters is unclear.
+tapply(df$Q3.3, df$Condition, mean) # I had a hard time recognizing the thread of the story.
+
+ggplot(data =df,mapping = aes(x = Condition,y = n_underst))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+    ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Narrative understanding")
+
+kruskal.test(n_underst ~ Condition, data = df)
+dunnTest(n_underst ~ Condition, data = df, method="bonferroni")
+
+summary(lm(df$n_underst ~ df$Condition))
+```
+
+# Attentional Focus
+```{r}
+df$att_focus <- (df$Q3.4 + df$Q3.5 + df$Q3.6)/3
+
+tapply(df$Q3.4, df$Condition, mean) # I found my mind wandering while reading the story.
+tapply(df$Q3.5, df$Condition, mean) # While reading, I found myself thinking about other things.
+tapply(df$Q3.6, df$Condition, mean) # I had a hard time keeping my mind on the story.
+
+ggplot(data =df,mapping = aes(x = Condition,y = att_focus))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Attentional Focus") 
+
+
+kruskal.test(att_focus ~ Condition, data = df)
+dunnTest(att_focus ~ Condition, data = df, method="bonferroni")
+
+summary(lm(df$att_focus ~ df$Condition)) 
+
+```
+
+# Narrative presence
+```{r}
+df$n_presence <- (df$Q3.7 + df$Q3.8 + df$Q3.9)/3
+
+tapply(df$Q3.7, df$Condition, mean) #During the reading, my body was in the room, but my mind was inside the world created by the story.
+tapply(df$Q3.8, df$Condition, mean) #The story created a new world, and then that world suddenly disappeared when the story ended.
+tapply(df$Q3.9, df$Condition, mean) #At times during the reading, I was closer to the situation described in the story than the realities of here-and-now
+
+ggplot(data =df,mapping = aes(x = Condition,y = n_presence))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Narrative presence")
+
+kruskal.test(n_presence ~ Condition, data = df)
+dunnTest(n_presence ~ Condition, data = df, method="bonferroni")
+
+leveneTest(df$n_presence ~ df$Condition)
+summary(lm(df$n_presence ~ df$Condition)) # B and C dec, neither sig
+summary(aov(df$n_presence ~ df$Condition))
+```
+
+# Emotional engagement
+```{r}
+df$e_engag <- (df$Q3.10 + df$Q3.11 + df$Q3.12)/3
+
+tapply(df$Q3.10, df$Condition, mean) #During the narrative, when a main character suffered, I felt sad.
+tapply(df$Q3.11, df$Condition, mean) #The story affected me emotionally.
+tapply(df$Q3.12, df$Condition, mean) #I felt sorry for some of the characters in the story.
+
+ggplot(data =df,mapping = aes(x = Condition,y = e_engag))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Emotional engagement") 
+
+kruskal.test(e_engag ~ Condition, data = df)
+dunnTest(e_engag ~ Condition, data = df, method="bonferroni")
+
+
+summary(lm(df$e_engag ~ df$Condition)) # B & C dec, neither sig
+```
+
+# Narrative engagement overall
+```{r}
+
+df$engagement <- (df$Q3.1 + df$Q3.2 + df$Q3.3 + df$Q3.4+ df$Q3.5+ df$Q3.6+ df$Q3.7+ df$Q3.8+ df$Q3.9+ df$Q3.10+ df$Q3.11+ df$Q3.12)/12
+
+dataEng <- data.frame(df$Q3.1, df$Q3.2, df$Q3.3, df$Q3.4, df$Q3.5, df$Q3.6, df$Q3.7, df$Q3.8, df$Q3.9, df$Q3.10, df$Q3.11, df$Q3.12)
+cronbach.alpha(dataEng, CI=TRUE)
+alpha(dataEng, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+ggplot(data =df,mapping = aes(x = Condition,y = engagement))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Narrative engagement overall") 
+
+#summary(lm(df$engagement ~ df$Condition)) # B & C dec, neither sig
+tapply(df$engagement, df$Condition, mean)
+tapply(df$engagement, df$Condition, median)
+
+summary(lm(df$engagement ~ df$Condition)) # B & C dec, neither sig
+
+kruskal.test(engagement ~ Condition, data = df)
+dunnTest(engagement ~ Condition, data = df, method="bonferroni")
+
+```
+
+
+# Translation Reception
+```{r}
+
+# Cronbach Alpha
+dataTrans <-data.frame(df$Q4.1, df$Q4.2, df$Q4.3, df$Q4.5, df$Q4.7)
+cronbach.alpha(dataTrans, CI=TRUE, na.rm = TRUE) 
+alpha(dataTrans, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+df$t_rep <- (df$Q4.1 + df$Q4.2 + df$Q4.3 + df$Q4.5 + df$Q4.7)/5
+tapply(df$t_rep, df$Condition, mean)
+
+
+tapply(df$Q4.1, df$Condition, mean) # How easy was the text to understand?
+tapply(df$Q4.2, df$Condition, mean) # I thought the text was very well written.
+tapply(df$Q4.3, df$Condition, mean) #  I found words, sentences or paragraphs that were difficult to understand. (a higher value indicates that there were no difficulties)
+tapply(df$Q4.5, df$Condition, mean) # I found words, sentences or paragraphs that I specially liked. (a higher value means that there were more objects liked)
+tapply(df$Q4.7, df$Condition, mean) # I was conscious that I was reading a translation.(a higher value indicates no consciousness)
+
+ggplot(data =df,mapping = aes(x = Condition,y = t_rep))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Translation Reception") 
+
+
+summary(lm(df$t_rep ~ df$Condition)) # =
+summary(lm(df$t_rep ~ df$Condition))
+
+
+kruskal.test(t_rep ~ Condition, data = df)
+dunnTest(t_rep ~ Condition, data = df, method="bonferroni")
+
+
+```
+
+# Enjoyment
+
+```{r}
+# 
+df$enjoyment <- (df$Q5.1 + df$Q5.2)/2
+
+# 
+tapply(df$Q5.1, df$Condition, mean) # How much did you enjoy reading the text?
+tapply(df$Q5.2, df$Condition, mean) # Would you recommend this text to a friend?
+
+tapply(df$enjoyment, df$Condition, mean)
+tapply(df$enjoyment, df$Condition, median)
+
+dataEnjoy <-data.frame(df$Q5.1, df$Q5.2)
+newdataEnjoy <- na.omit(dataEnjoy)
+cronbach.alpha(newdataEnjoy, CI=TRUE)
+alpha(newdataEnjoy, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+
+ggplot(data =df,mapping = aes(x = Condition,y = enjoyment))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Enjoyment")
+
+ggplot(data =df,mapping = aes(x = Condition,y = df$SC8))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Enjoyment") 
+
+summary(lm(df$enjoyment ~ df$Condition))
+
+kruskal.test(enjoyment ~ Condition, data = df)
+dunnTest(enjoyment ~ Condition, data = df, method="bonferroni")
+
+```
+
+
+# Comprehension Questions
+```{r}
+ggplot(data =df,mapping = aes(x = Condition,y = CorrectAnswers))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Comprehension") 
+
+# means (may be more appropriate since we've ordinal data)
+tapply(df$CorrectAnswers, df$Condition, mean)
+
+summary(lm(df$CorrectAnswers ~ df$Condition)) # B and C dec, neither sig (before both sig)
+```
+
+# AVT frequency
+```{r}
+df$viewingpatterns <- (df$Q1.9 + df$Q1.10)/2
+# the scale here was 1 to 5, higher values indicate more wathing programmes with subtitles
+
+tapply(df$viewingpatterns, df$Condition, mean)
+
+dataRead <-data.frame(df$Q1.9, df$Q1.10)
+cronbach.alpha(dataRead, CI=TRUE)
+alpha(dataRead, keys=NULL,cumulative=FALSE, title=NULL, max=10,na.rm = TRUE,
+   check.keys=FALSE,n.iter=1,delete=TRUE,use="pairwise",warnings=TRUE,n.obs=NULL)
+
+ggplot(data =df,mapping = aes(x = Condition,y = viewingpatterns))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Viewing patterns") 
+
+summary(lm(df$viewingpatterns ~ df$Condition))
+
+kruskal.test(df$viewingpatterns ~ Condition, data = df)
+dunnTest(df$viewingpatterns ~ Condition, data = df, method="bonferroni")
+
+
+```
+
+# Duration (by condition)
+
+The only duration we'll probably keep is by condition, as that variable is the one of interest.
+
+Below, there's also duration by gender and other variables. Probably we will not keep those.
+
+```{r}
+ggplot(data =df,mapping = aes(x = Condition,y = Duration..in.seconds.))+geom_boxplot(aes(fill=Condition), show.legend = FALSE)+
+     ggtitle("All") +
+    xlab("Translation modality")+
+    scale_x_discrete(labels=c("PE","MT","HT")) +
+    ylab("Duration in seconds") 
+
+df_duration <- df[which(df$Duration..in.seconds. < 10000),] # remove outliers (very slow ones): 8 out of 88 (3 HT, 4 PE, 1 MT)
+table(df$Condition)
+table(df_duration$Condition)
+
+boxplot(df_duration$Duration..in.seconds. ~ df_duration$Condition, ylab="Duration (seconds)")
+
+df_duration2 <- df_duration[which(df_duration$Duration..in.seconds. < 3800),] # remove outliers (very slow ones): 7 out of 80 (2 HT, 2 PE, 3 MT)
+table(df_duration2$Condition)
+
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Condition, ylab="Duration (seconds)")
+
+tapply(df_duration2$Duration..in.seconds., df_duration2$Condition, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Condition)) # =, B&C dec, no sig
+```
+
+## Duration (by device)
+```{r}
+# 1 = Computer, 2 = Table, 3 = Mobile, 4 = Other
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q6.1, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q6.1, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q6.1)) # no sig
+```
+
+## Duration (by gender)
+```{r}
+#1 = female, 2 = male, 3 = non-binary, 4 = prefer not to say
+
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.1, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q1.1, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.1)) # no sig
+```
+
+## Duration (by age)
+```{r}
+#2 = 18-24, 3= 25-34,  4= 35-44, 5 = 45-54, 6 = 55-64, 7= 65-74, 8= 75-84, 9= 85 or older
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.2, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q1.2, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.2)) # no sig
+```
+
+## Duration (by profession)
+```{r}
+#1, 2, 3, 4, 5 = related to language; 6 = unrelated to language
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.5, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q1.5, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.4)) # unrelated_lang slower but no sig
+```
+
+## Duration (by native language)
+```{r}
+boxplot(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.6, ylab="Duration (seconds)")
+tapply(df_duration2$Duration..in.seconds., df_duration2$Q1.6, mean)
+summary(lm(df_duration2$Duration..in.seconds. ~ df_duration2$Q1.6)) # bilinguals faster but no sig
+```
+
+
+# Any paragraph liked?
+
+```{r}
+
+table(df$Q4.5, df$Condition) 
+tapply(df$Q4.5, df$Condition, mean)
+# Higher value indicates more like
+```
+
+# Any paragraph difficult?
+
+```{r}
+table(df$Q4.3, df$Condition) # I found words or sentences that were difficult to understand.
+tapply(df$Q4.3, df$Condition, mean)
+# Higher value indicates less difficulty.
+
+```
+
+# Correlations between reading patterns & narrative engagement, enjoyment and translation reception
+
+```{r}
+#cor.test(x, y, method=c("pearson", "kendall", "spearman"))
+#SC8 reading patterns, SC9 enjoyment, SC3 translation reception, SC10 narrativement engagement
+#age and gender, profession?
+
+ggqqplot(df$SC7, ylab = "reading patterns")
+ggqqplot(df$SC8, ylab = "enjoyment")
+shapiro.test(df$SC7) # => p = 0.1229
+shapiro.test(df$SC8) # => p = 0.1229
+cor.test(df$SC8, df$SC7, method=c("spearman"))
+cor.test(df$SC8, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC7", y = "SC8", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "Reading patterns", ylab = "Enjoyment")
+
+cor.test(df$SC2, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC7", y = "SC2", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "Reading patterns", ylab = "Translation")
+
+cor.test(df$SC9, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC7", y = "SC9", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "Reading patterns", ylab = "Narrative Engagement")
+
+
+ggqqplot(df$SC7, ylab = "enjoyment")
+ggqqplot(df$SC2, ylab = "translation")#SC8 reading patterns, SC9 enjoyment, SC3 translation reception, SC10 narrativement engagement
+shapiro.test(df$SC7)
+shapiro.test(df$SC2)
+cor.test(df$SC2, df$SC7, method=c("kendall"))
+ggscatter(df, x = "SC2", y = "SC7", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "translation", ylab = "Enjoyment")
+
+ggqqplot(df$SC9, ylab = "narrative engagement")
+ggqqplot(df$SC2, ylab = "translation")
+shapiro.test(df$SC9)
+shapiro.test(df$SC2)
+cor.test(df$SC2, df$SC9, method=c("kendall"))
+ggscatter(df, x = "SC9", y = "SC2", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "kendall",
+          xlab = "translation", ylab = "narrative engagement")
+
+
+```
+
+
