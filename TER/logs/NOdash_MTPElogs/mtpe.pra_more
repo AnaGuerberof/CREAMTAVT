@@ -1,0 +1,5966 @@
+Sentence ID: 1:1
+Best Ref: What are you doing dressed like that?
+Orig Hyp: What's with the outfit?
+
+REF:  What are you doing  dressed like that?  
+HYP:  **** *** *** What's with    the  outfit?
+EVAL: D    D   D   S      S       S    S      
+SHFT:                                         
+TER Score: 100.00 (  7.0/  7.0)
+
+
+
+Sentence ID: 2:1
+Best Ref: Are you coming from a First Communion or what?
+Orig Hyp: Been to a First Communion or what?
+
+REF:  Are you coming from a First Communion or what?
+HYP:  *** *** Been   to   a First Communion or what?
+EVAL: D   D   S      S                              
+SHFT:                                               
+TER Score:  44.44 (  4.0/  9.0)
+
+
+
+Sentence ID: 3:1
+Best Ref: No, no, I just came from the date
+Orig Hyp: No, I came from the date
+
+REF:  No, no, I just came from the date
+HYP:  No, *** I **** came from the date
+EVAL:     D     D                      
+SHFT:                                  
+TER Score:  25.00 (  2.0/  8.0)
+
+
+
+Sentence ID: 4:1
+Best Ref: you didn't want to go to.
+Orig Hyp: you didn't want to go on.
+
+REF:  you didn't want to go to.
+HYP:  you didn't want to go on.
+EVAL:                       S  
+SHFT:                          
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 5:1
+Best Ref: What kind of crazy did you find now?
+Orig Hyp: And how crazy was she?
+
+REF:  What kind of  crazy did you find now?
+HYP:  **** And  how crazy *** *** was  she?
+EVAL: D    S    S         D   D   S    S   
+SHFT:                                      
+TER Score:  87.50 (  7.0/  8.0)
+
+
+
+Sentence ID: 6:1
+Best Ref: No crazy, huh?
+Orig Hyp: Not crazy at all!
+
+REF:  *** No    crazy, huh?
+HYP:  Not crazy at     all!
+EVAL: I   S     S      S   
+SHFT:                      
+TER Score: 133.33 (  4.0/  3.0)
+
+
+
+Sentence ID: 7:1
+Best Ref: Mrs. Andrea is very polite, she is very fine,
+Orig Hyp: Andrea is very polite, very elegant.
+
+REF:  Mrs. Andrea is very polite, she is very fine,   
+HYP:  **** Andrea is very polite, *** ** very elegant.
+EVAL: D                           D   D       S       
+SHFT:                                                 
+TER Score:  44.44 (  4.0/  9.0)
+
+
+
+Sentence ID: 8:1
+Best Ref: and I'm not only saying it because I met her this morning,
+Orig Hyp: Not just because I met her today,
+
+REF:  and I'm not only saying it   because I met her this morning,
+HYP:  *** *** *** **** Not    just because I met her **** today,  
+EVAL: D   D   D   D    S      S                      D    S       
+SHFT:                                                             
+TER Score:  66.67 (  8.0/ 12.0)
+
+
+
+Sentence ID: 9:1
+Best Ref: but because I know whose family she's from.
+Orig Hyp: but because I know who her family are.
+
+REF:  but because I know whose   family   she's   from.
+HYP:  but because I know who   [ family ] her   @ are. 
+EVAL:                    S                S       S    
+SHFT:                          1        1       1      
+TER Score:  50.00 (  4.0/  8.0)
+
+Shift [family] 1 words left
+ REF:  but because I know whose   family   she's   from.
+ HYP:  but because I know who   [ family ] her   @ are. 
+
+
+
+Sentence ID: 10:1
+Best Ref: Oh, yeah?
+Orig Hyp: Oh yeah?
+
+REF:  Oh, yeah?
+HYP:  Oh  yeah?
+EVAL: S        
+SHFT:          
+TER Score:  50.00 (  1.0/  2.0)
+
+
+
+Sentence ID: 11:1
+Best Ref: Uh-huh.
+Orig Hyp: 
+
+REF:  Uh-huh.
+HYP:  *******
+EVAL: D      
+SHFT:        
+TER Score: 100.00 (  1.0/  1.0)
+
+
+Sentence ID: 12:1
+Best Ref: How's that?
+Orig Hyp: How's that?
+
+REF:  How's that?
+HYP:  How's that?
+EVAL:            
+SHFT:            
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 13:1
+Best Ref: I have to tell you the truth.
+Orig Hyp: I've got something to confess.
+
+REF:  I have   to   tell you the         truth.  
+HYP:  * **** [ to ] I've got something @ confess.
+EVAL: D D           S    S   S           S       
+SHFT:        1    1                    1         
+TER Score: 100.00 (  7.0/  7.0)
+
+Shift [to] 3 words left
+ REF:  I have   to   tell you the         truth.  
+ HYP:  * **** [ to ] I've got something @ confess.
+
+
+
+Sentence ID: 14:1
+Best Ref: A few days ago, I met Samuel and Gabriela.
+Orig Hyp: A few days ago, I saw Samuel and Gabriela.
+
+REF:  A few days ago, I met Samuel and Gabriela.
+HYP:  A few days ago, I saw Samuel and Gabriela.
+EVAL:                   S                       
+SHFT:                                           
+TER Score:  11.11 (  1.0/  9.0)
+
+
+
+Sentence ID: 15:1
+Best Ref: You do know who I mean, don't you?
+Orig Hyp: You do know who I mean, don't you?
+
+REF:  You do know who I mean, don't you?
+HYP:  You do know who I mean, don't you?
+EVAL:                                   
+SHFT:                                   
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 16:1
+Best Ref: Uh, that's the kid's mom's sister, from Nico.
+Orig Hyp: That's Nico's mum's sister.
+
+REF:  Uh, that's the kid's mom's  sister, from  Nico.  
+HYP:  *** ****** *** ***** That's Nico's  mum's sister.
+EVAL: D   D      D   D     S      S       S     S      
+SHFT:                                                  
+TER Score: 100.00 (  8.0/  8.0)
+
+
+
+Sentence ID: 17:1
+Best Ref: That's right, that one, that mere.
+Orig Hyp: That's right, her.
+
+REF:  That's right, that one, that mere.
+HYP:  That's right, **** **** **** her. 
+EVAL:               D    D    D    S    
+SHFT:                                   
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 18:1
+Best Ref: Well, it turns out they were there talking
+Orig Hyp: Well, they were there talking
+
+REF:  Well, it turns out they were there talking
+HYP:  Well, ** ***** *** they were there talking
+EVAL:       D  D     D                          
+SHFT:                                           
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 19:1
+Best Ref: and they were saying that
+Orig Hyp: and saying that their mum
+
+REF:  and   they  were   saying that  
+HYP:  and @ their mum  [ saying that ]
+EVAL:       S     S                   
+SHFT:     1            1             1
+TER Score:  60.00 (  3.0/  5.0)
+
+Shift [saying, that] 2 words right
+ REF:  and   they  were   saying that  
+ HYP:  and @ their mum  [ saying that ]
+
+
+
+Sentence ID: 20:1
+Best Ref: their mom had just divorced,
+Orig Hyp: had just got divorced,
+
+REF:  their mom had just *** divorced,
+HYP:  ***** *** had just got divorced,
+EVAL: D     D            I            
+SHFT:                                 
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 21:1
+Best Ref: and that she'd like to have a new partner.
+Orig Hyp: and that she'd like a new partner.
+
+REF:  and that she'd like to have a new partner.
+HYP:  and that she'd like ** **** a new partner.
+EVAL:                     D  D                  
+SHFT:                                           
+TER Score:  22.22 (  2.0/  9.0)
+
+
+
+Sentence ID: 22:1
+Best Ref: So the lady… how did you…?
+Orig Hyp: So the lady... what-
+
+REF:  So the lady… how did     you…?
+HYP:  So the ******* *** lady... what-  
+EVAL:        D       D   S       S      
+SHFT:                                   
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 23:1
+Best Ref: Andrea.
+Orig Hyp: Andrea.
+
+REF:  Andrea.
+HYP:  Andrea.
+EVAL:        
+SHFT:        
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 24:1
+Best Ref: Andrea.
+Orig Hyp: Andrea.
+
+REF:  Andrea.
+HYP:  Andrea.
+EVAL:        
+SHFT:        
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 25:1
+Best Ref: Andrea is Gabriela's mom.
+Orig Hyp: Andrea is Gabriela's mum.
+
+REF:  Andrea is Gabriela's mom.
+HYP:  Andrea is Gabriela's mum.
+EVAL:                      S   
+SHFT:                          
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 26:1
+Best Ref: Exactly.
+Orig Hyp: Exactly.
+
+REF:  Exactly.
+HYP:  Exactly.
+EVAL:         
+SHFT:         
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 27:1
+Best Ref: So, it occurred to me, I immediately thought,
+Orig Hyp: So, it immediately occurred to me
+
+REF:  So, it   occurred to me, I   immediately   thought,
+HYP:  So, it @ occurred to *** * [ immediately ] me      
+EVAL:                      D   D                 S       
+SHFT:        1                   1             1         
+TER Score:  50.00 (  4.0/  8.0)
+
+Shift [immediately] 2 words right
+ REF:  So, it   occurred to me, I   immediately   thought,
+ HYP:  So, it @ occurred to *** * [ immediately ] me      
+
+
+
+Sentence ID: 28:1
+Best Ref: this lady, then, so beautiful,
+Orig Hyp: that this lady, so beautiful,
+
+REF:  **** this lady, then, so beautiful,
+HYP:  that this lady, ***** so beautiful,
+EVAL: I               D                  
+SHFT:                                    
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 29:1
+Best Ref: so delicate and elegant,
+Orig Hyp: so delicate and elegant,
+
+REF:  so delicate and elegant,
+HYP:  so delicate and elegant,
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 30:1
+Best Ref: well, it has to be for Don Nelson.
+Orig Hyp: is perfect for Don Nelson.
+
+REF:  well, it has to be      for Don Nelson.
+HYP:  ***** ** *** is perfect for Don Nelson.
+EVAL: D     D  D   S  S                      
+SHFT:                                        
+TER Score:  62.50 (  5.0/  8.0)
+
+
+
+Sentence ID: 31:1
+Best Ref: And, well, they thought it was a good idea too.
+Orig Hyp: They thought the same,
+
+REF:  And, well, they thought it was a good idea too. 
+HYP:  **** ***** They thought ** *** * **** the  same,
+EVAL: D    D     S            D  D   D D    S    S    
+SHFT:                                                 
+TER Score:  90.00 (  9.0/ 10.0)
+
+
+
+Sentence ID: 32:1
+Best Ref: So, we started sending him messages…
+Orig Hyp: so we started sending her messages…
+
+REF:  So, we started sending him messages…
+HYP:  so  we started sending her messages…
+EVAL: S                      S              
+SHFT:                                       
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 33:1
+Best Ref: How, how, how, how?
+Orig Hyp: What? What?
+
+REF:  How, how, how,  how? 
+HYP:  **** **** What? What?
+EVAL: D    D    S     S    
+SHFT:                      
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 34:1
+Best Ref: Yes, yes, in his name.
+Orig Hyp: Yes, as you.
+
+REF:  Yes, yes, in his name.
+HYP:  Yes, **** ** as  you. 
+EVAL:      D    D  S   S    
+SHFT:                       
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 35:1
+Best Ref: You used my identity
+Orig Hyp: You used my identity
+
+REF:  You used my identity
+HYP:  You used my identity
+EVAL:                     
+SHFT:                     
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 36:1
+Best Ref: without my permission?
+Orig Hyp: without my permission?
+
+REF:  without my permission?
+HYP:  without my permission?
+EVAL:                       
+SHFT:                       
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 37:1
+Best Ref: That's an abuse of trust, Augustine!
+Orig Hyp: That's an abuse of my trust, Augustine!
+
+REF:  That's an abuse of ** trust, Augustine!
+HYP:  That's an abuse of my trust, Augustine!
+EVAL:                    I                   
+SHFT:                                        
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 38:1
+Best Ref: And I… and I can… I can charge you.
+Orig Hyp: And I, I could, I could report you.
+
+REF:  And I… and I can… I can   charge you.
+HYP:  And **** I,  I could, I could report you.
+EVAL:     D    S     S        S     S          
+SHFT:                                          
+TER Score:  55.56 (  5.0/  9.0)
+
+
+
+Sentence ID: 39:1
+Best Ref: No, no, wait, easy, easy.
+Orig Hyp: No, wait, easy, easy.
+
+REF:  No, no, wait, easy, easy.
+HYP:  No, *** wait, easy, easy.
+EVAL:     D                    
+SHFT:                          
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 40:1
+Best Ref: Don't put yourself in that plan, relax.
+Orig Hyp: Don't get like that. Relax.
+
+REF:  Don't put yourself in  that plan, relax.
+HYP:  Don't *** ******** get like that. Relax.
+EVAL:       D   D        S   S    S     S     
+SHFT:                                         
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 41:1
+Best Ref: I did it for your sake, huh?
+Orig Hyp: I did it for your sake.
+
+REF:  I did it for your sake, huh? 
+HYP:  I did it for your ***** sake.
+EVAL:                   D     S    
+SHFT:                              
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 42:1
+Best Ref: And now that I've met her in person,
+Orig Hyp: And now that I've met her in person,
+
+REF:  And now that I've met her in person,
+HYP:  And now that I've met her in person,
+EVAL:                                     
+SHFT:                                     
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 43:1
+Best Ref: it gives me… it gives me more security.
+Orig Hyp: I can be sure.
+
+REF:  it gives me… it gives me  more security.
+HYP:  ** ***** ***** ** I     can be   sure.    
+EVAL: D  D     D     D  S     S   S    S        
+SHFT:                                           
+TER Score: 100.00 (  8.0/  8.0)
+
+
+
+Sentence ID: 44:1
+Best Ref: It gives me a certainty so I can say
+Orig Hyp: I can now say
+
+REF:  It gives me a certainty so I can *** say
+HYP:  ** ***** ** * ********* ** I can now say
+EVAL: D  D     D  D D         D        I      
+SHFT:                                         
+TER Score:  77.78 (  7.0/  9.0)
+
+
+
+Sentence ID: 45:1
+Best Ref: that she's the perfect woman for you.
+Orig Hyp: she's the perfect woman for you.
+
+REF:  that she's the perfect woman for you.
+HYP:  **** she's the perfect woman for you.
+EVAL: D                                    
+SHFT:                                      
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 46:1
+Best Ref: Why are you so sure?
+Orig Hyp: Why are you so sure?
+
+REF:  Why are you so sure?
+HYP:  Why are you so sure?
+EVAL:                     
+SHFT:                     
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 47:1
+Best Ref: She's beautiful,
+Orig Hyp: She's beautiful,
+
+REF:  She's beautiful,
+HYP:  She's beautiful,
+EVAL:                 
+SHFT:                 
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 48:1
+Best Ref: she's distinguished, she's fine.
+Orig Hyp: she's distinguished, she's elegant.
+
+REF:  she's distinguished, she's fine.   
+HYP:  she's distinguished, she's elegant.
+EVAL:                            S       
+SHFT:                                    
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 49:1
+Best Ref: Besides, she's very sweet, she's kind and…
+Orig Hyp: And besides that she's very sweet, she's kind and…
+
+REF:  *** ******* Besides, she's very sweet, she's kind and…
+HYP:  And besides that     she's very sweet, she's kind and…
+EVAL: I   I       S                                           
+SHFT:                                                         
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 50:1
+Best Ref: And, well, nothing to take advantage of,
+Orig Hyp: And, well,
+
+REF:  And, well, nothing to take advantage of,
+HYP:  And, well, ******* ** **** ********* ***
+EVAL:            D       D  D    D         D  
+SHFT:                                         
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 51:1
+Best Ref: the money for her, man, is the least of it.
+Orig Hyp: she's not interested in money.
+
+REF:  the money for her, man, is    the least      of it.   
+HYP:  *** ***** *** **** **** she's not interested in money.
+EVAL: D   D     D   D    D    S     S   S          S  S     
+SHFT:                                                       
+TER Score: 100.00 ( 10.0/ 10.0)
+
+
+
+Sentence ID: 52:1
+Best Ref: She's a romantic woman.
+Orig Hyp: She's a romantic.
+
+REF:  She's a romantic woman.   
+HYP:  She's a ******** romantic.
+EVAL:         D        S        
+SHFT:                           
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 53:1
+Best Ref: He loves the messages I send him.
+Orig Hyp: She loves the messages I send her.
+
+REF:  He  loves the messages I send him.
+HYP:  She loves the messages I send her.
+EVAL: S                             S   
+SHFT:                                   
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 54:1
+Best Ref: We sent him, to be more precise,
+Orig Hyp: We send her, to be more precise,
+
+REF:  We sent him, to be more precise,
+HYP:  We send her, to be more precise,
+EVAL:    S    S                       
+SHFT:                                 
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 55:1
+Best Ref: because you're using my name.
+Orig Hyp: because you're using my name.
+
+REF:  because you're using my name.
+HYP:  because you're using my name.
+EVAL:                              
+SHFT:                              
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 56:1
+Best Ref: Yeah, right, we send him,
+Orig Hyp: Yeah, right, we send her,
+
+REF:  Yeah, right, we send him,
+HYP:  Yeah, right, we send her,
+EVAL:                      S   
+SHFT:                          
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 57:1
+Best Ref: we send him, we send him.
+Orig Hyp: we send her.
+
+REF:  we send him, we send him.
+HYP:  ** **** **** we send her.
+EVAL: D  D    D            S   
+SHFT:                          
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 58:1
+Best Ref: So what? Do you want to come in?
+Orig Hyp: So? Would you like to go out with her?
+
+REF:  So what? Do    you want to ** *** come in? 
+HYP:  ** So?   Would you like to go out with her?
+EVAL: D  S     S         S       I  I   S    S   
+SHFT:                                            
+TER Score: 100.00 (  8.0/  8.0)
+
+
+
+Sentence ID: 59:1
+Best Ref: Well, how would we do it?
+Orig Hyp: Well, how would we do it?
+
+REF:  Well, how would we do it?
+HYP:  Well, how would we do it?
+EVAL:                          
+SHFT:                          
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 60:1
+Best Ref: She thinks Nelson is you.
+Orig Hyp: She thinks Nelson is you.
+
+REF:  She thinks Nelson is you.
+HYP:  She thinks Nelson is you.
+EVAL:                          
+SHFT:                          
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 61:1
+Best Ref: No, this morning I told you
+Orig Hyp: This morning I told her
+
+REF:  No, this morning I told you
+HYP:  *** This morning I told her
+EVAL: D   S                   S  
+SHFT:                            
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 62:1
+Best Ref: that I was your assistant,
+Orig Hyp: I'm your assistant.
+
+REF:  that I was your assistant,
+HYP:  **** * I'm your assistant.
+EVAL: D    D S        S         
+SHFT:                           
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 63:1
+Best Ref: that you sent me to apologize because
+Orig Hyp: That you sent me to apologise because
+
+REF:  that you sent me to apologize because
+HYP:  That you sent me to apologise because
+EVAL: S                   S                
+SHFT:                                      
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 64:1
+Best Ref: you couldn't make it to the appointment.
+Orig Hyp: you couldn't make it.
+
+REF:  you couldn't make it to the appointment.
+HYP:  you couldn't make ** ** *** it.         
+EVAL:                   D  D  D   S           
+SHFT:                                         
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 65:1
+Best Ref: I bought her a bouquet of flowers…
+Orig Hyp: I bought her some flowers…
+
+REF:  I bought her a bouquet of   flowers…
+HYP:  I bought her * ******* some flowers…
+EVAL:              D D       S              
+SHFT:                                       
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 66:1
+Best Ref: Oh, by the way, you owe me 250 pesos.
+Orig Hyp: Oh, you owe me 250 pesos.
+
+REF:  Oh, by the way, you owe me 250 pesos.
+HYP:  Oh, ** *** **** you owe me 250 pesos.
+EVAL:     D  D   D                         
+SHFT:                                      
+TER Score:  33.33 (  3.0/  9.0)
+
+
+
+Sentence ID: 67:1
+Best Ref: Hey, wait, wait, wait.
+Orig Hyp: Hey, wait, wait.
+
+REF:  Hey, wait, wait, wait.
+HYP:  Hey, ***** wait, wait.
+EVAL:      D                
+SHFT:                       
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 68:1
+Best Ref: That was your idea.
+Orig Hyp: That was your idea.
+
+REF:  That was your idea.
+HYP:  That was your idea.
+EVAL:                    
+SHFT:                    
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 69:1
+Best Ref: Well, yeah,
+Orig Hyp: Yes, but you had to
+
+REF:  **** *** *** Well, yeah,
+HYP:  Yes, but you had   to   
+EVAL: I    I   I   S     S    
+SHFT:                         
+TER Score: 250.00 (  5.0/  2.0)
+
+
+
+Sentence ID: 70:1
+Best Ref: but you had to get the detail.
+Orig Hyp: get her something.
+
+REF:  but you had to get the detail.   
+HYP:  *** *** *** ** get her something.
+EVAL: D   D   D   D      S   S         
+SHFT:                                  
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 71:1
+Best Ref: I also told her that I had to have
+Orig Hyp: I also told her to have some breakfast,
+
+REF:  I also told her that   I    had          to have  
+HYP:  I also told her **** @ some breakfast, [ to have ]
+EVAL:                 D      S    S                     
+SHFT:                      1                 1         1
+TER Score:  44.44 (  4.0/  9.0)
+
+Shift [to, have] 2 words right
+ REF:  I also told her that   I    had          to have  
+ HYP:  I also told her **** @ some breakfast, [ to have ]
+
+
+
+Sentence ID: 72:1
+Best Ref: some breakfast, that you invited her.
+Orig Hyp: your treat.
+
+REF:  some breakfast, that you invited her.  
+HYP:  **** ********** **** *** your    treat.
+EVAL: D    D          D    D   S       S     
+SHFT:                                        
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 73:1
+Best Ref: But besides, do I have to buy you breakfast?
+Orig Hyp: I have to buy her breakfast too?
+
+REF:  But besides, do I have to buy *** you       breakfast?
+HYP:  *** ******** ** I have to buy her breakfast too?      
+EVAL: D   D        D                I   S         S         
+SHFT:                                                       
+TER Score:  66.67 (  6.0/  9.0)
+
+
+
+Sentence ID: 74:1
+Best Ref: But… but what do you think, Augustine?
+Orig Hyp: What were you thinking, Augustine?
+
+REF:  But… but what do   you think,    Augustine?
+HYP:  ****** *** What were you thinking, Augustine?
+EVAL: D      D   S    S        S                   
+SHFT:                                              
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 75:1
+Best Ref: No, wait, see, look.
+Orig Hyp: No, wait, look.
+
+REF:  No, wait, see, look.
+HYP:  No, wait, **** look.
+EVAL:           D         
+SHFT:                     
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 76:1
+Best Ref: So you see that I'm cool, huh,
+Orig Hyp: To show you
+
+REF:  So   you   see that I'm cool, huh,
+HYP:  ** [ you ] *** **** *** To    show
+EVAL: D          D   D    D   S     S   
+SHFT:    1     1                        
+TER Score: 100.00 (  7.0/  7.0)
+
+Shift [you] 2 words left
+ REF:  So   you   see that I'm cool, huh,
+ HYP:  ** [ you ] *** **** *** To    show
+
+
+
+Sentence ID: 77:1
+Best Ref: that I'm in solidarity,
+Orig Hyp: I'm with you on this,
+
+REF:    that   I'm   *** in solidarity,
+HYP:  @ with [ I'm ] you on this,      
+EVAL:   S            I   S  S          
+SHFT: 1      1     1                   
+TER Score: 125.00 (  5.0/  4.0)
+
+Shift [I'm] 1 words right
+ REF:    that   I'm   *** in solidarity,
+ HYP:  @ with [ I'm ] you on this,      
+
+
+
+Sentence ID: 78:1
+Best Ref: the flowers are on me.
+Orig Hyp: the flowers are on me.
+
+REF:  the flowers are on me.
+HYP:  the flowers are on me.
+EVAL:                       
+SHFT:                       
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 79:1
+Best Ref: And the lady didn't want any breakfast.
+Orig Hyp: And she didn't want any breakfast.
+
+REF:  And the lady didn't want any breakfast.
+HYP:  And *** she  didn't want any breakfast.
+EVAL:     D   S                              
+SHFT:                                        
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 80:1
+Best Ref: I'm telling you, she's not a profiteer.
+Orig Hyp: I'm telling you, she's not a gold digger.
+
+REF:  I'm telling you, she's not a **** profiteer.
+HYP:  I'm telling you, she's not a gold digger.   
+EVAL:                              I    S         
+SHFT:                                             
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 81:1
+Best Ref: What do you say? Does it fit?
+Orig Hyp: What do you say? Will you do it?
+
+REF:  What do you say? **** Does it fit?
+HYP:  What do you say? Will you  do it? 
+EVAL:                  I    S    S  S   
+SHFT:                                   
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 82:1
+Best Ref: Well, uh…
+Orig Hyp: Well…
+
+REF:  Well, uh…  
+HYP:  ***** Well…
+EVAL: D     S      
+SHFT:              
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 83:1
+Best Ref: I'm curious.
+Orig Hyp: I'm curious.
+
+REF:  I'm curious.
+HYP:  I'm curious.
+EVAL:             
+SHFT:             
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 84:1
+Best Ref: And, I confess, I'm way out of shape
+Orig Hyp: And, I confess, I'm way out of practice
+
+REF:  And, I confess, I'm way out of shape   
+HYP:  And, I confess, I'm way out of practice
+EVAL:                                S       
+SHFT:                                        
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 85:1
+Best Ref: in these lovelies, so…
+Orig Hyp: with things like this, so…
+
+REF:  **** in     these lovelies, so…
+HYP:  with things like  this,     so…
+EVAL: I    S      S     S              
+SHFT:                                  
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 86:1
+Best Ref: Where do I start? What's to be done?
+Orig Hyp: Where do I start?
+
+REF:  Where do I start? What's to be done?
+HYP:  Where do I start? ****** ** ** *****
+EVAL:                   D      D  D  D    
+SHFT:                                     
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 87:1
+Best Ref: Look, for the time being,
+Orig Hyp: Look, for now,
+
+REF:  Look, for the time being,
+HYP:  Look, for *** **** now,  
+EVAL:           D   D    S     
+SHFT:                          
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 88:1
+Best Ref: we're going to send you a little message
+Orig Hyp: we'll send a message asking her out
+
+REF:  we're going   to   send     you    a   little   message  
+HYP:  ***** we'll @ a  [ send ] @ asking her out    [ message ]
+EVAL: D     S       S             S      S   S                 
+SHFT:             1    1      1 2                   2         2
+TER Score: 100.00 (  8.0/  8.0)
+
+Shift [send] 1 words right
+ REF:  we're going   to   send   you     a      little message
+ HYP:  ***** we'll @ a  [ send ] message asking her    out    
+
+Shift [message] 3 words right
+ REF:  we're going to send   you    a   little   message  
+ HYP:  ***** we'll a  send @ asking her out    [ message ]
+
+
+
+Sentence ID: 89:1
+Best Ref: to invite you, in remorse that you didn't go to the appointment today.
+Orig Hyp: and saying sorry for today.
+
+REF:  to invite you, in remorse that you didn't go  to     the   appointment today.
+HYP:  ** ****** **** ** ******* **** *** ****** and saying sorry for         today.
+EVAL: D  D      D    D  D       D    D   D      S   S      S     S                 
+SHFT:                                                                              
+TER Score:  92.31 ( 12.0/ 13.0)
+
+
+
+Sentence ID: 90:1
+Best Ref: Look, I'm writing it
+Orig Hyp: Look, I'll write it to show you,
+
+REF:  Look, I'm  writing it ** **** ****
+HYP:  Look, I'll write   it to show you,
+EVAL:       S    S          I  I    I   
+SHFT:                                   
+TER Score: 125.00 (  5.0/  4.0)
+
+
+
+Sentence ID: 91:1
+Best Ref: for you to learn, okay?
+Orig Hyp: okay?
+
+REF:  for you to learn, okay?
+HYP:  *** *** ** ****** okay?
+EVAL: D   D   D  D           
+SHFT:                        
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 92:1
+Best Ref: distinguishable and beautiful lady…
+Orig Hyp: Distinguished, beautiful lady.
+
+REF:  distinguishable and            beautiful lady…
+HYP:  *************** Distinguished, beautiful lady.  
+EVAL: D               S                        S      
+SHFT:                                                 
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 93:1
+Best Ref: You think so?
+Orig Hyp: What do you think?
+
+REF:  **** You think so?   
+HYP:  What do  you   think?
+EVAL: I    S   S     S     
+SHFT:                      
+TER Score: 133.33 (  4.0/  3.0)
+
+
+
+Sentence ID: 94:1
+Best Ref: Oh, it sounds good.
+Orig Hyp: Sounds good.
+
+REF:  Oh, it sounds good.
+HYP:  *** ** Sounds good.
+EVAL: D   D  S           
+SHFT:                    
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 95:1
+Best Ref: I'll pass you by, so you can look at them.
+Orig Hyp: I'll send it to you, okay?
+
+REF:  I'll pass you by, so you  can look at   them.
+HYP:  I'll **** *** *** ** send it  to   you, okay?
+EVAL:      D    D   D   D  S    S   S    S    S    
+SHFT:                                              
+TER Score:  90.00 (  9.0/ 10.0)
+
+
+
+Sentence ID: 96:1
+Best Ref: Okay, perfect, yeah.
+Orig Hyp: Okay, perfect, yeah.
+
+REF:  Okay, perfect, yeah.
+HYP:  Okay, perfect, yeah.
+EVAL:                     
+SHFT:                     
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 97:1
+Best Ref: Can we talk?
+Orig Hyp: Can we talk?
+
+REF:  Can we talk?
+HYP:  Can we talk?
+EVAL:             
+SHFT:             
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 98:1
+Best Ref: Excuse me.
+Orig Hyp: Excuse me.
+
+REF:  Excuse me.
+HYP:  Excuse me.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 99:1
+Best Ref: Yeah.
+Orig Hyp: Yeah.
+
+REF:  Yeah.
+HYP:  Yeah.
+EVAL:      
+SHFT:      
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 100:1
+Best Ref: Have you eaten?
+Orig Hyp: Have you eaten?
+
+REF:  Have you eaten?
+HYP:  Have you eaten?
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 101:1
+Best Ref: No, no, I was gonna go
+Orig Hyp: No, I was going to go to
+
+REF:  No, no, I was ***** gonna go **
+HYP:  No, *** I was going to    go to
+EVAL:     D         I     S        I 
+SHFT:                                
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 102:1
+Best Ref: to Mrs. Carolina's Fonda.
+Orig Hyp: La Fonda de Doña Carolina.
+
+REF:  ** to    Mrs. Carolina's Fonda.   
+HYP:  La Fonda de   Doña      Carolina.
+EVAL: I  S     S    S          S        
+SHFT:                                   
+TER Score: 125.00 (  5.0/  4.0)
+
+
+
+Sentence ID: 103:1
+Best Ref: Shall we?
+Orig Hyp: Shall we?
+
+REF:  Shall we?
+HYP:  Shall we?
+EVAL:          
+SHFT:          
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 104:1
+Best Ref: I haven't eaten either,
+Orig Hyp: I haven't eaten either,
+
+REF:  I haven't eaten either,
+HYP:  I haven't eaten either,
+EVAL:                        
+SHFT:                        
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 105:1
+Best Ref: and, well, we could talk there.
+Orig Hyp: and, well, we could talk.
+
+REF:  and, well, we could talk there.
+HYP:  and, well, we could **** talk. 
+EVAL:                     D    S     
+SHFT:                                
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 106:1
+Best Ref: Come on.
+Orig Hyp: Let's go.
+
+REF:  Come  on.
+HYP:  Let's go.
+EVAL: S     S  
+SHFT:          
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 107:1
+Best Ref: Anything else?
+Orig Hyp: Anything else?
+
+REF:  Anything else?
+HYP:  Anything else?
+EVAL:               
+SHFT:               
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 108:1
+Best Ref: I don't like to see you so serious.
+Orig Hyp: I don't like to see you so serious.
+
+REF:  I don't like to see you so serious.
+HYP:  I don't like to see you so serious.
+EVAL:                                    
+SHFT:                                    
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 109:1
+Best Ref: And I know it's about
+Orig Hyp: And I know
+
+REF:  And I know it's about
+HYP:  And I know **** *****
+EVAL:            D    D    
+SHFT:                      
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 110:1
+Best Ref: the kid you want to have.
+Orig Hyp: it's about the baby.
+
+REF:    the   kid you want to      have.
+HYP:  [ the ] *** *** it's about @ baby.
+EVAL:         D   D   S    S       S    
+SHFT: 1     1                    1      
+TER Score: 100.00 (  6.0/  6.0)
+
+Shift [the] 2 words left
+ REF:    the   kid you want to      have.
+ HYP:  [ the ] *** *** it's about @ baby.
+
+
+
+Sentence ID: 111:1
+Best Ref: Honey, I already explained the reason
+Orig Hyp: Honey, I already explained why
+
+REF:  Honey, I already explained the reason
+HYP:  Honey, I already explained *** why   
+EVAL:                            D   S     
+SHFT:                                      
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 112:1
+Best Ref: why I don't want to have it.
+Orig Hyp: I don't want to have one.
+
+REF:  why I don't want to have it. 
+HYP:  *** I don't want to have one.
+EVAL: D                        S   
+SHFT:                              
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 113:1
+Best Ref: I understand your desire to be a mother,
+Orig Hyp: I understand why you want to be a mother.
+
+REF:  I understand *** your desire to be a mother,
+HYP:  I understand why you  want   to be a mother.
+EVAL:              I   S    S              S      
+SHFT:                                             
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 114:1
+Best Ref: and it really pains me not to be able to keep it to you,
+Orig Hyp: I'm sad not to be able to give you that,
+
+REF:  and it really pains me  not to be able to keep it   to  you, 
+HYP:  *** ** ****** I'm   sad not to be able to **** give you that,
+EVAL: D   D  D      S     S                     D    S    S   S    
+SHFT:                                                              
+TER Score:  64.29 (  9.0/ 14.0)
+
+
+
+Sentence ID: 115:1
+Best Ref: but I've missed my time for that.
+Orig Hyp: but for me the time for that has passed.
+
+REF:  but I've missed my  time for **** *** that.  
+HYP:  but for  me     the time for that has passed.
+EVAL:     S    S      S            I    I   S      
+SHFT:                                              
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 116:1
+Best Ref: What I want is to enjoy what I have left
+Orig Hyp: What I want is to enjoy the time
+
+REF:  What I want is to enjoy what I have left
+HYP:  What I want is to enjoy **** * the  time
+EVAL:                         D    D S    S   
+SHFT:                                         
+TER Score:  40.00 (  4.0/ 10.0)
+
+
+
+Sentence ID: 117:1
+Best Ref: of life next to you, my love.
+Orig Hyp: I have left with you, my love.
+
+REF:  of life next to   you, my love.
+HYP:  I  have left with you, my love.
+EVAL: S  S    S    S                 
+SHFT:                                
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 118:1
+Best Ref: Before you ever thought about
+Orig Hyp: Before you ever thought about
+
+REF:  Before you ever thought about
+HYP:  Before you ever thought about
+EVAL:                              
+SHFT:                              
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 119:1
+Best Ref: getting pregnant, we were just fine.
+Orig Hyp: getting pregnant, we were great.
+
+REF:  getting pregnant, we were just fine. 
+HYP:  getting pregnant, we were **** great.
+EVAL:                           D    S     
+SHFT:                                      
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 120:1
+Best Ref: It's not like I could think of it overnight.
+Orig Hyp: The idea didn't just come to me overnight.
+
+REF:  It's not like I      could think of it overnight.
+HYP:  **** The idea didn't just  come  to me overnight.
+EVAL: D    S   S    S      S     S     S  S            
+SHFT:                                                  
+TER Score:  88.89 (  8.0/  9.0)
+
+
+
+Sentence ID: 121:1
+Best Ref: I've always wanted to be a mother.
+Orig Hyp: I've always wanted to be a mother.
+
+REF:  I've always wanted to be a mother.
+HYP:  I've always wanted to be a mother.
+EVAL:                                   
+SHFT:                                   
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 122:1
+Best Ref: And just because I love you
+Orig Hyp: And because I love you
+
+REF:  And just because I love you
+HYP:  And **** because I love you
+EVAL:     D                      
+SHFT:                            
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 123:1
+Best Ref: and we're finally together,
+Orig Hyp: and we're finally together,
+
+REF:  and we're finally together,
+HYP:  and we're finally together,
+EVAL:                            
+SHFT:                            
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 124:1
+Best Ref: I thought I could fulfill my dream.
+Orig Hyp: I thought I could make
+
+REF:  I thought I could fulfill my dream.
+HYP:  I thought I could ******* ** make  
+EVAL:                   D       D  S     
+SHFT:                                    
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 125:1
+Best Ref: I know.
+Orig Hyp: that dream come true.
+
+REF:  **** ***** I    know.
+HYP:  that dream come true.
+EVAL: I    I     S    S    
+SHFT:                      
+TER Score: 200.00 (  4.0/  2.0)
+
+
+
+Sentence ID: 126:1
+Best Ref: But it's a dream that came late.
+Orig Hyp: I know, but it's a dream that it's too late for.
+
+REF:  * ***** But it's a dream that **** *** came late.
+HYP:  I know, but it's a dream that it's too late for. 
+EVAL: I I     S                     I    I   S    S    
+SHFT:                                                  
+TER Score: 100.00 (  7.0/  7.0)
+
+
+
+Sentence ID: 127:1
+Best Ref: All right, I understand your position.
+Orig Hyp: Okay, I understand.
+
+REF:  All right, I understand your position.  
+HYP:  *** Okay,  I ********** **** understand.
+EVAL: D   S        D          D    S          
+SHFT:                                         
+TER Score:  83.33 (  5.0/  6.0)
+
+
+
+Sentence ID: 128:1
+Best Ref: Excuse me.
+Orig Hyp: Excuse me.
+
+REF:  Excuse me.
+HYP:  Excuse me.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 129:1
+Best Ref: What do you want to talk about?
+Orig Hyp: What do you want to talk about?
+
+REF:  What do you want to talk about?
+HYP:  What do you want to talk about?
+EVAL:                                
+SHFT:                                
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 130:1
+Best Ref: Since we got married,
+Orig Hyp: Since we got married,
+
+REF:  Since we got married,
+HYP:  Since we got married,
+EVAL:                      
+SHFT:                      
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 131:1
+Best Ref: I know things haven't been so good.
+Orig Hyp: I know things haven't been good on my side.
+
+REF:  I know things haven't been **** ** so good.
+HYP:  I know things haven't been good on my side.
+EVAL:                            I    I  S  S    
+SHFT:                                            
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 132:1
+Best Ref: And I haven't treated you
+Orig Hyp: I haven't treated you
+
+REF:  And I haven't treated you
+HYP:  *** I haven't treated you
+EVAL: D                        
+SHFT:                          
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 133:1
+Best Ref: the way you deserve,
+Orig Hyp: the way you deserve,
+
+REF:  the way you deserve,
+HYP:  the way you deserve,
+EVAL:                     
+SHFT:                     
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 134:1
+Best Ref: and I've been thinking a lot.
+Orig Hyp: and I've been doing a lot of thinking.
+
+REF:  and I've been thinking a *** ** lot.     
+HYP:  and I've been doing    a lot of thinking.
+EVAL:               S          I   I  S        
+SHFT:                                          
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 135:1
+Best Ref: And I want you to know that from now on,
+Orig Hyp: I want you to know that from now on,
+
+REF:  And I want you to know that from now on,
+HYP:  *** I want you to know that from now on,
+EVAL: D                                       
+SHFT:                                         
+TER Score:  10.00 (  1.0/ 10.0)
+
+
+
+Sentence ID: 136:1
+Best Ref: my attitude is going to be another.
+Orig Hyp: my attitude is going to be different.
+
+REF:  my attitude is going to be another.  
+HYP:  my attitude is going to be different.
+EVAL:                            S         
+SHFT:                                      
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 137:1
+Best Ref: I want to dedicate myself to you
+Orig Hyp: I want to dedicate myself to you
+
+REF:  I want to dedicate myself to you
+HYP:  I want to dedicate myself to you
+EVAL:                                 
+SHFT:                                 
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 138:1
+Best Ref: and the baby on the way.
+Orig Hyp: and the baby on the way.
+
+REF:  and the baby on the way.
+HYP:  and the baby on the way.
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 139:1
+Best Ref: I want to do everything I can
+Orig Hyp: I want to do everything I can
+
+REF:  I want to do everything I can
+HYP:  I want to do everything I can
+EVAL:                              
+SHFT:                              
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 140:1
+Best Ref: to make our life a real family.
+Orig Hyp: to make us into a real family.
+
+REF:  to make our life a real family.
+HYP:  to make us  into a real family.
+EVAL:         S   S                  
+SHFT:                                
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 141:1
+Best Ref: Pedro, are you sure
+Orig Hyp: Pedro, are you sure about
+
+REF:  Pedro, are you sure *****
+HYP:  Pedro, are you sure about
+EVAL:                     I    
+SHFT:                          
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 142:1
+Best Ref: what you're telling me?
+Orig Hyp: what you're saying?
+
+REF:  what you're telling me?    
+HYP:  what you're ******* saying?
+EVAL:             D       S      
+SHFT:                            
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 143:1
+Best Ref: Of course.
+Orig Hyp: Of course.
+
+REF:  Of course.
+HYP:  Of course.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 144:1
+Best Ref: I don't want to hope in vain.
+Orig Hyp: I don't want to get my hopes up for nothing.
+
+REF:  I don't want to *** ** ***** hope in  vain.   
+HYP:  I don't want to get my hopes up   for nothing.
+EVAL:                 I   I  I     S    S   S       
+SHFT:                                               
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 145:1
+Best Ref: It would be very difficult
+Orig Hyp: It would be very difficult
+
+REF:  It would be very difficult
+HYP:  It would be very difficult
+EVAL:                           
+SHFT:                           
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 146:1
+Best Ref: for me to lose you again.
+Orig Hyp: to lose you again.
+
+REF:  for me to lose you again.
+HYP:  *** ** to lose you again.
+EVAL: D   D                    
+SHFT:                          
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 147:1
+Best Ref: It's not gonna happen, Gina.
+Orig Hyp: That's not going to happen, Gina.
+
+REF:  It's   not ***** gonna happen, Gina.
+HYP:  That's not going to    happen, Gina.
+EVAL: S          I     S                  
+SHFT:                                     
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 148:1
+Best Ref: Give me a new chance, please.
+Orig Hyp: Give me another chance, please.
+
+REF:  Give me a new     chance, please.
+HYP:  Give me * another chance, please.
+EVAL:         D S                      
+SHFT:                                  
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 149:1
+Best Ref: It's okay.
+Orig Hyp: Okay.
+
+REF:  It's okay.
+HYP:  **** Okay.
+EVAL: D    S    
+SHFT:           
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 150:1
+Best Ref: Look, all I want
+Orig Hyp: Look, all I want
+
+REF:  Look, all I want
+HYP:  Look, all I want
+EVAL:                 
+SHFT:                 
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 151:1
+Best Ref: is what's best for our baby.
+Orig Hyp: is what's best for our baby.
+
+REF:  is what's best for our baby.
+HYP:  is what's best for our baby.
+EVAL:                             
+SHFT:                             
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 152:1
+Best Ref: A slate and a new slate?
+Orig Hyp: Clean slate?
+
+REF:  A slate and a new   slate?
+HYP:  * ***** *** * Clean slate?
+EVAL: D D     D   D S           
+SHFT:                           
+TER Score:  83.33 (  5.0/  6.0)
+
+
+
+Sentence ID: 153:1
+Best Ref: Clean slate.
+Orig Hyp: Clean slate.
+
+REF:  Clean slate.
+HYP:  Clean slate.
+EVAL:             
+SHFT:             
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 154:1
+Best Ref: Thank you.
+Orig Hyp: Thank you.
+
+REF:  Thank you.
+HYP:  Thank you.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 155:1
+Best Ref: How do you see them, Doctor?
+Orig Hyp: What do you think, Doctor?
+
+REF:  How  do you see them,  Doctor?
+HYP:  What do you *** think, Doctor?
+EVAL: S           D   S             
+SHFT:                               
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 156:1
+Best Ref: I've improved, haven't I?
+Orig Hyp: I've improved, haven't I?
+
+REF:  I've improved, haven't I?
+HYP:  I've improved, haven't I?
+EVAL:                          
+SHFT:                          
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 157:1
+Best Ref: Unfortunately not.
+Orig Hyp: Unfortunately not.
+
+REF:  Unfortunately not.
+HYP:  Unfortunately not.
+EVAL:                   
+SHFT:                   
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 158:1
+Best Ref: But don't tell me that.
+Orig Hyp: Don't say that.
+
+REF:  But don't tell  me  that.
+HYP:  *** ***** Don't say that.
+EVAL: D   D     S     S        
+SHFT:                          
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 159:1
+Best Ref: He's practically the same
+Orig Hyp: You're practically the same
+
+REF:  He's   practically the same
+HYP:  You're practically the same
+EVAL: S                          
+SHFT:                            
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 160:1
+Best Ref: as the first time I saw him.
+Orig Hyp: as the first time I saw you.
+
+REF:  as the first time I saw him.
+HYP:  as the first time I saw you.
+EVAL:                         S   
+SHFT:                             
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 161:1
+Best Ref: And that's a sign that you're not
+Orig Hyp: And that's a sign that you're not
+
+REF:  And that's a sign that you're not
+HYP:  And that's a sign that you're not
+EVAL:                                  
+SHFT:                                  
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 162:1
+Best Ref: following what I told you.
+Orig Hyp: doing what I told you to.
+
+REF:  following what I told *** you.
+HYP:  doing     what I told you to. 
+EVAL: S                     I   S   
+SHFT:                               
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 163:1
+Best Ref: What do you want, Doctor?
+Orig Hyp: What can I say, Doctor?
+
+REF:  What do  you want, Doctor?
+HYP:  What can I   say,  Doctor?
+EVAL:      S   S   S            
+SHFT:                           
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 164:1
+Best Ref: I've given myself my licenses.
+Orig Hyp: I've given myself a few breaks.
+
+REF:  I've given myself * my  licenses.
+HYP:  I've given myself a few breaks.  
+EVAL:                   I S   S        
+SHFT:                                  
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 165:1
+Best Ref: It's not so easy to follow a diet
+Orig Hyp: It's not that easy to follow
+
+REF:  It's not so   easy to follow a diet
+HYP:  It's not that easy to follow * ****
+EVAL:          S                   D D   
+SHFT:                                    
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 166:1
+Best Ref: so strict from good to first.
+Orig Hyp: such a strict diet straight off.
+
+REF:  so     strict   from   good to       first.
+HYP:  such [ strict ] a    @ diet straight off.  
+EVAL: S               S      S    S        S     
+SHFT:      1        1      1                     
+TER Score: 100.00 (  6.0/  6.0)
+
+Shift [strict] 1 words left
+ REF:  so     strict   from   good to       first.
+ HYP:  such [ strict ] a    @ diet straight off.  
+
+
+
+Sentence ID: 167:1
+Best Ref: Besides I've had
+Orig Hyp: Besides, I've been under
+
+REF:  Besides  I've **** had  
+HYP:  Besides, I've been under
+EVAL: S             I    S    
+SHFT:                         
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 168:1
+Best Ref: a lot of pressure and…
+Orig Hyp: a lot of pressure and…
+
+REF:  a lot of pressure and…
+HYP:  a lot of pressure and…
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 169:1
+Best Ref: And that also counts, doesn't it?
+Orig Hyp: And that counts for something, right?
+
+REF:  And that also   counts, doesn't    it?   
+HYP:  And that counts for     something, right?
+EVAL:          S      S       S          S     
+SHFT:                                          
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 170:1
+Best Ref: Look, I get it.
+Orig Hyp: Look, I get it.
+
+REF:  Look, I get it.
+HYP:  Look, I get it.
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 171:1
+Best Ref: But if you don't follow
+Orig Hyp: But if you don't follow
+
+REF:  But if you don't follow
+HYP:  But if you don't follow
+EVAL:                        
+SHFT:                        
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 172:1
+Best Ref: my directions to the letter,
+Orig Hyp: my instructions to the letter,
+
+REF:  my directions   to the letter,
+HYP:  my instructions to the letter,
+EVAL:    S                          
+SHFT:                               
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 173:1
+Best Ref: you risk dying.
+Orig Hyp: you're at risk of dying.
+
+REF:  ****** you risk ** dying.
+HYP:  you're at  risk of dying.
+EVAL: I      S        I        
+SHFT:                          
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 174:1
+Best Ref: What you have is a great deal
+Orig Hyp: Your condition requires a great deal
+
+REF:  What you  have      is       a great deal
+HYP:  **** Your condition requires a great deal
+EVAL: D    S    S         S                    
+SHFT:                                          
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 175:1
+Best Ref: of care and discipline.
+Orig Hyp: of care and discipline.
+
+REF:  of care and discipline.
+HYP:  of care and discipline.
+EVAL:                        
+SHFT:                        
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 176:1
+Best Ref: All right, Doctor, I'm gonna do my best.
+Orig Hyp: Okay, Doctor, I'll do my best.
+
+REF:  All right, Doctor, I'm gonna do my best.
+HYP:  *** Okay,  Doctor, *** I'll  do my best.
+EVAL: D   S              D   S                
+SHFT:                                         
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 177:1
+Best Ref: Did you go to the psychologist?
+Orig Hyp: And the psychologist?
+
+REF:  Did you go to  the psychologist?
+HYP:  *** *** ** And the psychologist?
+EVAL: D   D   D  S                    
+SHFT:                                 
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 178:1
+Best Ref: Yeah, yeah, but with so much work,
+Orig Hyp: Yes, I went once, but with so much work
+
+REF:  **** * Yeah, yeah, but with so much work,
+HYP:  Yes, I went  once, but with so much work 
+EVAL: I    I S     S                      S    
+SHFT:                                          
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 179:1
+Best Ref: I couldn't go to see him again.
+Orig Hyp: I couldn't go again.
+
+REF:  I couldn't go to see him again.
+HYP:  I couldn't go ** *** *** again.
+EVAL:               D  D   D         
+SHFT:                                
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 180:1
+Best Ref: What you said to me that time
+Orig Hyp: What you said to me before is
+
+REF:  What you said to me that   time
+HYP:  What you said to me before is  
+EVAL:                     S      S   
+SHFT:                                
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 181:1
+Best Ref: is more than enough
+Orig Hyp: more than enough for me
+
+REF:  is more than enough *** **
+HYP:  ** more than enough for me
+EVAL: D                   I   I 
+SHFT:                           
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 182:1
+Best Ref: to understand what's wrong with me.
+Orig Hyp: to understand what's wrong.
+
+REF:  to understand what's wrong with me.   
+HYP:  to understand what's ***** **** wrong.
+EVAL:                      D     D    S     
+SHFT:                                       
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 183:1
+Best Ref: This isn't a game.
+Orig Hyp: This isn't a game.
+
+REF:  This isn't a game.
+HYP:  This isn't a game.
+EVAL:                   
+SHFT:                   
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 184:1
+Best Ref: Either you follow my instructions,
+Orig Hyp: Either you follow my instructions,
+
+REF:  Either you follow my instructions,
+HYP:  Either you follow my instructions,
+EVAL:                                   
+SHFT:                                   
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 185:1
+Best Ref: or you may have a very serious crisis.
+Orig Hyp: or you may have a serious crisis.
+
+REF:  or you may have a very serious crisis.
+HYP:  or you may have a **** serious crisis.
+EVAL:                   D                   
+SHFT:                                       
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 186:1
+Best Ref: Keeping your diabetes
+Orig Hyp: Keeping your diabetes
+
+REF:  Keeping your diabetes
+HYP:  Keeping your diabetes
+EVAL:                      
+SHFT:                      
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 187:1
+Best Ref: under control depends on you.
+Orig Hyp: under control depends on you.
+
+REF:  under control depends on you.
+HYP:  under control depends on you.
+EVAL:                              
+SHFT:                              
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 188:1
+Best Ref: I can't do more.
+Orig Hyp: I can't do any more.
+
+REF:  I can't do *** more.
+HYP:  I can't do any more.
+EVAL:            I        
+SHFT:                     
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 189:1
+Best Ref: I want to see him in a month.
+Orig Hyp: I want to see you in a month.
+
+REF:  I want to see him in a month.
+HYP:  I want to see you in a month.
+EVAL:               S              
+SHFT:                              
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 190:1
+Best Ref: And I hope that, by then,
+Orig Hyp: And I hope that, by then,
+
+REF:  And I hope that, by then,
+HYP:  And I hope that, by then,
+EVAL:                          
+SHFT:                          
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 191:1
+Best Ref: the results of your analysis
+Orig Hyp: the results of your analysis
+
+REF:  the results of your analysis
+HYP:  the results of your analysis
+EVAL:                             
+SHFT:                             
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 192:1
+Best Ref: will be another, definitely, okay?
+Orig Hyp: will be very different, okay?
+
+REF:  will be another, definitely, okay?
+HYP:  will be very     different,  okay?
+EVAL:         S        S                
+SHFT:                                   
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 193:1
+Best Ref: Yes, Doctor.
+Orig Hyp: Yes, Doctor.
+
+REF:  Yes, Doctor.
+HYP:  Yes, Doctor.
+EVAL:             
+SHFT:             
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 194:1
+Best Ref: Go see the nutritionist.
+Orig Hyp: Go and see the nutritionist.
+
+REF:  Go *** see the nutritionist.
+HYP:  Go and see the nutritionist.
+EVAL:    I                        
+SHFT:                             
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 195:1
+Best Ref: Mrs. Andrea answered me.
+Orig Hyp: Andrea answered me.
+
+REF:  Mrs. Andrea answered me.
+HYP:  **** Andrea answered me.
+EVAL: D                       
+SHFT:                         
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 196:1
+Best Ref: He says enchanted
+Orig Hyp: She says she'd love
+
+REF:  He  says ***** enchanted
+HYP:  She says she'd love     
+EVAL: S        I     S        
+SHFT:                         
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 197:1
+Best Ref: he's having dinner with you.
+Orig Hyp: to have dinner with you.
+
+REF:  he's having dinner with you.
+HYP:  to   have   dinner with you.
+EVAL: S    S                      
+SHFT:                             
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 198:1
+Best Ref: Where do I tell him to take her?
+Orig Hyp: Where should I tell her you're taking her?
+
+REF:  Where do     I tell him to     take   her?
+HYP:  Where should I tell her you're taking her?
+EVAL:       S             S   S      S          
+SHFT:                                           
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 199:1
+Best Ref: Uh, I don't know…
+Orig Hyp: I don't know…
+
+REF:  Uh, I don't know…
+HYP:  *** I don't know…
+EVAL: D                  
+SHFT:                    
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 200:1
+Best Ref: It could be the finite cakes.
+Orig Hyp: How about that sandwich place?
+
+REF:  It could be    the  finite   cakes.
+HYP:  ** How   about that sandwich place?
+EVAL: D  S     S     S    S        S     
+SHFT:                                    
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 201:1
+Best Ref: Oh, no, man. As always, him, splendid.
+Orig Hyp: Oh, no, man. Incredible, as always.
+
+REF:  Oh, no, man. As always,     him, splendid.
+HYP:  Oh, no, man. ** Incredible, as   always.  
+EVAL:              D  S           S    S        
+SHFT:                                           
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 202:1
+Best Ref: Well, what do you mean, the finite cakes?
+Orig Hyp: What do you mean that sandwich place?
+
+REF:  Well, what do you mean, the  finite   cakes?
+HYP:  ***** What do you mean  that sandwich place?
+EVAL: D     S           S     S    S        S     
+SHFT:                                             
+TER Score:  75.00 (  6.0/  8.0)
+
+
+
+Sentence ID: 203:1
+Best Ref: Well, he's gonna freak her out.
+Orig Hyp: You'll scare her.
+
+REF:  Well, he's gonna freak  her   out.
+HYP:  ***** **** ***** You'll scare her.
+EVAL: D     D    D     S      S     S   
+SHFT:                                   
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 204:1
+Best Ref: You beat her up with a nice restaurant.
+Orig Hyp: You have to take her to a nice restaurant.
+
+REF:  You **** beat   her   up     with a nice restaurant.
+HYP:  You have to   [ her ] take @ to   a nice restaurant.
+EVAL:     I    S            S      S                      
+SHFT:               1     1      1                        
+TER Score:  62.50 (  5.0/  8.0)
+
+Shift [her] 1 words left
+ REF:  You **** beat   her   up     with a nice restaurant.
+ HYP:  You have to   [ her ] take @ to   a nice restaurant.
+
+
+
+Sentence ID: 205:1
+Best Ref: Well, even on the first date,
+Orig Hyp: If you like, on the first date,
+
+REF:  ** Well, even  on the first date,
+HYP:  If you   like, on the first date,
+EVAL: I  S     S                       
+SHFT:                                  
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 206:1
+Best Ref: I'd like to give him a little bit.
+Orig Hyp: invest, spend a little,
+
+REF:  I'd like to give    him   a little bit.   
+HYP:  *** **** ** invest, spend a ****** little,
+EVAL: D   D    D  S       S       D      S      
+SHFT:                                           
+TER Score:  87.50 (  7.0/  8.0)
+
+
+
+Sentence ID: 207:1
+Best Ref: Then, then, it's coming down.
+Orig Hyp: then bring the level down later on.
+
+REF:  **** ***** Then, then, it's coming down.
+HYP:  then bring the   level down later  on.  
+EVAL: I    I     S     S     S    S      S    
+SHFT:                                         
+TER Score: 140.00 (  7.0/  5.0)
+
+
+
+Sentence ID: 208:1
+Best Ref: Let's see, uh…
+Orig Hyp: Let's see…
+
+REF:  Let's see, uh… 
+HYP:  Let's **** see…
+EVAL:       D    S     
+SHFT:                  
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 209:1
+Best Ref: I know.
+Orig Hyp: I know.
+
+REF:  I know.
+HYP:  I know.
+EVAL:        
+SHFT:        
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 210:1
+Best Ref: Huh?
+Orig Hyp: 
+
+REF:  Huh?
+HYP:  ****
+EVAL: D   
+SHFT:     
+TER Score: 100.00 (  1.0/  1.0)
+
+
+Sentence ID: 211:1
+Best Ref: How's that for the pears?
+Orig Hyp: How about Pierangelo?
+
+REF:  How's that for the   pears?     
+HYP:  ***** **** How about Pierangelo?
+EVAL: D     D    S   S     S          
+SHFT:                                 
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 212:1
+Best Ref: How did you…
+Orig Hyp: What
+
+REF:  How did you…
+HYP:  *** *** What  
+EVAL: D   D   S     
+SHFT:               
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 213:1
+Best Ref: Okay, okay.
+Orig Hyp: Okay, okay.
+
+REF:  Okay, okay.
+HYP:  Okay, okay.
+EVAL:            
+SHFT:            
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 214:1
+Best Ref: That.
+Orig Hyp: 
+
+REF:  That.
+HYP:  *****
+EVAL: D    
+SHFT:      
+TER Score: 100.00 (  1.0/  1.0)
+
+
+Sentence ID: 215:1
+Best Ref: I'll write to him.
+Orig Hyp: I'll message her.
+
+REF:  I'll write to      him.
+HYP:  I'll ***** message her.
+EVAL:      D     S       S   
+SHFT:                        
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 216:1
+Best Ref: There it is.
+Orig Hyp: Here it is.
+
+REF:  There it is.
+HYP:  Here  it is.
+EVAL: S           
+SHFT:             
+TER Score:  33.33 (  1.0/  3.0)
+
+
+
+Sentence ID: 217:1
+Best Ref: Let's see, uh, Andrea, here it is.
+Orig Hyp: Let's see. Andrea, here it is.
+
+REF:  Let's see, uh,  Andrea, here it is.
+HYP:  Let's **** see. Andrea, here it is.
+EVAL:       D    S                       
+SHFT:                                    
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 218:1
+Best Ref: My heart…
+Orig Hyp: Your kind answer…
+
+REF:  **** My   heart… 
+HYP:  Your kind answer…
+EVAL: I    S    S        
+SHFT:                    
+TER Score: 150.00 (  3.0/  2.0)
+
+
+
+Sentence ID: 219:1
+Best Ref: "Late runaway with your kind answer.
+Orig Hyp: has made my heart race.
+
+REF:  "Late runaway with your kind  answer.
+HYP:  ***** has     made my   heart race.  
+EVAL: D     S       S    S    S     S      
+SHFT:                                      
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 220:1
+Best Ref: Do you think it's okay
+Orig Hyp: 
+
+REF:  Do you think it's okay
+HYP:  ** *** ***** **** ****
+EVAL: D  D   D     D    D   
+SHFT:                       
+TER Score: 100.00 (  5.0/  5.0)
+
+
+Sentence ID: 221:1
+Best Ref: if we meet at the pier
+Orig Hyp: Would you like to meet at Pierangelo
+
+REF:  ***** *** if   we meet at the pier      
+HYP:  Would you like to meet at *** Pierangelo
+EVAL: I     I   S    S          D   S         
+SHFT:                                         
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 222:1
+Best Ref: tomorrow at eight o'clock?
+Orig Hyp: tomorrow at eight o'clock?
+
+REF:  tomorrow at eight o'clock?
+HYP:  tomorrow at eight o'clock?
+EVAL:                           
+SHFT:                           
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 223:1
+Best Ref: perfect.
+Orig Hyp: Perfect.
+
+REF:  perfect.
+HYP:  Perfect.
+EVAL: S       
+SHFT:         
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 224:1
+Best Ref: I love that restaurant.
+Orig Hyp: I love that restaurant.
+
+REF:  I love that restaurant.
+HYP:  I love that restaurant.
+EVAL:                        
+SHFT:                        
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 225:1
+Best Ref: I'll see you there.
+Orig Hyp: I'll see you there.
+
+REF:  I'll see you there.
+HYP:  I'll see you there.
+EVAL:                    
+SHFT:                    
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 226:1
+Best Ref: He says it's perfect.
+Orig Hyp: She says perfect.
+
+REF:  He  says it's perfect.
+HYP:  She says **** perfect.
+EVAL: S        D            
+SHFT:                       
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 227:1
+Best Ref: This rice is already cooked.
+Orig Hyp: This is a done deal.
+
+REF:  This   rice   is   already cooked.
+HYP:  This @ a    [ is ] done    deal.  
+EVAL:        S           S       S      
+SHFT:      1      1    1                
+TER Score:  80.00 (  4.0/  5.0)
+
+Shift [is] 1 words right
+ REF:  This   rice   is   already cooked.
+ HYP:  This @ a    [ is ] done    deal.  
+
+
+
+Sentence ID: 228:1
+Best Ref: And how is it that, if you write those things,
+Orig Hyp: Why is it that if you write so well,
+
+REF:  And how is it that, if you write those things,
+HYP:  *** Why is it that  if you write so    well,  
+EVAL: D   S         S                  S     S      
+SHFT:                                               
+TER Score:  50.00 (  5.0/ 10.0)
+
+
+
+Sentence ID: 229:1
+Best Ref: the woman who brings you from a wing
+Orig Hyp: the woman you're crazy about
+
+REF:  the woman who brings you from   a     wing 
+HYP:  the woman *** ****** *** you're crazy about
+EVAL:           D   D      D   S      S     S    
+SHFT:                                            
+TER Score:  75.00 (  6.0/  8.0)
+
+
+
+Sentence ID: 230:1
+Best Ref: doesn't give you a ticket?
+Orig Hyp: doesn't give you a chance?
+
+REF:  doesn't give you a ticket?
+HYP:  doesn't give you a chance?
+EVAL:                    S      
+SHFT:                           
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 231:1
+Best Ref: Don't move that little guy, huh?
+Orig Hyp: Don't bring that up.
+
+REF:  Don't move  that little guy, huh?
+HYP:  Don't bring that ****** **** up. 
+EVAL:       S          D      D    S   
+SHFT:                                  
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 232:1
+Best Ref: That little thing is an impossible love.
+Orig Hyp: It's an impossible love.
+
+REF:  That little thing is   an impossible love.
+HYP:  **** ****** ***** It's an impossible love.
+EVAL: D    D      D     S                       
+SHFT:                                           
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 233:1
+Best Ref: Better, to what we were, to see…
+Orig Hyp: Now, where were we?
+
+REF:  Better, to what we   were, to   see…
+HYP:  ******* ** **** Now, where were we?   
+EVAL: D       D  D    S    S     S    S     
+SHFT:                                       
+TER Score: 100.00 (  7.0/  7.0)
+
+
+
+Sentence ID: 234:1
+Best Ref: You have to say nice things to Mrs. Andrea.
+Orig Hyp: You have to say nice things to Andrea.
+
+REF:  You have to say nice things to Mrs. Andrea.
+HYP:  You have to say nice things to **** Andrea.
+EVAL:                                D           
+SHFT:                                            
+TER Score:  11.11 (  1.0/  9.0)
+
+
+
+Sentence ID: 235:1
+Best Ref: Tell him things that… that come to him,
+Orig Hyp: Tell her things that come to you,
+
+REF:  Tell him things that… that come to him,
+HYP:  Tell her things ******* that come to you,
+EVAL:      S          D                    S   
+SHFT:                                          
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 236:1
+Best Ref: let them come out of your soul.
+Orig Hyp: open your soul up to her.
+
+REF:  let them   come out of   your   soul.
+HYP:  *** open @ soul up  to [ your ] her. 
+EVAL: D   S      S    S   S           S    
+SHFT:          1             1      1      
+TER Score: 100.00 (  7.0/  7.0)
+
+Shift [your] 3 words right
+ REF:  let them   come out of   your   soul.
+ HYP:  *** open @ soul up  to [ your ] her. 
+
+
+
+Sentence ID: 237:1
+Best Ref: Imagine I'm her
+Orig Hyp: Imagine I'm her
+
+REF:  Imagine I'm her
+HYP:  Imagine I'm her
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 238:1
+Best Ref: and we're in a restaurant.
+Orig Hyp: and we're in a restaurant.
+
+REF:  and we're in a restaurant.
+HYP:  and we're in a restaurant.
+EVAL:                           
+SHFT:                           
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 239:1
+Best Ref: What would you say?
+Orig Hyp: What would you say?
+
+REF:  What would you say?
+HYP:  What would you say?
+EVAL:                    
+SHFT:                    
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 240:1
+Best Ref: It's very difficult.
+Orig Hyp: That's very difficult.
+
+REF:  It's   very difficult.
+HYP:  That's very difficult.
+EVAL: S                     
+SHFT:                       
+TER Score:  33.33 (  1.0/  3.0)
+
+
+
+Sentence ID: 241:1
+Best Ref: Why?
+Orig Hyp: Why?
+
+REF:  Why?
+HYP:  Why?
+EVAL:     
+SHFT:     
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 242:1
+Best Ref: Because you're ugly with a capital EFE.
+Orig Hyp: Because you're ugly with a capital U.
+
+REF:  Because you're ugly with a capital EFE.
+HYP:  Because you're ugly with a capital U.  
+EVAL:                                    S   
+SHFT:                                        
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 243:1
+Best Ref: It's not that I'm ugly,
+Orig Hyp: I'm not ugly,
+
+REF:  It's   not that   I'm   ugly,
+HYP:  **** @ not **** [ I'm ] ugly,
+EVAL: D          D                 
+SHFT:      1          1     1      
+TER Score:  60.00 (  3.0/  5.0)
+
+Shift [I'm] 1 words right
+ REF:  It's   not that   I'm   ugly,
+ HYP:  **** @ not **** [ I'm ] ugly,
+
+
+
+Sentence ID: 244:1
+Best Ref: I'm ill-wrapped, it's different.
+Orig Hyp: I'm just not at my best.
+
+REF:  I'm **** *** ill-wrapped, it's different.
+HYP:  I'm just not at           my   best.     
+EVAL:     I    I   S            S    S         
+SHFT:                                          
+TER Score: 125.00 (  5.0/  4.0)
+
+
+
+Sentence ID: 245:1
+Best Ref: You focus on your thing.
+Orig Hyp: You just focus on your thing.
+
+REF:  You **** focus on your thing.
+HYP:  You just focus on your thing.
+EVAL:     I                        
+SHFT:                              
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 246:1
+Best Ref: Also, add that to him.
+Orig Hyp: Okay!
+
+REF:  Also, add that to him. 
+HYP:  ***** *** **** ** Okay!
+EVAL: D     D   D    D  S    
+SHFT:                        
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 247:1
+Best Ref: Think about it. If you want, don't see me.
+Orig Hyp: Perhaps don't look at me.
+
+REF:  Think about it. If you       want,   don't   see me.
+HYP:  ***** ***** *** ** Perhaps @ look  [ don't ] at  me.
+EVAL: D     D     D   D  S         S               S      
+SHFT:                            1       1       1        
+TER Score:  88.89 (  8.0/  9.0)
+
+Shift [don't] 1 words right
+ REF:  Think about it. If you       want,   don't   see me.
+ HYP:  ***** ***** *** ** Perhaps @ look  [ don't ] at  me.
+
+
+
+Sentence ID: 248:1
+Best Ref: Yeah, better, better.
+Orig Hyp: Yeah, that
+
+REF:  Yeah, better, better.
+HYP:  Yeah, ******* that   
+EVAL:       D       S      
+SHFT:                      
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 249:1
+Best Ref: Let's see.
+Orig Hyp: 
+
+REF:  Let's see.
+HYP:  ***** ****
+EVAL: D     D   
+SHFT:           
+TER Score: 100.00 (  2.0/  2.0)
+
+
+Sentence ID: 250:1
+Best Ref: Uh… What would I say?
+Orig Hyp: What would you say to her?
+
+REF:  Uh… What would *** *** I  say?
+HYP:  ***** What would you say to her?
+EVAL: D                I   I   S  S   
+SHFT:                                 
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 251:1
+Best Ref: Andrea, you really have pretty eyes.
+Orig Hyp: Andrea, you have really pretty eyes.
+
+REF:  Andrea, you   really   have   pretty eyes.
+HYP:  Andrea, you @ really [ have ] pretty eyes.
+EVAL:                                           
+SHFT:             1        1      1             
+TER Score:  16.67 (  1.0/  6.0)
+
+Shift [have] 1 words right
+ REF:  Andrea, you   really   have   pretty eyes.
+ HYP:  Andrea, you @ really [ have ] pretty eyes.
+
+
+
+Sentence ID: 252:1
+Best Ref: Are these yours?
+Orig Hyp: Are they yours?
+
+REF:  Are these yours?
+HYP:  Are they  yours?
+EVAL:     S           
+SHFT:                 
+TER Score:  33.33 (  1.0/  3.0)
+
+
+
+Sentence ID: 253:1
+Best Ref: No, we're screwed, huh?
+Orig Hyp: No. We're screwed, aren't we?
+
+REF:  No, we're screwed, ****** huh?
+HYP:  No. We're screwed, aren't we? 
+EVAL: S   S              I      S   
+SHFT:                               
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 254:1
+Best Ref: Let's see, close your eyes.
+Orig Hyp: Let's see, close your eyes.
+
+REF:  Let's see, close your eyes.
+HYP:  Let's see, close your eyes.
+EVAL:                            
+SHFT:                            
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 255:1
+Best Ref: Here, take a deep breath.
+Orig Hyp: Here, take a deep breath.
+
+REF:  Here, take a deep breath.
+HYP:  Here, take a deep breath.
+EVAL:                          
+SHFT:                          
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 256:1
+Best Ref: There, imagine you're with Mrs. Andrea.
+Orig Hyp: There, imagine you're with Andrea.
+
+REF:  There, imagine you're with Mrs. Andrea.
+HYP:  There, imagine you're with **** Andrea.
+EVAL:                            D           
+SHFT:                                        
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 257:1
+Best Ref: Let's see.
+Orig Hyp: Let's see.
+
+REF:  Let's see.
+HYP:  Let's see.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 258:1
+Best Ref: Watching the sun go down on the beach.
+Orig Hyp: Watching the sun go down on the beach.
+
+REF:  Watching the sun go down on the beach.
+HYP:  Watching the sun go down on the beach.
+EVAL:                                       
+SHFT:                                       
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 259:1
+Best Ref: The rays that hide on the horizon
+Orig Hyp: The rays that hide behind the horizon
+
+REF:  The rays that hide on     the horizon
+HYP:  The rays that hide behind the horizon
+EVAL:                    S                 
+SHFT:                                      
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 260:1
+Best Ref: bounce off your blonde hair.
+Orig Hyp: bounce off her blond hair.
+
+REF:  bounce off your blonde hair.
+HYP:  bounce off her  blond  hair.
+EVAL:            S    S           
+SHFT:                             
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 261:1
+Best Ref: Andrea,
+Orig Hyp: Andrea,
+
+REF:  Andrea,
+HYP:  Andrea,
+EVAL:        
+SHFT:        
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 262:1
+Best Ref: I feel like I'm drowning in your depth.
+Orig Hyp: I feel like I'm drowning in the depths of you.
+
+REF:  I feel like I'm drowning in *** ****** your depth.
+HYP:  I feel like I'm drowning in the depths of   you.  
+EVAL:                             I   I      S    S     
+SHFT:                                                   
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 263:1
+Best Ref: Hi.
+Orig Hyp: Hi.
+
+REF:  Hi.
+HYP:  Hi.
+EVAL:    
+SHFT:    
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 264:1
+Best Ref: Come in.
+Orig Hyp: Come in.
+
+REF:  Come in.
+HYP:  Come in.
+EVAL:         
+SHFT:         
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 265:1
+Best Ref: Thank you.
+Orig Hyp: Thank you.
+
+REF:  Thank you.
+HYP:  Thank you.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 266:1
+Best Ref: I'm here to apologize.
+Orig Hyp: I'm here to apologize.
+
+REF:  I'm here to apologize.
+HYP:  I'm here to apologize.
+EVAL:                       
+SHFT:                       
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 267:1
+Best Ref: I wasn't very nice to you this morning.
+Orig Hyp: I wasn't very nice to you this morning.
+
+REF:  I wasn't very nice to you this morning.
+HYP:  I wasn't very nice to you this morning.
+EVAL:                                        
+SHFT:                                        
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 268:1
+Best Ref: Don't worry, I was just going to
+Orig Hyp: Don't worry, I was just going to say hi
+
+REF:  Don't worry, I was just going to *** **
+HYP:  Don't worry, I was just going to say hi
+EVAL:                                  I   I 
+SHFT:                                        
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 269:1
+Best Ref: say hello and bring them some sweet bread.
+Orig Hyp: and bring you some sweet bread.
+
+REF:  say hello and bring them some sweet bread.
+HYP:  *** ***** and bring you  some sweet bread.
+EVAL: D   D               S                     
+SHFT:                                           
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 270:1
+Best Ref: But come on in, don't just stand there.
+Orig Hyp: But come on in, don't just stand there.
+
+REF:  But come on in, don't just stand there.
+HYP:  But come on in, don't just stand there.
+EVAL:                                        
+SHFT:                                        
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 271:1
+Best Ref: You want a coffee, a cup of tea?
+Orig Hyp: You want a cup of coffee? A cup of tea?
+
+REF:  You want a *** ** coffee, a cup of tea?
+HYP:  You want a cup of coffee? A cup of tea?
+EVAL:            I   I  S       S            
+SHFT:                                        
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 272:1
+Best Ref: Thank you, no, thank you very much.
+Orig Hyp: No, thank you. Thank you very much.
+
+REF:    Thank   you,   no,      thank   you very much.
+HYP:  [ Thank ] No,  @ you. @ [ thank ] you very much.
+EVAL:           S      S                              
+SHFT: 2       2      1      2 1       1               
+TER Score:  57.14 (  4.0/  7.0)
+
+Shift [thank] 2 words right
+ REF:  Thank   you, no,     thank   you very much.
+ HYP:  No,   @ you. Thank [ thank ] you very much.
+
+Shift [Thank] 2 words left
+ REF:    Thank   you, no,    thank you very much.
+ HYP:  [ Thank ] No,  you. @ thank you very much.
+
+
+
+Sentence ID: 273:1
+Best Ref: You've been talking to Pedro, haven't you?
+Orig Hyp: You talked to Pedro, didn't you?
+
+REF:  You've been talking to Pedro, haven't you?
+HYP:  ****** You  talked  to Pedro, didn't  you?
+EVAL: D      S    S                 S           
+SHFT:                                           
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 274:1
+Best Ref: Yeah, why?
+Orig Hyp: Yes, why?
+
+REF:  Yeah, why?
+HYP:  Yes,  why?
+EVAL: S         
+SHFT:           
+TER Score:  50.00 (  1.0/  2.0)
+
+
+
+Sentence ID: 275:1
+Best Ref: Thanks to what you told him,
+Orig Hyp: Thanks to what you told him,
+
+REF:  Thanks to what you told him,
+HYP:  Thanks to what you told him,
+EVAL:                             
+SHFT:                             
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 276:1
+Best Ref: Peter decided to change his attitude.
+Orig Hyp: Pedro decided to change his attitude.
+
+REF:  Peter decided to change his attitude.
+HYP:  Pedro decided to change his attitude.
+EVAL: S                                    
+SHFT:                                      
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 277:1
+Best Ref: He's willing to do everything for us
+Orig Hyp: He's willing to do everything for us
+
+REF:  He's willing to do everything for us
+HYP:  He's willing to do everything for us
+EVAL:                                     
+SHFT:                                     
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 278:1
+Best Ref: to have a family as God commands.
+Orig Hyp: so we can build a family as God intended.
+
+REF:  ** ** to  have  a family as God commands.
+HYP:  so we can build a family as God intended.
+EVAL: I  I  S   S                     S        
+SHFT:                                          
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 279:1
+Best Ref: Oh, that's nice.
+Orig Hyp: That's nice.
+
+REF:  Oh, that's nice.
+HYP:  *** That's nice.
+EVAL: D   S           
+SHFT:                 
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 280:1
+Best Ref: You don't know how happy I am.
+Orig Hyp: You don't know how happy I am.
+
+REF:  You don't know how happy I am.
+HYP:  You don't know how happy I am.
+EVAL:                               
+SHFT:                               
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 281:1
+Best Ref: Peter is everything to me.
+Orig Hyp: Pedro means everything to me.
+
+REF:  Peter is    everything to me.
+HYP:  Pedro means everything to me.
+EVAL: S     S                      
+SHFT:                              
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 282:1
+Best Ref: And he promised me that he wouldn't think
+Orig Hyp: He promised that he wouldn't think
+
+REF:  And he promised me that he wouldn't think
+HYP:  *** He promised ** that he wouldn't think
+EVAL: D   S           D                        
+SHFT:                                          
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 283:1
+Best Ref: of anything but us,
+Orig Hyp: about anything other than us,
+
+REF:  of    anything ***** but  us,
+HYP:  about anything other than us,
+EVAL: S              I     S       
+SHFT:                              
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 284:1
+Best Ref: my baby and me.
+Orig Hyp: my baby and me.
+
+REF:  my baby and me.
+HYP:  my baby and me.
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 285:1
+Best Ref: Uh-huh.
+Orig Hyp: Uhhuh.
+
+REF:  Uh-huh.
+HYP:  Uhhuh. 
+EVAL: S      
+SHFT:        
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 286:1
+Best Ref: I hope that means
+Orig Hyp: I hope that means
+
+REF:  I hope that means
+HYP:  I hope that means
+EVAL:                  
+SHFT:                  
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 287:1
+Best Ref: he forgets about Elena.
+Orig Hyp: he's forgotten about Elena.
+
+REF:  he   forgets   about Elena.
+HYP:  he's forgotten about Elena.
+EVAL: S    S                     
+SHFT:                            
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 288:1
+Best Ref: Ever since that woman appeared in her life,
+Orig Hyp: Ever since she came into his life,
+
+REF:  Ever since that woman appeared in   her life,
+HYP:  Ever since **** she   came     into his life,
+EVAL:            D    S     S        S    S        
+SHFT:                                              
+TER Score:  62.50 (  5.0/  8.0)
+
+
+
+Sentence ID: 289:1
+Best Ref: she's been nothing but suffering for him,
+Orig Hyp: he's done nothing but suffer,
+
+REF:  she's been nothing but suffering for him,   
+HYP:  he's  done nothing but ********* *** suffer,
+EVAL: S     S                D         D   S      
+SHFT:                                             
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 290:1
+Best Ref: don't you think?
+Orig Hyp: don't you think?
+
+REF:  don't you think?
+HYP:  don't you think?
+EVAL:                 
+SHFT:                 
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 291:1
+Best Ref: You have nothing more to say to me than that?
+Orig Hyp: You have nothing else to say?
+
+REF:  You have nothing more to say  to me than that?
+HYP:  You have nothing **** ** else to ** **** say? 
+EVAL:                  D    D  S       D  D    S    
+SHFT:                                               
+TER Score:  60.00 (  6.0/ 10.0)
+
+
+
+Sentence ID: 292:1
+Best Ref: What do you want me to say?
+Orig Hyp: What do you want me to say?
+
+REF:  What do you want me to say?
+HYP:  What do you want me to say?
+EVAL:                            
+SHFT:                            
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 293:1
+Best Ref: Excuse me,
+Orig Hyp: I'm sorry,
+
+REF:  Excuse me,   
+HYP:  I'm    sorry,
+EVAL: S      S     
+SHFT:              
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 294:1
+Best Ref: but I don't know what you want to hear.
+Orig Hyp: but I don't know what you want to hear.
+
+REF:  but I don't know what you want to hear.
+HYP:  but I don't know what you want to hear.
+EVAL:                                        
+SHFT:                                        
+TER Score:   0.00 (  0.0/  9.0)
+
+
+
+Sentence ID: 295:1
+Best Ref: At least tell me you're happy for us.
+Orig Hyp: At least tell me you're happy for us.
+
+REF:  At least tell me you're happy for us.
+HYP:  At least tell me you're happy for us.
+EVAL:                                      
+SHFT:                                      
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 296:1
+Best Ref: No, no, of course I'm happy for you.
+Orig Hyp: No, of course I'm happy for you.
+
+REF:  No, no, of course I'm happy for you.
+HYP:  No, *** of course I'm happy for you.
+EVAL:     D                               
+SHFT:                                     
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 297:1
+Best Ref: But… can I get you a coffee, a cup of tea?
+Orig Hyp: Can I get you a cup of coffee or tea?
+
+REF:  But… can I get you a   coffee, a    cup of   tea?
+HYP:  ****** Can I get you a @ coffee  or [ cup of ] tea?
+EVAL: D      S                 S       S                 
+SHFT:                        1            1        1     
+TER Score:  45.45 (  5.0/ 11.0)
+
+Shift [cup, of] 2 words right
+ REF:  But… can I get you a   coffee, a    cup of   tea?
+ HYP:  ****** Can I get you a @ coffee  or [ cup of ] tea?
+
+
+
+Sentence ID: 298:1
+Best Ref: No, no, really, thank you.
+Orig Hyp: No, I'm really fine, thanks.
+
+REF:  No, no, really, thank you.   
+HYP:  No, I'm really  fine, thanks.
+EVAL:     S   S       S     S      
+SHFT:                              
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 299:1
+Best Ref: It was just a little pass.
+Orig Hyp: I just wanted to stop by.
+
+REF:  It   was      just   a  little pass.
+HYP:  I  @ wanted [ just ] to stop   by.  
+EVAL: S    S               S  S      S    
+SHFT:    1        1      1                
+TER Score: 100.00 (  6.0/  6.0)
+
+Shift [just] 1 words right
+ REF:  It   was      just   a  little pass.
+ HYP:  I  @ wanted [ just ] to stop   by.  
+
+
+
+Sentence ID: 300:1
+Best Ref: I'll leave you
+Orig Hyp: I'll let you get to
+
+REF:  I'll leave you *** **
+HYP:  I'll let   you get to
+EVAL:      S         I   I 
+SHFT:                      
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 301:1
+Best Ref: with everything you have to do.
+Orig Hyp: everything you have to do.
+
+REF:  with everything you have to do.
+HYP:  **** everything you have to do.
+EVAL: D                              
+SHFT:                                
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 302:1
+Best Ref: Make sure it's okay.
+Orig Hyp: Take care
+
+REF:  Make sure it's okay.
+HYP:  **** **** Take care 
+EVAL: D    D    S    S    
+SHFT:                     
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 303:1
+Best Ref: Thank you.
+Orig Hyp: Thank you.
+
+REF:  Thank you.
+HYP:  Thank you.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 304:1
+Best Ref: You, too.
+Orig Hyp: You too.
+
+REF:  You, too.
+HYP:  You  too.
+EVAL: S        
+SHFT:          
+TER Score:  50.00 (  1.0/  2.0)
+
+
+
+Sentence ID: 305:1
+Best Ref: Peter, Peter's never going to be happy
+Orig Hyp: Pedro... Pedro's never going to be happy
+
+REF:  Peter,   Peter's never going to be happy
+HYP:  Pedro... Pedro's never going to be happy
+EVAL: S        S                              
+SHFT:                                         
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 306:1
+Best Ref: with this one
+Orig Hyp: with that woman,
+
+REF:  with this one   
+HYP:  with that woman,
+EVAL:      S    S     
+SHFT:                 
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 307:1
+Best Ref: even if I propose to him.
+Orig Hyp: no matter how hard he tries.
+
+REF:  even if     I   propose to him.  
+HYP:  no   matter how hard    he tries.
+EVAL: S    S      S   S       S  S     
+SHFT:                                  
+TER Score: 100.00 (  6.0/  6.0)
+
+
+
+Sentence ID: 308:1
+Best Ref: So what? Aren't you going to eat?
+Orig Hyp: And? Aren't you going to eat lunch?
+
+REF:  So what? Aren't you going to *** eat?  
+HYP:  ** And?  Aren't you going to eat lunch?
+EVAL: D  S                         I   S     
+SHFT:                                        
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 309:1
+Best Ref: I ate with Gina early.
+Orig Hyp: I ate early with Gina.
+
+REF:  I ate   with   Gina    early.
+HYP:  I ate [ with ] early @ Gina. 
+EVAL:                S       S     
+SHFT:       1      1       1       
+TER Score:  60.00 (  3.0/  5.0)
+
+Shift [with] 1 words left
+ REF:  I ate   with   Gina    early.
+ HYP:  I ate [ with ] early @ Gina. 
+
+
+
+Sentence ID: 310:1
+Best Ref: You don't go out?
+Orig Hyp: Aren't you going out?
+
+REF:  You    don't go    out?
+HYP:  Aren't you   going out?
+EVAL: S      S     S         
+SHFT:                        
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 311:1
+Best Ref: No, I brought my food.
+Orig Hyp: No, I brought my own lunch.
+
+REF:  No, I brought my *** food. 
+HYP:  No, I brought my own lunch.
+EVAL:                  I   S     
+SHFT:                            
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 312:1
+Best Ref: Yeah.
+Orig Hyp: Yes.
+
+REF:  Yeah.
+HYP:  Yes. 
+EVAL: S    
+SHFT:      
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 313:1
+Best Ref: What, you always try the car tomorrow?
+Orig Hyp: Are you going to try the car tomorrow?
+
+REF:  What, you ***** always try the car tomorrow?
+HYP:  Are   you going to     try the car tomorrow?
+EVAL: S         I     S                           
+SHFT:                                             
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 314:1
+Best Ref: I have to.
+Orig Hyp: I have to.
+
+REF:  I have to.
+HYP:  I have to.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 315:1
+Best Ref: I'd love to go with you.
+Orig Hyp: I'd love to go with you.
+
+REF:  I'd love to go with you.
+HYP:  I'd love to go with you.
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 316:1
+Best Ref: With the adjustments you made to the machine,
+Orig Hyp: With the adjustments you made,
+
+REF:  With the adjustments you made to the machine,
+HYP:  With the adjustments you **** ** *** made,   
+EVAL:                          D    D  D   S       
+SHFT:                                              
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 317:1
+Best Ref: it must have a little bit of a start, right?
+Orig Hyp: it must be powerful, right?
+
+REF:  it must have a little bit of a  start,    right?
+HYP:  it must **** * ****** *** ** be powerful, right?
+EVAL:         D    D D      D   D  S  S               
+SHFT:                                                 
+TER Score:  70.00 (  7.0/ 10.0)
+
+
+
+Sentence ID: 318:1
+Best Ref: Then tell Nelson to give you a chance.
+Orig Hyp: Ask Nelson to give you a chance.
+
+REF:  Then tell Nelson to give you a chance.
+HYP:  **** Ask  Nelson to give you a chance.
+EVAL: D    S                                
+SHFT:                                       
+TER Score:  25.00 (  2.0/  8.0)
+
+
+
+Sentence ID: 319:1
+Best Ref: I don't have a grudge, huh?
+Orig Hyp: I don't mind, really.
+
+REF:  I don't have a grudge, huh?   
+HYP:  I don't **** * mind,   really.
+EVAL:         D    D S       S      
+SHFT:                               
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 320:1
+Best Ref: No, man, you even think.
+Orig Hyp: No, no way.
+
+REF:  No, man, you even think.
+HYP:  No, **** *** no   way.  
+EVAL:     D    D   S    S     
+SHFT:                         
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 321:1
+Best Ref: I've had my swab loaded.
+Orig Hyp: I've got tons of work.
+
+REF:  I've had my   swab loaded.
+HYP:  I've got tons of   work.  
+EVAL:      S   S    S    S      
+SHFT:                           
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 322:1
+Best Ref: Anyway, I'm gonna stick around today to get her out.
+Orig Hyp: I might even stay late today to get ahead.
+
+REF:  Anyway, I'm   gonna stick around today to get her out.  
+HYP:  I       might even  stay  late   today to get *** ahead.
+EVAL: S       S     S     S     S                   D   S     
+SHFT:                                                         
+TER Score:  70.00 (  7.0/ 10.0)
+
+
+
+Sentence ID: 323:1
+Best Ref: But, well, I'm gonna have a taquito.
+Orig Hyp: I'm going to go eat my tacos.
+
+REF:    But,  well,   I'm   gonna have a  taquito.
+HYP:  @ going to    [ I'm ] go    eat  my tacos.  
+EVAL:   S     S             S     S    S  S       
+SHFT: 1             1     1                       
+TER Score: 100.00 (  7.0/  7.0)
+
+Shift [I'm] 2 words right
+ REF:    But,  well,   I'm   gonna have a  taquito.
+ HYP:  @ going to    [ I'm ] go    eat  my tacos.  
+
+
+
+Sentence ID: 324:1
+Best Ref: Bon appetit.
+Orig Hyp: Enjoy.
+
+REF:  Bon appetit.
+HYP:  *** Enjoy.  
+EVAL: D   S       
+SHFT:             
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 325:1
+Best Ref: Dude, how'd it go with the doctor?
+Orig Hyp: Hey, how'd it go with the doctor?
+
+REF:  Dude, how'd it go with the doctor?
+HYP:  Hey,  how'd it go with the doctor?
+EVAL: S                                 
+SHFT:                                   
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 326:1
+Best Ref: Huh?
+Orig Hyp: Huh?
+
+REF:  Huh?
+HYP:  Huh?
+EVAL:     
+SHFT:     
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 327:1
+Best Ref: That what Dr. Araiza told you.
+Orig Hyp: What did Doctor Araiza tell you?
+
+REF:  That what Dr.    Araiza told you.
+HYP:  What did  Doctor Araiza tell you?
+EVAL: S    S    S             S    S   
+SHFT:                                  
+TER Score:  83.33 (  5.0/  6.0)
+
+
+
+Sentence ID: 328:1
+Best Ref: Uh, yeah, yeah, the doctor.
+Orig Hyp: Right, the doctor.
+
+REF:  Uh, yeah, yeah,  the doctor.
+HYP:  *** ***** Right, the doctor.
+EVAL: D   D     S                 
+SHFT:                             
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 329:1
+Best Ref: What, what's wrong with you?
+Orig Hyp: What's wrong?
+
+REF:  What, what's wrong with   you?  
+HYP:  ***** ****** ***** What's wrong?
+EVAL: D     D      D     S      S     
+SHFT:                                 
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 330:1
+Best Ref: I interrupted you, didn't I?
+Orig Hyp: You're busy, right?
+
+REF:  I interrupted you,   didn't I?    
+HYP:  * *********** You're busy,  right?
+EVAL: D D           S      S      S     
+SHFT:                                   
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 331:1
+Best Ref: No.
+Orig Hyp: No.
+
+REF:  No.
+HYP:  No.
+EVAL:    
+SHFT:    
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 332:1
+Best Ref: Well, yeah.
+Orig Hyp: Well, yes.
+
+REF:  Well, yeah.
+HYP:  Well, yes. 
+EVAL:       S    
+SHFT:            
+TER Score:  50.00 (  1.0/  2.0)
+
+
+
+Sentence ID: 333:1
+Best Ref: I'm with a car
+Orig Hyp: I'm working on a car
+
+REF:  I'm ******* with a car
+HYP:  I'm working on   a car
+EVAL:     I       S         
+SHFT:                       
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 334:1
+Best Ref: that I don't know what it's got.
+Orig Hyp: and I don't know what's wrong with it.
+
+REF:  that I don't know ****** what  it's got.
+HYP:  and  I don't know what's wrong with it. 
+EVAL: S                 I      S     S    S   
+SHFT:                                         
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 335:1
+Best Ref: Just tell me how it went,
+Orig Hyp: Just tell me how it went
+
+REF:  Just tell me how it went,
+HYP:  Just tell me how it went 
+EVAL:                     S    
+SHFT:                          
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 336:1
+Best Ref: and I'm not interrupting you anymore.
+Orig Hyp: and I'll leave you alone.
+
+REF:  and I'm not  interrupting you anymore.
+HYP:  and *** I'll leave        you alone.  
+EVAL:     D   S    S                S       
+SHFT:                                       
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 337:1
+Best Ref: Uh, good, good, good.
+Orig Hyp: Good.
+
+REF:  Uh, good, good, good.
+HYP:  *** ***** ***** Good.
+EVAL: D   D     D     S    
+SHFT:                      
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 338:1
+Best Ref: All right, better than I expected, yeah.
+Orig Hyp: Great, better than I expected. Yes.
+
+REF:  All right, better than I expected, yeah.
+HYP:  *** Great, better than I expected. Yes. 
+EVAL: D   S                    S         S    
+SHFT:                                         
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 339:1
+Best Ref: Oh, good, man,
+Orig Hyp: That's great.
+
+REF:  Oh, good,  man,  
+HYP:  *** That's great.
+EVAL: D   S      S     
+SHFT:                  
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 340:1
+Best Ref: you don't know how glad I am.
+Orig Hyp: You don't know how happy that makes me.
+
+REF:  you don't know how ***** glad I     am.
+HYP:  You don't know how happy that makes me.
+EVAL: S                  I     S    S     S  
+SHFT:                                        
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 341:1
+Best Ref: Well, I'll leave you,
+Orig Hyp: I'll let you go.
+
+REF:    Well,   I'll   leave you,
+HYP:  @ let   [ I'll ] you   go. 
+EVAL:   S              S     S   
+SHFT: 1       1      1           
+TER Score: 100.00 (  4.0/  4.0)
+
+Shift [I'll] 1 words right
+ REF:    Well,   I'll   leave you,
+ HYP:  @ let   [ I'll ] you   go. 
+
+
+
+Sentence ID: 342:1
+Best Ref: and get on with your car, huh?
+Orig Hyp: Keep working on your car, okay?
+
+REF:  and  get     on with your car, huh? 
+HYP:  Keep working on **** your car, okay?
+EVAL: S    S          D              S    
+SHFT:                                     
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 343:1
+Best Ref: It's, it's good.
+Orig Hyp: Okay.
+
+REF:  It's, it's good.
+HYP:  ***** **** Okay.
+EVAL: D     D    S    
+SHFT:                 
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 344:1
+Best Ref: What's going on?
+Orig Hyp: What's going on?
+
+REF:  What's going on?
+HYP:  What's going on?
+EVAL:                 
+SHFT:                 
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 345:1
+Best Ref: I can't get the car up to the ramp.
+Orig Hyp: I can't get the car up on the ramp.
+
+REF:  I can't get the car up to the ramp.
+HYP:  I can't get the car up on the ramp.
+EVAL:                        S           
+SHFT:                                    
+TER Score:  11.11 (  1.0/  9.0)
+
+
+
+Sentence ID: 346:1
+Best Ref: It makes a really weird noise,
+Orig Hyp: It's making a weird noise.
+
+REF:  It   makes  a really weird noise,
+HYP:  It's making a ****** weird noise.
+EVAL: S    S        D            S     
+SHFT:                                  
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 347:1
+Best Ref: and that's why I worked with the towers.
+Orig Hyp: That's why I worked with the towers.
+
+REF:  and that's why I worked with the towers.
+HYP:  *** That's why I worked with the towers.
+EVAL: D   S                                   
+SHFT:                                         
+TER Score:  25.00 (  2.0/  8.0)
+
+
+
+Sentence ID: 348:1
+Best Ref: I'll talk to the technician tomorrow.
+Orig Hyp: I'll call the technician tomorrow.
+
+REF:  I'll talk to   the technician tomorrow.
+HYP:  I'll **** call the technician tomorrow.
+EVAL:      D    S                            
+SHFT:                                        
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 349:1
+Best Ref: Yeah.
+Orig Hyp: Yes.
+
+REF:  Yeah.
+HYP:  Yes. 
+EVAL: S    
+SHFT:      
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 350:1
+Best Ref: What time are you gonna try the car?
+Orig Hyp: What time are you going to try the car?
+
+REF:  What time are you ***** gonna try the car?
+HYP:  What time are you going to    try the car?
+EVAL:                   I     S                 
+SHFT:                                           
+TER Score:  25.00 (  2.0/  8.0)
+
+
+
+Sentence ID: 351:1
+Best Ref: No, as soon as he gets here.
+Orig Hyp: Well, as soon as he gets here.
+
+REF:  No,   as soon as he gets here.
+HYP:  Well, as soon as he gets here.
+EVAL: S                             
+SHFT:                               
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 352:1
+Best Ref: Well, let's go, then.
+Orig Hyp: Well, let's go, then.
+
+REF:  Well, let's go, then.
+HYP:  Well, let's go, then.
+EVAL:                      
+SHFT:                      
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 353:1
+Best Ref: Jimmy, lock it up when you get out.
+Orig Hyp: Jimmy, lock things up when you leave.
+
+REF:  Jimmy, lock it     up when you get out.  
+HYP:  Jimmy, lock things up when you *** leave.
+EVAL:             S                  D   S     
+SHFT:                                          
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 354:1
+Best Ref: Yeah, boss, don't worry.
+Orig Hyp: Yes, boss. Don't worry.
+
+REF:  Yeah, boss, don't worry.
+HYP:  Yes,  boss. Don't worry.
+EVAL: S     S     S           
+SHFT:                         
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 355:1
+Best Ref: Thank you.
+Orig Hyp: Thank you.
+
+REF:  Thank you.
+HYP:  Thank you.
+EVAL:           
+SHFT:           
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 356:1
+Best Ref: See you tomorrow.
+Orig Hyp: See you tomorrow.
+
+REF:  See you tomorrow.
+HYP:  See you tomorrow.
+EVAL:                  
+SHFT:                  
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 357:1
+Best Ref: Let it be mild.
+Orig Hyp: Have a good one.
+
+REF:  Let  it be   mild.
+HYP:  Have a  good one. 
+EVAL: S    S  S    S    
+SHFT:                   
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 358:1
+Best Ref: Come on, get some rest.
+Orig Hyp: Okay, get some rest.
+
+REF:  Come on,   get some rest.
+HYP:  **** Okay, get some rest.
+EVAL: D    S                   
+SHFT:                          
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 359:1
+Best Ref: Thanks, anyway.
+Orig Hyp: Thanks, you too.
+
+REF:  Thanks, *** anyway.
+HYP:  Thanks, you too.   
+EVAL:         I   S      
+SHFT:                    
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 360:1
+Best Ref: Good night, Ma.
+Orig Hyp: Good night, Ma.
+
+REF:  Good night, Ma.
+HYP:  Good night, Ma.
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 361:1
+Best Ref: Good night, son.
+Orig Hyp: Good night, son.
+
+REF:  Good night, son.
+HYP:  Good night, son.
+EVAL:                 
+SHFT:                 
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 362:1
+Best Ref: I did sync, are you hungry?
+Orig Hyp: I made<i> sincronizadas. </i>Are you hungry?
+
+REF:  I did     sync,          are     you hungry?
+HYP:  I made<i> sincronizadas. </i>Are you hungry?
+EVAL:   S       S              S                  
+SHFT:                                             
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 363:1
+Best Ref: Oh, yes, actually, yes.
+Orig Hyp: Yes, actually, I am.
+
+REF:  Oh,    yes,   actually,   yes.
+HYP:  Yes, @ I    [ actually, ] am. 
+EVAL: S      S                  S   
+SHFT:      1      1           1     
+TER Score: 100.00 (  4.0/  4.0)
+
+Shift [actually,] 1 words right
+ REF:  Oh,    yes,   actually,   yes.
+ HYP:  Yes, @ I    [ actually, ] am. 
+
+
+
+Sentence ID: 364:1
+Best Ref: Sit down.
+Orig Hyp: Sit down.
+
+REF:  Sit down.
+HYP:  Sit down.
+EVAL:          
+SHFT:          
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 365:1
+Best Ref: Where's my dad?
+Orig Hyp: Where's my dad?
+
+REF:  Where's my dad?
+HYP:  Where's my dad?
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 366:1
+Best Ref: He hasn't arrived.
+Orig Hyp: He's not home yet.
+
+REF:  **** He  hasn't arrived.
+HYP:  He's not home   yet.    
+EVAL: I    S   S      S       
+SHFT:                         
+TER Score: 133.33 (  4.0/  3.0)
+
+
+
+Sentence ID: 367:1
+Best Ref: In the afternoon, I talked to him, he told
+Orig Hyp: I talked to him this afternoon, he told me
+
+REF:  In the   afternoon,   I talked to *** him,   he told **
+HYP:  ** *** [ afternoon, ] I talked to him this @ he told me
+EVAL: D  D                              I   S              I 
+SHFT:        1            1                      1           
+TER Score:  66.67 (  6.0/  9.0)
+
+Shift [afternoon,] 5 words left
+ REF:  In the   afternoon,   I talked to *** him,   he told **
+ HYP:  ** *** [ afternoon, ] I talked to him this @ he told me
+
+
+
+Sentence ID: 368:1
+Best Ref: me he was bringing a problem with a car.
+Orig Hyp: he was having a problem with a car.
+
+REF:  me he was bringing a problem with a car.
+HYP:  ** he was having   a problem with a car.
+EVAL: D         S                             
+SHFT:                                         
+TER Score:  22.22 (  2.0/  9.0)
+
+
+
+Sentence ID: 369:1
+Best Ref: Son, I want to talk to you, Peter.
+Orig Hyp: Son, I want to talk to you about Pedro.
+
+REF:  Son, I want to talk to *** you,  Peter.
+HYP:  Son, I want to talk to you about Pedro.
+EVAL:                        I   S     S     
+SHFT:                                        
+TER Score:  37.50 (  3.0/  8.0)
+
+
+
+Sentence ID: 370:1
+Best Ref: What about him?
+Orig Hyp: What about him?
+
+REF:  What about him?
+HYP:  What about him?
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 371:1
+Best Ref: Well, he told me that Ernesto told her
+Orig Hyp: Well, he told me that Ernesto told him
+
+REF:  Well, he told me that Ernesto told her
+HYP:  Well, he told me that Ernesto told him
+EVAL:                                    S  
+SHFT:                                       
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 372:1
+Best Ref: that if she didn't marry Gina,
+Orig Hyp: that if he didn't marry Gina,
+
+REF:  that if she didn't marry Gina,
+HYP:  that if he  didn't marry Gina,
+EVAL:         S                     
+SHFT:                               
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 373:1
+Best Ref: Elena would never see Nico again.
+Orig Hyp: Elena would never see Nico again.
+
+REF:  Elena would never see Nico again.
+HYP:  Elena would never see Nico again.
+EVAL:                                  
+SHFT:                                  
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 374:1
+Best Ref: And he also told me that
+Orig Hyp: And he also told me that
+
+REF:  And he also told me that
+HYP:  And he also told me that
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 375:1
+Best Ref: the only one who knew it was you.
+Orig Hyp: the only one who knew about it was you.
+
+REF:  the only one who knew ***** it was you.
+HYP:  the only one who knew about it was you.
+EVAL:                       I                
+SHFT:                                        
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 376:1
+Best Ref: Why did you shut up?
+Orig Hyp: Why didn't you say something?
+
+REF:  Why did    you shut up?       
+HYP:  Why didn't you say  something?
+EVAL:     S          S    S         
+SHFT:                               
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 377:1
+Best Ref: We could have done something.
+Orig Hyp: We could have done something.
+
+REF:  We could have done something.
+HYP:  We could have done something.
+EVAL:                              
+SHFT:                              
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 378:1
+Best Ref: There was nothing to do, Ma.
+Orig Hyp: There was nothing to do, Ma.
+
+REF:  There was nothing to do, Ma.
+HYP:  There was nothing to do, Ma.
+EVAL:                             
+SHFT:                             
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 379:1
+Best Ref: Ernesto had it all figured out,
+Orig Hyp: Ernesto had it all figured out,
+
+REF:  Ernesto had it all figured out,
+HYP:  Ernesto had it all figured out,
+EVAL:                                
+SHFT:                                
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 380:1
+Best Ref: and if Peter hadn't married Gina,
+Orig Hyp: and if Pedro hadn't married Gina,
+
+REF:  and if Peter hadn't married Gina,
+HYP:  and if Pedro hadn't married Gina,
+EVAL:        S                         
+SHFT:                                  
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 381:1
+Best Ref: Elena loses her son.
+Orig Hyp: Elena would've lost her son.
+
+REF:  Elena ******** loses her son.
+HYP:  Elena would've lost  her son.
+EVAL:       I        S             
+SHFT:                              
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 382:1
+Best Ref: If I didn't say anything,
+Orig Hyp: I didn't say anything
+
+REF:  If I didn't say anything,
+HYP:  ** I didn't say anything 
+EVAL: D               S        
+SHFT:                          
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 383:1
+Best Ref: it was because Peter asked me to.
+Orig Hyp: because Pedro asked me not to.
+
+REF:  it was because Peter asked me *** to.
+HYP:  ** *** because Pedro asked me not to.
+EVAL: D  D           S              I      
+SHFT:                                      
+TER Score:  57.14 (  4.0/  7.0)
+
+
+
+Sentence ID: 384:1
+Best Ref: There are secrets that damage more
+Orig Hyp: Some secrets are more harmful
+
+REF:  There   are   secrets that   damage      more  
+HYP:  Some  [ are ] secrets **** @ harmful @ [ more ]
+EVAL: S                     D      S                 
+SHFT:       1     1              2         1 2      2
+TER Score:  83.33 (  5.0/  6.0)
+
+Shift [are] 1 words left
+ REF:  There   are   secrets that   damage more   
+ HYP:  Some  [ are ] secrets **** @ more   harmful
+
+Shift [more] 1 words right
+ REF:  There are secrets that   damage    more  
+ HYP:  Some  are secrets **** @ harmful [ more ]
+
+
+
+Sentence ID: 385:1
+Best Ref: if you keep it than you say it.
+Orig Hyp: if you keep them than if you tell them.
+
+REF:  if you keep it   than ** you say  it.  
+HYP:  if you keep them than if you tell them.
+EVAL:             S         I      S    S    
+SHFT:                                        
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 386:1
+Best Ref: You're not thinking about telling Elena.
+Orig Hyp: Are you thinking about telling Elena?
+
+REF:  You're not thinking about telling Elena.
+HYP:  Are    you thinking about telling Elena?
+EVAL: S      S                          S     
+SHFT:                                         
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 387:1
+Best Ref: I don't know, son.
+Orig Hyp: I don't know, son.
+
+REF:  I don't know, son.
+HYP:  I don't know, son.
+EVAL:                   
+SHFT:                   
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 388:1
+Best Ref: At this point, even if she knows it,
+Orig Hyp: At this point,
+
+REF:  At this point, even if she knows it,
+HYP:  At this point, **** ** *** ***** ***
+EVAL:                D    D  D   D     D  
+SHFT:                                     
+TER Score:  62.50 (  5.0/  8.0)
+
+
+
+Sentence ID: 389:1
+Best Ref: she's not gonna do anything.
+Orig Hyp: her finding out wouldn't fix anything.
+
+REF:  *** she's   not gonna    do  anything.
+HYP:  her finding out wouldn't fix anything.
+EVAL: I   S       S   S        S            
+SHFT:                                       
+TER Score: 100.00 (  5.0/  5.0)
+
+
+
+Sentence ID: 390:1
+Best Ref: It's just gonna destroy Gina's life.
+Orig Hyp: It'll just destroy Gina's life.
+
+REF:  It's  just gonna destroy Gina's life.
+HYP:  It'll just ***** destroy Gina's life.
+EVAL: S          D                         
+SHFT:                                      
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 391:1
+Best Ref: You know he's not a saint of my devotion,
+Orig Hyp: You know she's not my cup of tea,
+
+REF:  You know he's  not a   saint of   my   devotion,
+HYP:  You know she's not * @ cup   of [ my ] tea,     
+EVAL:          S         D   S               S        
+SHFT:                      1          1    1          
+TER Score:  55.56 (  5.0/  9.0)
+
+Shift [my] 2 words right
+ REF:  You know he's  not a   saint of   my   devotion,
+ HYP:  You know she's not * @ cup   of [ my ] tea,     
+
+
+
+Sentence ID: 392:1
+Best Ref: but, well, I don't want to hurt him either.
+Orig Hyp: but, well, I don't want to hurt her either.
+
+REF:  but, well, I don't want to hurt him either.
+HYP:  but, well, I don't want to hurt her either.
+EVAL:                                 S          
+SHFT:                                            
+TER Score:  11.11 (  1.0/  9.0)
+
+
+
+Sentence ID: 393:1
+Best Ref: Hey, isn't Gina aware of all this?
+Orig Hyp: Hey, do you think Gina knows about all this?
+
+REF:  Hey, ** *** isn't Gina aware of    all this?
+HYP:  Hey, do you think Gina knows about all this?
+EVAL:      I  I   S          S     S              
+SHFT:                                             
+TER Score:  71.43 (  5.0/  7.0)
+
+
+
+Sentence ID: 394:1
+Best Ref: Now, why did you agree to marry Peter
+Orig Hyp: Listen, why would she agree to marry Pedro
+
+REF:  Now,    why did   you agree to marry Peter
+HYP:  Listen, why would she agree to marry Pedro
+EVAL: S           S     S                  S    
+SHFT:                                           
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 395:1
+Best Ref: so suddenly knowing that he loves Elena?
+Orig Hyp: so suddenly when she knows that he loves Elena?
+
+REF:  so suddenly **** *** knowing that he loves Elena?
+HYP:  so suddenly when she knows   that he loves Elena?
+EVAL:             I    I   S                           
+SHFT:                                                  
+TER Score:  42.86 (  3.0/  7.0)
+
+
+
+Sentence ID: 396:1
+Best Ref: That would mean
+Orig Hyp: That would mean
+
+REF:  That would mean
+HYP:  That would mean
+EVAL:                
+SHFT:                
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 397:1
+Best Ref: that Gina and Ernesto are colluding.
+Orig Hyp: that Gina and Ernesto are colluding.
+
+REF:  that Gina and Ernesto are colluding.
+HYP:  that Gina and Ernesto are colluding.
+EVAL:                                     
+SHFT:                                     
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 398:1
+Best Ref: And I don't even know
+Orig Hyp: And I don't even know
+
+REF:  And I don't even know
+HYP:  And I don't even know
+EVAL:                      
+SHFT:                      
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 399:1
+Best Ref: if you know each other, Ma.
+Orig Hyp: if they know each other, Ma.
+
+REF:  if you  know each other, Ma.
+HYP:  if they know each other, Ma.
+EVAL:    S                        
+SHFT:                             
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 400:1
+Best Ref: Now you've gone but even the kitchen.
+Orig Hyp: You've gone way too far now.
+
+REF:  Now you've gone but even the kitchen.
+HYP:  *** You've gone way too  far now.    
+EVAL: D   S           S   S    S   S       
+SHFT:                                      
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 401:1
+Best Ref: Something tells me I'm not so wrong.
+Orig Hyp: Something tells me I'm not so wrong.
+
+REF:  Something tells me I'm not so wrong.
+HYP:  Something tells me I'm not so wrong.
+EVAL:                                     
+SHFT:                                     
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 402:1
+Best Ref: Something like what?
+Orig Hyp: Something like what?
+
+REF:  Something like what?
+HYP:  Something like what?
+EVAL:                     
+SHFT:                     
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 403:1
+Best Ref: I don't know, it's like that, pure intuition.
+Orig Hyp: I don't know, my intuition.
+
+REF:  I don't know, it's like that, pure intuition.
+HYP:  I don't know, **** **** ***** my   intuition.
+EVAL:               D    D    D     S              
+SHFT:                                              
+TER Score:  50.00 (  4.0/  8.0)
+
+
+
+Sentence ID: 404:1
+Best Ref: It's a shame, Ma,
+Orig Hyp: That too bad, Ma,
+
+REF:  It's a   shame, Ma,
+HYP:  That too bad,   Ma,
+EVAL: S    S   S         
+SHFT:                    
+TER Score:  75.00 (  3.0/  4.0)
+
+
+
+Sentence ID: 405:1
+Best Ref: that doesn't prove anything.
+Orig Hyp: because that doesn't prove anything.
+
+REF:  ******* that doesn't prove anything.
+HYP:  because that doesn't prove anything.
+EVAL: I                                   
+SHFT:                                     
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 406:1
+Best Ref: Mi amor,
+Orig Hyp: Honey,
+
+REF:  Mi amor, 
+HYP:  ** Honey,
+EVAL: D  S     
+SHFT:          
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 407:1
+Best Ref: I've been thinking a lot
+Orig Hyp: I've been thinking a lot
+
+REF:  I've been thinking a lot
+HYP:  I've been thinking a lot
+EVAL:                         
+SHFT:                         
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 408:1
+Best Ref: about what we talked about.
+Orig Hyp: about what we talked about.
+
+REF:  about what we talked about.
+HYP:  about what we talked about.
+EVAL:                            
+SHFT:                            
+TER Score:   0.00 (  0.0/  5.0)
+
+
+
+Sentence ID: 409:1
+Best Ref: It hurts, it hurts so much
+Orig Hyp: It hurts me.
+
+REF:  It hurts, it hurts so much
+HYP:  It ****** ** hurts ** me. 
+EVAL:    D      D        D  S   
+SHFT:                           
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 410:1
+Best Ref: to see you so sad.
+Orig Hyp: It really hurts me to see you so sad.
+
+REF:  ** ****** ***** ** to see you so sad.
+HYP:  It really hurts me to see you so sad.
+EVAL: I  I      I     I                    
+SHFT:                                      
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 411:1
+Best Ref: That's how I feel.
+Orig Hyp: That's how I feel.
+
+REF:  That's how I feel.
+HYP:  That's how I feel.
+EVAL:                   
+SHFT:                   
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 412:1
+Best Ref: You don't know how I want to fix it.
+Orig Hyp: I'd really like to fix things.
+
+REF:  You don't know how I      want to fix it.    
+HYP:  *** ***** **** I'd really like to fix things.
+EVAL: D   D     D    S   S      S           S      
+SHFT:                                              
+TER Score:  77.78 (  7.0/  9.0)
+
+
+
+Sentence ID: 413:1
+Best Ref: And I've given it a thousand laps
+Orig Hyp: I've thought about our situation
+
+REF:  And I've given it      a     thousand laps     
+HYP:  *** I've ***** thought about our      situation
+EVAL: D        D     S       S     S        S        
+SHFT:                                                
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 414:1
+Best Ref: into the situation and…
+Orig Hyp: a thousand times over.
+
+REF:  into the      situation and…
+HYP:  a    thousand times     over. 
+EVAL: S    S        S         S     
+SHFT:                               
+TER Score: 100.00 (  4.0/  4.0)
+
+
+
+Sentence ID: 415:1
+Best Ref: And I want to find a way out.
+Orig Hyp: And I want to find a solution.
+
+REF:  And I want to find a way out.     
+HYP:  And I want to find a *** solution.
+EVAL:                      D   S        
+SHFT:                                   
+TER Score:  25.00 (  2.0/  8.0)
+
+
+
+Sentence ID: 416:1
+Best Ref: Did you find her?
+Orig Hyp: Did you find one?
+
+REF:  Did you find her?
+HYP:  Did you find one?
+EVAL:              S   
+SHFT:                  
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 417:1
+Best Ref: I think so, but…
+Orig Hyp: I think so, but...
+
+REF:  I think so, but…
+HYP:  I think so, but...
+EVAL:             S     
+SHFT:                   
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 418:1
+Best Ref: The truth is,
+Orig Hyp: The truth is,
+
+REF:  The truth is,
+HYP:  The truth is,
+EVAL:              
+SHFT:              
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 419:1
+Best Ref: it's gonna be a sacrifice to me.
+Orig Hyp: I have to make a huge sacrifice.
+
+REF:  it's gonna   be   a sacrifice   to   me.       
+HYP:  I    have  @ make a huge      [ to ] sacrifice.
+EVAL: S    S       S      S                S         
+SHFT:            1                  1    1           
+TER Score:  85.71 (  6.0/  7.0)
+
+Shift [to] 3 words right
+ REF:  it's gonna   be   a sacrifice   to   me.       
+ HYP:  I    have  @ make a huge      [ to ] sacrifice.
+
+
+
+Sentence ID: 420:1
+Best Ref: But I don't see any other solution.
+Orig Hyp: But I don't see any other solution.
+
+REF:  But I don't see any other solution.
+HYP:  But I don't see any other solution.
+EVAL:                                    
+SHFT:                                    
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 421:1
+Best Ref: Your illusion of being a mother
+Orig Hyp: Your dream of being a mom
+
+REF:  Your illusion of being a mother
+HYP:  Your dream    of being a mom   
+EVAL:      S                   S     
+SHFT:                                
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 422:1
+Best Ref: is what matters now, isn't it?
+Orig Hyp: is what matters now, right?
+
+REF:  is what matters now, isn't it?   
+HYP:  is what matters now, ***** right?
+EVAL:                      D     S     
+SHFT:                                  
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 423:1
+Best Ref: I have no doubt you'll be a wonderful mom.
+Orig Hyp: I have no doubt you'll be a wonderful mom.
+
+REF:  I have no doubt you'll be a wonderful mom.
+HYP:  I have no doubt you'll be a wonderful mom.
+EVAL:                                           
+SHFT:                                           
+TER Score:   0.00 (  0.0/  9.0)
+
+
+
+Sentence ID: 424:1
+Best Ref: I can imagine you giving
+Orig Hyp: I can see you giving
+
+REF:  I can imagine you giving
+HYP:  I can see     you giving
+EVAL:       S                 
+SHFT:                         
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 425:1
+Best Ref: all your love to that creature.
+Orig Hyp: all your love to that child.
+
+REF:  all your love to that creature.
+HYP:  all your love to that child.   
+EVAL:                       S        
+SHFT:                                
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 426:1
+Best Ref: That's why I have to put aside
+Orig Hyp: That's why I have to put aside
+
+REF:  That's why I have to put aside
+HYP:  That's why I have to put aside
+EVAL:                               
+SHFT:                               
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 427:1
+Best Ref: my selfishness and think only of you.
+Orig Hyp: my selfishness and think only of you.
+
+REF:  my selfishness and think only of you.
+HYP:  my selfishness and think only of you.
+EVAL:                                      
+SHFT:                                      
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 428:1
+Best Ref: You mean
+Orig Hyp: Are you saying
+
+REF:  *** You mean  
+HYP:  Are you saying
+EVAL: I   S   S     
+SHFT:               
+TER Score: 150.00 (  3.0/  2.0)
+
+
+
+Sentence ID: 429:1
+Best Ref: we're gonna have a kid?
+Orig Hyp: we're going to have a child?
+
+REF:  we're ***** gonna have a kid?  
+HYP:  we're going to    have a child?
+EVAL:       I     S            S     
+SHFT:                                
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 430:1
+Best Ref: Monica,
+Orig Hyp: Mónica,
+
+REF:  Monica, 
+HYP:  Mónica,
+EVAL: S       
+SHFT:         
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 431:1
+Best Ref: I love you more than my life.
+Orig Hyp: I love you more than my own life.
+
+REF:  I love you more than my *** life.
+HYP:  I love you more than my own life.
+EVAL:                         I        
+SHFT:                                  
+TER Score:  14.29 (  1.0/  7.0)
+
+
+
+Sentence ID: 432:1
+Best Ref: And precisely because of that great love
+Orig Hyp: And precisely because of that great love
+
+REF:  And precisely because of that great love
+HYP:  And precisely because of that great love
+EVAL:                                         
+SHFT:                                         
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 433:1
+Best Ref: 
+Orig Hyp: that I feel for you,
+
+REF:  **** * **** *** ****
+HYP:  that I feel for you,
+EVAL: I    I I    I   I   
+SHFT:                     
+TER Score: 100.00 (  5.0/  0.0)
+
+
+Sentence ID: 434:1
+Best Ref: that I feel for you, I'm willing to…
+Orig Hyp: I'm willing to...
+
+REF:  that I feel for you, I'm willing to…
+HYP:  **** * **** *** **** I'm willing to...
+EVAL: D    D D    D   D                S    
+SHFT:                                       
+TER Score:  75.00 (  6.0/  8.0)
+
+
+
+Sentence ID: 435:1
+Best Ref: let you go free,
+Orig Hyp: let you be free
+
+REF:  let you go free,
+HYP:  let you be free 
+EVAL:         S  S    
+SHFT:                 
+TER Score:  50.00 (  2.0/  4.0)
+
+
+
+Sentence ID: 436:1
+Best Ref: so you can find someone
+Orig Hyp: to find someone else
+
+REF:  so you can find someone ****
+HYP:  ** *** to  find someone else
+EVAL: D  D   S                I   
+SHFT:                             
+TER Score:  80.00 (  4.0/  5.0)
+
+
+
+Sentence ID: 437:1
+Best Ref: you can fulfill your wish with.
+Orig Hyp: to help you make your dreams come true.
+
+REF:  ** **** you can    fulfill   your   wish with.
+HYP:  to help you make @ dreams  [ your ] come true.
+EVAL: I  I        S      S                S    S    
+SHFT:                  1         1      1           
+TER Score: 116.67 (  7.0/  6.0)
+
+Shift [your] 1 words right
+ REF:  ** **** you can    fulfill   your   wish with.
+ HYP:  to help you make @ dreams  [ your ] come true.
+
+
+
+Sentence ID: 438:1
+Best Ref: Tell me something.
+Orig Hyp: Say something.
+
+REF:  Tell me  something.
+HYP:  **** Say something.
+EVAL: D    S             
+SHFT:                    
+TER Score:  66.67 (  2.0/  3.0)
+
+
+
+Sentence ID: 439:1
+Best Ref: What do you want me to say?
+Orig Hyp: What do you want me to say?
+
+REF:  What do you want me to say?
+HYP:  What do you want me to say?
+EVAL:                            
+SHFT:                            
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 440:1
+Best Ref: You surprise me.
+Orig Hyp: I'm surprised.
+
+REF:  You surprise me.       
+HYP:  *** I'm      surprised.
+EVAL: D   S        S         
+SHFT:                        
+TER Score: 100.00 (  3.0/  3.0)
+
+
+
+Sentence ID: 441:1
+Best Ref: I never imagined
+Orig Hyp: I never imagined
+
+REF:  I never imagined
+HYP:  I never imagined
+EVAL:                 
+SHFT:                 
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 442:1
+Best Ref: that was the way you loved.
+Orig Hyp: that was how you'd show love.
+
+REF:  that was the way   you  loved.
+HYP:  that was how you'd show love. 
+EVAL:          S   S     S    S     
+SHFT:                               
+TER Score:  66.67 (  4.0/  6.0)
+
+
+
+Sentence ID: 443:1
+Best Ref: I do love you.
+Orig Hyp: I do love you.
+
+REF:  I do love you.
+HYP:  I do love you.
+EVAL:               
+SHFT:               
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 444:1
+Best Ref: I love you, you never doubt it.
+Orig Hyp: I love you, never doubt that.
+
+REF:  I love you, you never doubt it.  
+HYP:  I love you, *** never doubt that.
+EVAL:             D               S    
+SHFT:                                  
+TER Score:  28.57 (  2.0/  7.0)
+
+
+
+Sentence ID: 445:1
+Best Ref: That's why I'm giving you freedom,
+Orig Hyp: That's why I'm giving you freedom.
+
+REF:  That's why I'm giving you freedom,
+HYP:  That's why I'm giving you freedom.
+EVAL:                           S       
+SHFT:                                   
+TER Score:  16.67 (  1.0/  6.0)
+
+
+
+Sentence ID: 446:1
+Best Ref: it's an act of love.
+Orig Hyp: It's an act of love.
+
+REF:  it's an act of love.
+HYP:  It's an act of love.
+EVAL: S                   
+SHFT:                     
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 447:1
+Best Ref: And you have no idea
+Orig Hyp: You have no idea how much it hurts me
+
+REF:  And you have no idea *** **** ** ***** **
+HYP:  *** You have no idea how much it hurts me
+EVAL: D   S                I   I    I  I     I 
+SHFT:                                          
+TER Score: 140.00 (  7.0/  5.0)
+
+
+
+Sentence ID: 448:1
+Best Ref: how much it hurts to sacrifice me.
+Orig Hyp: to make this sacrifice.
+
+REF:  how much it   hurts   to   sacrifice me.       
+HYP:  *** **** ** @ make  [ to ] this      sacrifice.
+EVAL: D   D    D    S            S         S         
+SHFT:             1       1    1                     
+TER Score: 100.00 (  7.0/  7.0)
+
+Shift [to] 1 words right
+ REF:  how much it   hurts   to   sacrifice me.       
+ HYP:  *** **** ** @ make  [ to ] this      sacrifice.
+
+
+
+Sentence ID: 449:1
+Best Ref: Well, thank you. That's nice.
+Orig Hyp: Well, thanks. That's so nice of you.
+
+REF:  Well, *******   thank   you.   ****   That's   nice.
+HYP:  Well, thanks. @ so    [ you. ] nice [ That's ] of   
+EVAL:       I         S              I               S    
+SHFT:               1       2      2      1        1      
+TER Score: 120.00 (  6.0/  5.0)
+
+Shift [That's] 2 words right
+ REF:  Well, *******   thank you.   That's   ** nice.
+ HYP:  Well, thanks. @ so    nice [ That's ] of you. 
+
+Shift [you.] 3 words left
+ REF:  Well, ******* thank   you.   **** That's nice.
+ HYP:  Well, thanks. so    [ you. ] nice That's of   
+
+
+
+Sentence ID: 450:1
+Best Ref: I would have preferred
+Orig Hyp: I would have preferred
+
+REF:  I would have preferred
+HYP:  I would have preferred
+EVAL:                       
+SHFT:                       
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 451:1
+Best Ref: another kind of sacrifice.
+Orig Hyp: another kind of sacrifice.
+
+REF:  another kind of sacrifice.
+HYP:  another kind of sacrifice.
+EVAL:                           
+SHFT:                           
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 452:1
+Best Ref: Like what? What do you want me to do?
+Orig Hyp: Like what? What do you want me to do?
+
+REF:  Like what? What do you want me to do?
+HYP:  Like what? What do you want me to do?
+EVAL:                                      
+SHFT:                                      
+TER Score:   0.00 (  0.0/  9.0)
+
+
+
+Sentence ID: 453:1
+Best Ref: Do I have to tell you?
+Orig Hyp: Do I have to tell you?
+
+REF:  Do I have to tell you?
+HYP:  Do I have to tell you?
+EVAL:                       
+SHFT:                       
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 454:1
+Best Ref: If you love me so much,
+Orig Hyp: If you love me so much,
+
+REF:  If you love me so much,
+HYP:  If you love me so much,
+EVAL:                        
+SHFT:                        
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 455:1
+Best Ref: sacrifice yourself and have a child.
+Orig Hyp: sacrifice yourself and have a child.
+
+REF:  sacrifice yourself and have a child.
+HYP:  sacrifice yourself and have a child.
+EVAL:                                     
+SHFT:                                     
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 456:1
+Best Ref: But, see, I explained to you
+Orig Hyp: But, see, I explained to you
+
+REF:  But, see, I explained to you
+HYP:  But, see, I explained to you
+EVAL:                             
+SHFT:                             
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 457:1
+Best Ref: why I didn't…
+Orig Hyp: why I don't...
+
+REF:  why I didn't…
+HYP:  why I don't... 
+EVAL:       S        
+SHFT:                
+TER Score:  33.33 (  1.0/  3.0)
+
+
+
+Sentence ID: 458:1
+Best Ref: Let's see, now. Okay, I get it. Stop it.
+Orig Hyp: Okay, stop. Okay, I get it. Stop it.
+
+REF:  Let's see,  now.  Okay, I get it. Stop it.
+HYP:  ***** Okay, stop. Okay, I get it. Stop it.
+EVAL: D     S     S                             
+SHFT:                                           
+TER Score:  33.33 (  3.0/  9.0)
+
+
+
+Sentence ID: 459:1
+Best Ref: Thank you for giving me my freedom.
+Orig Hyp: Thank you for giving me my freedom.
+
+REF:  Thank you for giving me my freedom.
+HYP:  Thank you for giving me my freedom.
+EVAL:                                    
+SHFT:                                    
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 460:1
+Best Ref: Monica.
+Orig Hyp: Mónica.
+
+REF:  Monica. 
+HYP:  Mónica.
+EVAL: S       
+SHFT:         
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 461:1
+Best Ref: Monica, wait, let's keep talking.
+Orig Hyp: Mónica, wait, let's keep talking.
+
+REF:  Monica,  wait, let's keep talking.
+HYP:  Mónica, wait, let's keep talking.
+EVAL: S                                 
+SHFT:                                   
+TER Score:  20.00 (  1.0/  5.0)
+
+
+
+Sentence ID: 462:1
+Best Ref: Monica!
+Orig Hyp: Mónica!
+
+REF:  Monica! 
+HYP:  Mónica!
+EVAL: S       
+SHFT:         
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 463:1
+Best Ref: Now I'm just gonna take this,
+Orig Hyp: I'll just take this for now.
+
+REF:  Now    I'm    just   gonna take this,
+HYP:  I'll @ take [ just ] this  for  now. 
+EVAL: S      S             S     S    S    
+SHFT:      1      1      1                 
+TER Score: 100.00 (  6.0/  6.0)
+
+Shift [just] 1 words right
+ REF:  Now    I'm    just   gonna take this,
+ HYP:  I'll @ take [ just ] this  for  now. 
+
+
+
+Sentence ID: 464:1
+Best Ref: then I'll get the rest.
+Orig Hyp: I'll get the rest later.
+
+REF:  then I'll get the **** rest. 
+HYP:  **** I'll get the rest later.
+EVAL: D                 I    S     
+SHFT:                              
+TER Score:  60.00 (  3.0/  5.0)
+
+
+
+Sentence ID: 465:1
+Best Ref: Don't go, please.
+Orig Hyp: Don't go, please.
+
+REF:  Don't go, please.
+HYP:  Don't go, please.
+EVAL:                  
+SHFT:                  
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 466:1
+Best Ref: Monica, I don't know why I said that.
+Orig Hyp: Mónica, I don't know why I said that.
+
+REF:  Monica,  I don't know why I said that.
+HYP:  Mónica, I don't know why I said that.
+EVAL: S                                     
+SHFT:                                       
+TER Score:  12.50 (  1.0/  8.0)
+
+
+
+Sentence ID: 467:1
+Best Ref: Really, I love you.
+Orig Hyp: Really, I love you.
+
+REF:  Really, I love you.
+HYP:  Really, I love you.
+EVAL:                    
+SHFT:                    
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 468:1
+Best Ref: I love you so much, I need you.
+Orig Hyp: I love you so much, I need you.
+
+REF:  I love you so much, I need you.
+HYP:  I love you so much, I need you.
+EVAL:                                
+SHFT:                                
+TER Score:   0.00 (  0.0/  8.0)
+
+
+
+Sentence ID: 469:1
+Best Ref: You said it.
+Orig Hyp: You said it.
+
+REF:  You said it.
+HYP:  You said it.
+EVAL:             
+SHFT:             
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 470:1
+Best Ref: And it hurt deep in the heart.
+Orig Hyp: And you hurt me in the depths of my soul.
+
+REF:  And it  hurt deep in the ****** ** ** heart.
+HYP:  And you hurt me   in the depths of my soul. 
+EVAL:     S        S           I      I  I  S     
+SHFT:                                             
+TER Score:  85.71 (  6.0/  7.0)
+
+
+
+Sentence ID: 471:1
+Best Ref: Monica, please forgive me, I'm sorry…
+Orig Hyp: Mónica, please forgive me, I'm sorry...
+
+REF:  Monica,  please forgive me, I'm sorry…
+HYP:  Mónica, please forgive me, I'm sorry...
+EVAL: S                               S       
+SHFT:                                         
+TER Score:  33.33 (  2.0/  6.0)
+
+
+
+Sentence ID: 472:1
+Best Ref: I don't want to be here anymore.
+Orig Hyp: I don't want to be here anymore.
+
+REF:  I don't want to be here anymore.
+HYP:  I don't want to be here anymore.
+EVAL:                                 
+SHFT:                                 
+TER Score:   0.00 (  0.0/  7.0)
+
+
+
+Sentence ID: 473:1
+Best Ref: No, I can't live without you.
+Orig Hyp: No, I can't live without you.
+
+REF:  No, I can't live without you.
+HYP:  No, I can't live without you.
+EVAL:                              
+SHFT:                              
+TER Score:   0.00 (  0.0/  6.0)
+
+
+
+Sentence ID: 474:1
+Best Ref: Well, you'll have to learn.
+Orig Hyp: Well, you'll have to learn how.
+
+REF:  Well, you'll have to ***** learn.
+HYP:  Well, you'll have to learn how.  
+EVAL:                      I     S     
+SHFT:                                  
+TER Score:  40.00 (  2.0/  5.0)
+
+
+
+Sentence ID: 475:1
+Best Ref: Hey, don't go, please.
+Orig Hyp: Hey, don't go, please.
+
+REF:  Hey, don't go, please.
+HYP:  Hey, don't go, please.
+EVAL:                       
+SHFT:                       
+TER Score:   0.00 (  0.0/  4.0)
+
+
+
+Sentence ID: 476:1
+Best Ref: Let me through.
+Orig Hyp: Let me go.
+
+REF:  Let me through.
+HYP:  Let me go.     
+EVAL:        S       
+SHFT:                
+TER Score:  33.33 (  1.0/  3.0)
+
+
+
+Sentence ID: 477:1
+Best Ref: It's too late to regret it.
+Orig Hyp: It's too late to change your mind.
+
+REF:  It's too late to ****** regret it.  
+HYP:  It's too late to change your   mind.
+EVAL:                  I      S      S    
+SHFT:                                     
+TER Score:  50.00 (  3.0/  6.0)
+
+
+
+Sentence ID: 478:1
+Best Ref: No, please.
+Orig Hyp: No, please.
+
+REF:  No, please.
+HYP:  No, please.
+EVAL:            
+SHFT:            
+TER Score:   0.00 (  0.0/  2.0)
+
+
+
+Sentence ID: 479:1
+Best Ref: No, no.
+Orig Hyp: No.
+
+REF:  No, no.
+HYP:  *** No.
+EVAL: D   S  
+SHFT:        
+TER Score: 100.00 (  2.0/  2.0)
+
+
+
+Sentence ID: 480:1
+Best Ref: Horatio.
+Orig Hyp: Horacio.
+
+REF:  Horatio.
+HYP:  Horacio.
+EVAL: S       
+SHFT:         
+TER Score: 100.00 (  1.0/  1.0)
+
+
+
+Sentence ID: 481:1
+Best Ref: Are you pregnant?
+Orig Hyp: Are you pregnant?
+
+REF:  Are you pregnant?
+HYP:  Are you pregnant?
+EVAL:                  
+SHFT:                  
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 482:1
+Best Ref: Are you pregnant?
+Orig Hyp: Are you pregnant?
+
+REF:  Are you pregnant?
+HYP:  Are you pregnant?
+EVAL:                  
+SHFT:                  
+TER Score:   0.00 (  0.0/  3.0)
+
+
+
+Sentence ID: 483:1
+Best Ref: Jimmy!
+Orig Hyp: Jimmy!
+
+REF:  Jimmy!
+HYP:  Jimmy!
+EVAL:       
+SHFT:       
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 484:1
+Best Ref: Jimmy!
+Orig Hyp: Jimmy!
+
+REF:  Jimmy!
+HYP:  Jimmy!
+EVAL:       
+SHFT:       
+TER Score:   0.00 (  0.0/  1.0)
+
+
+
+Sentence ID: 485:1
+Best Ref: Jimmy, Jimmy! Hey, Jimmy!
+Orig Hyp: Jimmy! Hey, Jimmy!
+
+REF:  Jimmy, Jimmy! Hey, Jimmy!
+HYP:  ****** Jimmy! Hey, Jimmy!
+EVAL: D                        
+SHFT:                          
+TER Score:  25.00 (  1.0/  4.0)
+
+
+
+Sentence ID: 486:1
+Best Ref: Jimmy!
+Orig Hyp: Jimmy!
+
+REF:  Jimmy!
+HYP:  Jimmy!
+EVAL:       
+SHFT:       
+TER Score:   0.00 (  0.0/  1.0)
+
+
+

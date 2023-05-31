@@ -1,0 +1,4697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system title="Byblos" hyp_fname="project\PE\PE-full.txt" ref_fname="project\MT\MT-full.txt" creation_date="10:09:36, Tue, 12 13 2022" case_sense="1">
+<tstset setid="" srclang="" trglang="">
+  <doc docid="">
+    <seg segid="1">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "What","",D,0
+        "are","",D,0
+        "you","",D,0
+        "doing","What's",S,0
+        "dressed","with",S,0
+        "like","the",S,0
+        "that?","outfit?",S,0
+      </hyp>
+    </seg>
+    <seg segid="2">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="4.0">
+        "Are","",D,0
+        "you","",D,0
+        "coming","Been",S,0
+        "from","to",S,0
+        "a","a",C,0
+        "First","First",C,0
+        "Communion","Communion",C,0
+        "or","or",C,0
+        "what?","what?",C,0
+      </hyp>
+    </seg>
+    <seg segid="3">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="2.0">
+        "No,","No,",C,0
+        "no,","",D,0
+        "I","I",C,0
+        "just","",D,0
+        "came","came",C,0
+        "from","from",C,0
+        "the","the",C,0
+        "date","date",C,0
+      </hyp>
+    </seg>
+    <seg segid="4">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "you","you",C,0
+        "didn't","didn't",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "go","go",C,0
+        "to.","on.",S,0
+      </hyp>
+    </seg>
+    <seg segid="5">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="7.0">
+        "What","",D,0
+        "kind","And",S,0
+        "of","how",S,0
+        "crazy","crazy",C,0
+        "did","",D,0
+        "you","",D,0
+        "find","was",S,0
+        "now?","she?",S,0
+      </hyp>
+    </seg>
+    <seg segid="6">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="4.0">
+        "","Not",I,0
+        "No","crazy",S,0
+        "crazy,","at",S,0
+        "huh?","all!",S,0
+      </hyp>
+    </seg>
+    <seg segid="7">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="4.0">
+        "Mrs.","",D,0
+        "Andrea","Andrea",C,0
+        "is","is",C,0
+        "very","very",C,0
+        "polite,","polite,",C,0
+        "she","",D,0
+        "is","",D,0
+        "very","very",C,0
+        "fine,","elegant.",S,0
+      </hyp>
+    </seg>
+    <seg segid="8">
+      <hyp id="1" refid="" wrd_cnt="12.0" num_errs="8.0">
+        "and","",D,0
+        "I'm","",D,0
+        "not","",D,0
+        "only","",D,0
+        "saying","Not",S,0
+        "it","just",S,0
+        "because","because",C,0
+        "I","I",C,0
+        "met","met",C,0
+        "her","her",C,0
+        "this","",D,0
+        "morning,","today,",S,0
+      </hyp>
+    </seg>
+    <seg segid="9">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "but","but",C,0
+        "because","because",C,0
+        "I","I",C,0
+        "know","know",C,0
+        "whose","who",S,0
+        "family","family",C,-1
+        "she's","her",S,0
+        "from.","are.",S,0
+      </hyp>
+    </seg>
+    <seg segid="10">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="1.0">
+        "Oh,","Oh",S,0
+        "yeah?","yeah?",C,0
+      </hyp>
+    </seg>
+    <seg segid="11">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Uh-huh.","",D,0
+      </hyp>
+    </seg>
+    <seg segid="12">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "How's","How's",C,0
+        "that?","that?",C,0
+      </hyp>
+    </seg>
+    <seg segid="13">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "I","",D,0
+        "have","",D,0
+        "to","to",C,-3
+        "tell","I've",S,0
+        "you","got",S,0
+        "the","something",S,0
+        "truth.","confess.",S,0
+      </hyp>
+    </seg>
+    <seg segid="14">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="1.0">
+        "A","A",C,0
+        "few","few",C,0
+        "days","days",C,0
+        "ago,","ago,",C,0
+        "I","I",C,0
+        "met","saw",S,0
+        "Samuel","Samuel",C,0
+        "and","and",C,0
+        "Gabriela.","Gabriela.",C,0
+      </hyp>
+    </seg>
+    <seg segid="15">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "You","You",C,0
+        "do","do",C,0
+        "know","know",C,0
+        "who","who",C,0
+        "I","I",C,0
+        "mean,","mean,",C,0
+        "don't","don't",C,0
+        "you?","you?",C,0
+      </hyp>
+    </seg>
+    <seg segid="16">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="8.0">
+        "Uh,","",D,0
+        "that's","",D,0
+        "the","",D,0
+        "kid's","",D,0
+        "mom's","That's",S,0
+        "sister,","Nico's",S,0
+        "from","mum's",S,0
+        "Nico.","sister.",S,0
+      </hyp>
+    </seg>
+    <seg segid="17">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "That's","That's",C,0
+        "right,","right,",C,0
+        "that","",D,0
+        "one,","",D,0
+        "that","",D,0
+        "mere.","her.",S,0
+      </hyp>
+    </seg>
+    <seg segid="18">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "Well,","Well,",C,0
+        "it","",D,0
+        "turns","",D,0
+        "out","",D,0
+        "they","they",C,0
+        "were","were",C,0
+        "there","there",C,0
+        "talking","talking",C,0
+      </hyp>
+    </seg>
+    <seg segid="19">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "and","and",C,0
+        "they","their",S,0
+        "were","mum",S,0
+        "saying","saying",C,2
+        "that","that",C,2
+      </hyp>
+    </seg>
+    <seg segid="20">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "their","",D,0
+        "mom","",D,0
+        "had","had",C,0
+        "just","just",C,0
+        "","got",I,0
+        "divorced,","divorced,",C,0
+      </hyp>
+    </seg>
+    <seg segid="21">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="2.0">
+        "and","and",C,0
+        "that","that",C,0
+        "she'd","she'd",C,0
+        "like","like",C,0
+        "to","",D,0
+        "have","",D,0
+        "a","a",C,0
+        "new","new",C,0
+        "partner.","partner.",C,0
+      </hyp>
+    </seg>
+    <seg segid="22">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "So","So",C,0
+        "the","the",C,0
+        "lady…","",D,0
+        "how","",D,0
+        "did","lady...",S,0
+        "you…?","what-",S,0
+      </hyp>
+    </seg>
+    <seg segid="23">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Andrea.","Andrea.",C,0
+      </hyp>
+    </seg>
+    <seg segid="24">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Andrea.","Andrea.",C,0
+      </hyp>
+    </seg>
+    <seg segid="25">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Andrea","Andrea",C,0
+        "is","is",C,0
+        "Gabriela's","Gabriela's",C,0
+        "mom.","mum.",S,0
+      </hyp>
+    </seg>
+    <seg segid="26">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Exactly.","Exactly.",C,0
+      </hyp>
+    </seg>
+    <seg segid="27">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "So,","So,",C,0
+        "it","it",C,0
+        "occurred","occurred",C,0
+        "to","to",C,0
+        "me,","",D,0
+        "I","",D,0
+        "immediately","immediately",C,2
+        "thought,","me",S,0
+      </hyp>
+    </seg>
+    <seg segid="28">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "","that",I,0
+        "this","this",C,0
+        "lady,","lady,",C,0
+        "then,","",D,0
+        "so","so",C,0
+        "beautiful,","beautiful,",C,0
+      </hyp>
+    </seg>
+    <seg segid="29">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "so","so",C,0
+        "delicate","delicate",C,0
+        "and","and",C,0
+        "elegant,","elegant,",C,0
+      </hyp>
+    </seg>
+    <seg segid="30">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="5.0">
+        "well,","",D,0
+        "it","",D,0
+        "has","",D,0
+        "to","is",S,0
+        "be","perfect",S,0
+        "for","for",C,0
+        "Don","Don",C,0
+        "Nelson.","Nelson.",C,0
+      </hyp>
+    </seg>
+    <seg segid="31">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="9.0">
+        "And,","",D,0
+        "well,","",D,0
+        "they","They",S,0
+        "thought","thought",C,0
+        "it","",D,0
+        "was","",D,0
+        "a","",D,0
+        "good","",D,0
+        "idea","the",S,0
+        "too.","same,",S,0
+      </hyp>
+    </seg>
+    <seg segid="32">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "So,","so",S,0
+        "we","we",C,0
+        "started","started",C,0
+        "sending","sending",C,0
+        "him","her",S,0
+        "messages…","messages…",C,0
+      </hyp>
+    </seg>
+    <seg segid="33">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "How,","",D,0
+        "how,","",D,0
+        "how,","What?",S,0
+        "how?","What?",S,0
+      </hyp>
+    </seg>
+    <seg segid="34">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "Yes,","Yes,",C,0
+        "yes,","",D,0
+        "in","",D,0
+        "his","as",S,0
+        "name.","you.",S,0
+      </hyp>
+    </seg>
+    <seg segid="35">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "You","You",C,0
+        "used","used",C,0
+        "my","my",C,0
+        "identity","identity",C,0
+      </hyp>
+    </seg>
+    <seg segid="36">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "without","without",C,0
+        "my","my",C,0
+        "permission?","permission?",C,0
+      </hyp>
+    </seg>
+    <seg segid="37">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "That's","That's",C,0
+        "an","an",C,0
+        "abuse","abuse",C,0
+        "of","of",C,0
+        "","my",I,0
+        "trust,","trust,",C,0
+        "Augustine!","Augustine!",C,0
+      </hyp>
+    </seg>
+    <seg segid="38">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="5.0">
+        "And","And",C,0
+        "I…","",D,0
+        "and","I,",S,0
+        "I","I",C,0
+        "can…","could,",S,0
+        "I","I",C,0
+        "can","could",S,0
+        "charge","report",S,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="39">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "No,","No,",C,0
+        "no,","",D,0
+        "wait,","wait,",C,0
+        "easy,","easy,",C,0
+        "easy.","easy.",C,0
+      </hyp>
+    </seg>
+    <seg segid="40">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "Don't","Don't",C,0
+        "put","",D,0
+        "yourself","",D,0
+        "in","get",S,0
+        "that","like",S,0
+        "plan,","that.",S,0
+        "relax.","Relax.",S,0
+      </hyp>
+    </seg>
+    <seg segid="41">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "I","I",C,0
+        "did","did",C,0
+        "it","it",C,0
+        "for","for",C,0
+        "your","your",C,0
+        "sake,","",D,0
+        "huh?","sake.",S,0
+      </hyp>
+    </seg>
+    <seg segid="42">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "And","And",C,0
+        "now","now",C,0
+        "that","that",C,0
+        "I've","I've",C,0
+        "met","met",C,0
+        "her","her",C,0
+        "in","in",C,0
+        "person,","person,",C,0
+      </hyp>
+    </seg>
+    <seg segid="43">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="8.0">
+        "it","",D,0
+        "gives","",D,0
+        "me…","",D,0
+        "it","",D,0
+        "gives","I",S,0
+        "me","can",S,0
+        "more","be",S,0
+        "security.","sure.",S,0
+      </hyp>
+    </seg>
+    <seg segid="44">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="7.0">
+        "It","",D,0
+        "gives","",D,0
+        "me","",D,0
+        "a","",D,0
+        "certainty","",D,0
+        "so","",D,0
+        "I","I",C,0
+        "can","can",C,0
+        "","now",I,0
+        "say","say",C,0
+      </hyp>
+    </seg>
+    <seg segid="45">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "that","",D,0
+        "she's","she's",C,0
+        "the","the",C,0
+        "perfect","perfect",C,0
+        "woman","woman",C,0
+        "for","for",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="46">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "Why","Why",C,0
+        "are","are",C,0
+        "you","you",C,0
+        "so","so",C,0
+        "sure?","sure?",C,0
+      </hyp>
+    </seg>
+    <seg segid="47">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "She's","She's",C,0
+        "beautiful,","beautiful,",C,0
+      </hyp>
+    </seg>
+    <seg segid="48">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "she's","she's",C,0
+        "distinguished,","distinguished,",C,0
+        "she's","she's",C,0
+        "fine.","elegant.",S,0
+      </hyp>
+    </seg>
+    <seg segid="49">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "","And",I,0
+        "","besides",I,0
+        "Besides,","that",S,0
+        "she's","she's",C,0
+        "very","very",C,0
+        "sweet,","sweet,",C,0
+        "she's","she's",C,0
+        "kind","kind",C,0
+        "and…","and…",C,0
+      </hyp>
+    </seg>
+    <seg segid="50">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "And,","And,",C,0
+        "well,","well,",C,0
+        "nothing","",D,0
+        "to","",D,0
+        "take","",D,0
+        "advantage","",D,0
+        "of,","",D,0
+      </hyp>
+    </seg>
+    <seg segid="51">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="10.0">
+        "the","",D,0
+        "money","",D,0
+        "for","",D,0
+        "her,","",D,0
+        "man,","",D,0
+        "is","she's",S,0
+        "the","not",S,0
+        "least","interested",S,0
+        "of","in",S,0
+        "it.","money.",S,0
+      </hyp>
+    </seg>
+    <seg segid="52">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "She's","She's",C,0
+        "a","a",C,0
+        "romantic","",D,0
+        "woman.","romantic.",S,0
+      </hyp>
+    </seg>
+    <seg segid="53">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "He","She",S,0
+        "loves","loves",C,0
+        "the","the",C,0
+        "messages","messages",C,0
+        "I","I",C,0
+        "send","send",C,0
+        "him.","her.",S,0
+      </hyp>
+    </seg>
+    <seg segid="54">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "We","We",C,0
+        "sent","send",S,0
+        "him,","her,",S,0
+        "to","to",C,0
+        "be","be",C,0
+        "more","more",C,0
+        "precise,","precise,",C,0
+      </hyp>
+    </seg>
+    <seg segid="55">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "because","because",C,0
+        "you're","you're",C,0
+        "using","using",C,0
+        "my","my",C,0
+        "name.","name.",C,0
+      </hyp>
+    </seg>
+    <seg segid="56">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "Yeah,","Yeah,",C,0
+        "right,","right,",C,0
+        "we","we",C,0
+        "send","send",C,0
+        "him,","her,",S,0
+      </hyp>
+    </seg>
+    <seg segid="57">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "we","",D,0
+        "send","",D,0
+        "him,","",D,0
+        "we","we",C,0
+        "send","send",C,0
+        "him.","her.",S,0
+      </hyp>
+    </seg>
+    <seg segid="58">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="8.0">
+        "So","",D,0
+        "what?","So?",S,0
+        "Do","Would",S,0
+        "you","you",C,0
+        "want","like",S,0
+        "to","to",C,0
+        "","go",I,0
+        "","out",I,0
+        "come","with",S,0
+        "in?","her?",S,0
+      </hyp>
+    </seg>
+    <seg segid="59">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "Well,","Well,",C,0
+        "how","how",C,0
+        "would","would",C,0
+        "we","we",C,0
+        "do","do",C,0
+        "it?","it?",C,0
+      </hyp>
+    </seg>
+    <seg segid="60">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "She","She",C,0
+        "thinks","thinks",C,0
+        "Nelson","Nelson",C,0
+        "is","is",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="61">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "No,","",D,0
+        "this","This",S,0
+        "morning","morning",C,0
+        "I","I",C,0
+        "told","told",C,0
+        "you","her",S,0
+      </hyp>
+    </seg>
+    <seg segid="62">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "that","",D,0
+        "I","",D,0
+        "was","I'm",S,0
+        "your","your",C,0
+        "assistant,","assistant.",S,0
+      </hyp>
+    </seg>
+    <seg segid="63">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "that","That",S,0
+        "you","you",C,0
+        "sent","sent",C,0
+        "me","me",C,0
+        "to","to",C,0
+        "apologize","apologise",S,0
+        "because","because",C,0
+      </hyp>
+    </seg>
+    <seg segid="64">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "you","you",C,0
+        "couldn't","couldn't",C,0
+        "make","make",C,0
+        "it","",D,0
+        "to","",D,0
+        "the","",D,0
+        "appointment.","it.",S,0
+      </hyp>
+    </seg>
+    <seg segid="65">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "I","I",C,0
+        "bought","bought",C,0
+        "her","her",C,0
+        "a","",D,0
+        "bouquet","",D,0
+        "of","some",S,0
+        "flowers…","flowers…",C,0
+      </hyp>
+    </seg>
+    <seg segid="66">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="3.0">
+        "Oh,","Oh,",C,0
+        "by","",D,0
+        "the","",D,0
+        "way,","",D,0
+        "you","you",C,0
+        "owe","owe",C,0
+        "me","me",C,0
+        "250","250",C,0
+        "pesos.","pesos.",C,0
+      </hyp>
+    </seg>
+    <seg segid="67">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Hey,","Hey,",C,0
+        "wait,","",D,0
+        "wait,","wait,",C,0
+        "wait.","wait.",C,0
+      </hyp>
+    </seg>
+    <seg segid="68">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "That","That",C,0
+        "was","was",C,0
+        "your","your",C,0
+        "idea.","idea.",C,0
+      </hyp>
+    </seg>
+    <seg segid="69">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="5.0">
+        "","Yes,",I,0
+        "","but",I,0
+        "","you",I,0
+        "Well,","had",S,0
+        "yeah,","to",S,0
+      </hyp>
+    </seg>
+    <seg segid="70">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "but","",D,0
+        "you","",D,0
+        "had","",D,0
+        "to","",D,0
+        "get","get",C,0
+        "the","her",S,0
+        "detail.","something.",S,0
+      </hyp>
+    </seg>
+    <seg segid="71">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="4.0">
+        "I","I",C,0
+        "also","also",C,0
+        "told","told",C,0
+        "her","her",C,0
+        "that","",D,0
+        "I","some",S,0
+        "had","breakfast,",S,0
+        "to","to",C,2
+        "have","have",C,2
+      </hyp>
+    </seg>
+    <seg segid="72">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "some","",D,0
+        "breakfast,","",D,0
+        "that","",D,0
+        "you","",D,0
+        "invited","your",S,0
+        "her.","treat.",S,0
+      </hyp>
+    </seg>
+    <seg segid="73">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="6.0">
+        "But","",D,0
+        "besides,","",D,0
+        "do","",D,0
+        "I","I",C,0
+        "have","have",C,0
+        "to","to",C,0
+        "buy","buy",C,0
+        "","her",I,0
+        "you","breakfast",S,0
+        "breakfast?","too?",S,0
+      </hyp>
+    </seg>
+    <seg segid="74">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "But…","",D,0
+        "but","",D,0
+        "what","What",S,0
+        "do","were",S,0
+        "you","you",C,0
+        "think,","thinking,",S,0
+        "Augustine?","Augustine?",C,0
+      </hyp>
+    </seg>
+    <seg segid="75">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "No,","No,",C,0
+        "wait,","wait,",C,0
+        "see,","",D,0
+        "look.","look.",C,0
+      </hyp>
+    </seg>
+    <seg segid="76">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "So","",D,0
+        "you","you",C,-2
+        "see","",D,0
+        "that","",D,0
+        "I'm","",D,0
+        "cool,","To",S,0
+        "huh,","show",S,0
+      </hyp>
+    </seg>
+    <seg segid="77">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="5.0">
+        "that","with",S,0
+        "I'm","I'm",C,1
+        "","you",I,0
+        "in","on",S,0
+        "solidarity,","this,",S,0
+      </hyp>
+    </seg>
+    <seg segid="78">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "the","the",C,0
+        "flowers","flowers",C,0
+        "are","are",C,0
+        "on","on",C,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="79">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "And","And",C,0
+        "the","",D,0
+        "lady","she",S,0
+        "didn't","didn't",C,0
+        "want","want",C,0
+        "any","any",C,0
+        "breakfast.","breakfast.",C,0
+      </hyp>
+    </seg>
+    <seg segid="80">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "I'm","I'm",C,0
+        "telling","telling",C,0
+        "you,","you,",C,0
+        "she's","she's",C,0
+        "not","not",C,0
+        "a","a",C,0
+        "","gold",I,0
+        "profiteer.","digger.",S,0
+      </hyp>
+    </seg>
+    <seg segid="81">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "What","What",C,0
+        "do","do",C,0
+        "you","you",C,0
+        "say?","say?",C,0
+        "","Will",I,0
+        "Does","you",S,0
+        "it","do",S,0
+        "fit?","it?",S,0
+      </hyp>
+    </seg>
+    <seg segid="82">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Well,","",D,0
+        "uh…","Well…",S,0
+      </hyp>
+    </seg>
+    <seg segid="83">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "I'm","I'm",C,0
+        "curious.","curious.",C,0
+      </hyp>
+    </seg>
+    <seg segid="84">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "And,","And,",C,0
+        "I","I",C,0
+        "confess,","confess,",C,0
+        "I'm","I'm",C,0
+        "way","way",C,0
+        "out","out",C,0
+        "of","of",C,0
+        "shape","practice",S,0
+      </hyp>
+    </seg>
+    <seg segid="85">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "","with",I,0
+        "in","things",S,0
+        "these","like",S,0
+        "lovelies,","this,",S,0
+        "so…","so…",C,0
+      </hyp>
+    </seg>
+    <seg segid="86">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "Where","Where",C,0
+        "do","do",C,0
+        "I","I",C,0
+        "start?","start?",C,0
+        "What's","",D,0
+        "to","",D,0
+        "be","",D,0
+        "done?","",D,0
+      </hyp>
+    </seg>
+    <seg segid="87">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "Look,","Look,",C,0
+        "for","for",C,0
+        "the","",D,0
+        "time","",D,0
+        "being,","now,",S,0
+      </hyp>
+    </seg>
+    <seg segid="88">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="8.0">
+        "we're","",D,0
+        "going","we'll",S,0
+        "to","a",S,0
+        "send","send",C,1
+        "you","asking",S,0
+        "a","her",S,0
+        "little","out",S,0
+        "message","message",C,3
+      </hyp>
+    </seg>
+    <seg segid="89">
+      <hyp id="1" refid="" wrd_cnt="13.0" num_errs="12.0">
+        "to","",D,0
+        "invite","",D,0
+        "you,","",D,0
+        "in","",D,0
+        "remorse","",D,0
+        "that","",D,0
+        "you","",D,0
+        "didn't","",D,0
+        "go","and",S,0
+        "to","saying",S,0
+        "the","sorry",S,0
+        "appointment","for",S,0
+        "today.","today.",C,0
+      </hyp>
+    </seg>
+    <seg segid="90">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="5.0">
+        "Look,","Look,",C,0
+        "I'm","I'll",S,0
+        "writing","write",S,0
+        "it","it",C,0
+        "","to",I,0
+        "","show",I,0
+        "","you,",I,0
+      </hyp>
+    </seg>
+    <seg segid="91">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "for","",D,0
+        "you","",D,0
+        "to","",D,0
+        "learn,","",D,0
+        "okay?","okay?",C,0
+      </hyp>
+    </seg>
+    <seg segid="92">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "distinguishable","",D,0
+        "and","Distinguished,",S,0
+        "beautiful","beautiful",C,0
+        "lady…","lady.",S,0
+      </hyp>
+    </seg>
+    <seg segid="93">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="4.0">
+        "","What",I,0
+        "You","do",S,0
+        "think","you",S,0
+        "so?","think?",S,0
+      </hyp>
+    </seg>
+    <seg segid="94">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "Oh,","",D,0
+        "it","",D,0
+        "sounds","Sounds",S,0
+        "good.","good.",C,0
+      </hyp>
+    </seg>
+    <seg segid="95">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="9.0">
+        "I'll","I'll",C,0
+        "pass","",D,0
+        "you","",D,0
+        "by,","",D,0
+        "so","",D,0
+        "you","send",S,0
+        "can","it",S,0
+        "look","to",S,0
+        "at","you,",S,0
+        "them.","okay?",S,0
+      </hyp>
+    </seg>
+    <seg segid="96">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Okay,","Okay,",C,0
+        "perfect,","perfect,",C,0
+        "yeah.","yeah.",C,0
+      </hyp>
+    </seg>
+    <seg segid="97">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Can","Can",C,0
+        "we","we",C,0
+        "talk?","talk?",C,0
+      </hyp>
+    </seg>
+    <seg segid="98">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Excuse","Excuse",C,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="99">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Yeah.","Yeah.",C,0
+      </hyp>
+    </seg>
+    <seg segid="100">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Have","Have",C,0
+        "you","you",C,0
+        "eaten?","eaten?",C,0
+      </hyp>
+    </seg>
+    <seg segid="101">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "No,","No,",C,0
+        "no,","",D,0
+        "I","I",C,0
+        "was","was",C,0
+        "","going",I,0
+        "gonna","to",S,0
+        "go","go",C,0
+        "","to",I,0
+      </hyp>
+    </seg>
+    <seg segid="102">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="5.0">
+        "","La",I,0
+        "to","Fonda",S,0
+        "Mrs.","de",S,0
+        "Carolina's","Doña",S,0
+        "Fonda.","Carolina.",S,0
+      </hyp>
+    </seg>
+    <seg segid="103">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Shall","Shall",C,0
+        "we?","we?",C,0
+      </hyp>
+    </seg>
+    <seg segid="104">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I","I",C,0
+        "haven't","haven't",C,0
+        "eaten","eaten",C,0
+        "either,","either,",C,0
+      </hyp>
+    </seg>
+    <seg segid="105">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "and,","and,",C,0
+        "well,","well,",C,0
+        "we","we",C,0
+        "could","could",C,0
+        "talk","",D,0
+        "there.","talk.",S,0
+      </hyp>
+    </seg>
+    <seg segid="106">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Come","Let's",S,0
+        "on.","go.",S,0
+      </hyp>
+    </seg>
+    <seg segid="107">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Anything","Anything",C,0
+        "else?","else?",C,0
+      </hyp>
+    </seg>
+    <seg segid="108">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "I","I",C,0
+        "don't","don't",C,0
+        "like","like",C,0
+        "to","to",C,0
+        "see","see",C,0
+        "you","you",C,0
+        "so","so",C,0
+        "serious.","serious.",C,0
+      </hyp>
+    </seg>
+    <seg segid="109">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "And","And",C,0
+        "I","I",C,0
+        "know","know",C,0
+        "it's","",D,0
+        "about","",D,0
+      </hyp>
+    </seg>
+    <seg segid="110">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "the","the",C,-2
+        "kid","",D,0
+        "you","",D,0
+        "want","it's",S,0
+        "to","about",S,0
+        "have.","baby.",S,0
+      </hyp>
+    </seg>
+    <seg segid="111">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "Honey,","Honey,",C,0
+        "I","I",C,0
+        "already","already",C,0
+        "explained","explained",C,0
+        "the","",D,0
+        "reason","why",S,0
+      </hyp>
+    </seg>
+    <seg segid="112">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "why","",D,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "have","have",C,0
+        "it.","one.",S,0
+      </hyp>
+    </seg>
+    <seg segid="113">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "I","I",C,0
+        "understand","understand",C,0
+        "","why",I,0
+        "your","you",S,0
+        "desire","want",S,0
+        "to","to",C,0
+        "be","be",C,0
+        "a","a",C,0
+        "mother,","mother.",S,0
+      </hyp>
+    </seg>
+    <seg segid="114">
+      <hyp id="1" refid="" wrd_cnt="14.0" num_errs="9.0">
+        "and","",D,0
+        "it","",D,0
+        "really","",D,0
+        "pains","I'm",S,0
+        "me","sad",S,0
+        "not","not",C,0
+        "to","to",C,0
+        "be","be",C,0
+        "able","able",C,0
+        "to","to",C,0
+        "keep","",D,0
+        "it","give",S,0
+        "to","you",S,0
+        "you,","that,",S,0
+      </hyp>
+    </seg>
+    <seg segid="115">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "but","but",C,0
+        "I've","for",S,0
+        "missed","me",S,0
+        "my","the",S,0
+        "time","time",C,0
+        "for","for",C,0
+        "","that",I,0
+        "","has",I,0
+        "that.","passed.",S,0
+      </hyp>
+    </seg>
+    <seg segid="116">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="4.0">
+        "What","What",C,0
+        "I","I",C,0
+        "want","want",C,0
+        "is","is",C,0
+        "to","to",C,0
+        "enjoy","enjoy",C,0
+        "what","",D,0
+        "I","",D,0
+        "have","the",S,0
+        "left","time",S,0
+      </hyp>
+    </seg>
+    <seg segid="117">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "of","I",S,0
+        "life","have",S,0
+        "next","left",S,0
+        "to","with",S,0
+        "you,","you,",C,0
+        "my","my",C,0
+        "love.","love.",C,0
+      </hyp>
+    </seg>
+    <seg segid="118">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "Before","Before",C,0
+        "you","you",C,0
+        "ever","ever",C,0
+        "thought","thought",C,0
+        "about","about",C,0
+      </hyp>
+    </seg>
+    <seg segid="119">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "getting","getting",C,0
+        "pregnant,","pregnant,",C,0
+        "we","we",C,0
+        "were","were",C,0
+        "just","",D,0
+        "fine.","great.",S,0
+      </hyp>
+    </seg>
+    <seg segid="120">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="8.0">
+        "It's","",D,0
+        "not","The",S,0
+        "like","idea",S,0
+        "I","didn't",S,0
+        "could","just",S,0
+        "think","come",S,0
+        "of","to",S,0
+        "it","me",S,0
+        "overnight.","overnight.",C,0
+      </hyp>
+    </seg>
+    <seg segid="121">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "I've","I've",C,0
+        "always","always",C,0
+        "wanted","wanted",C,0
+        "to","to",C,0
+        "be","be",C,0
+        "a","a",C,0
+        "mother.","mother.",C,0
+      </hyp>
+    </seg>
+    <seg segid="122">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "And","And",C,0
+        "just","",D,0
+        "because","because",C,0
+        "I","I",C,0
+        "love","love",C,0
+        "you","you",C,0
+      </hyp>
+    </seg>
+    <seg segid="123">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "and","and",C,0
+        "we're","we're",C,0
+        "finally","finally",C,0
+        "together,","together,",C,0
+      </hyp>
+    </seg>
+    <seg segid="124">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "I","I",C,0
+        "thought","thought",C,0
+        "I","I",C,0
+        "could","could",C,0
+        "fulfill","",D,0
+        "my","",D,0
+        "dream.","make",S,0
+      </hyp>
+    </seg>
+    <seg segid="125">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="4.0">
+        "","that",I,0
+        "","dream",I,0
+        "I","come",S,0
+        "know.","true.",S,0
+      </hyp>
+    </seg>
+    <seg segid="126">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "","I",I,0
+        "","know,",I,0
+        "But","but",S,0
+        "it's","it's",C,0
+        "a","a",C,0
+        "dream","dream",C,0
+        "that","that",C,0
+        "","it's",I,0
+        "","too",I,0
+        "came","late",S,0
+        "late.","for.",S,0
+      </hyp>
+    </seg>
+    <seg segid="127">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="5.0">
+        "All","",D,0
+        "right,","Okay,",S,0
+        "I","I",C,0
+        "understand","",D,0
+        "your","",D,0
+        "position.","understand.",S,0
+      </hyp>
+    </seg>
+    <seg segid="128">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Excuse","Excuse",C,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="129">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "What","What",C,0
+        "do","do",C,0
+        "you","you",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "talk","talk",C,0
+        "about?","about?",C,0
+      </hyp>
+    </seg>
+    <seg segid="130">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "Since","Since",C,0
+        "we","we",C,0
+        "got","got",C,0
+        "married,","married,",C,0
+      </hyp>
+    </seg>
+    <seg segid="131">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "I","I",C,0
+        "know","know",C,0
+        "things","things",C,0
+        "haven't","haven't",C,0
+        "been","been",C,0
+        "","good",I,0
+        "","on",I,0
+        "so","my",S,0
+        "good.","side.",S,0
+      </hyp>
+    </seg>
+    <seg segid="132">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "And","",D,0
+        "I","I",C,0
+        "haven't","haven't",C,0
+        "treated","treated",C,0
+        "you","you",C,0
+      </hyp>
+    </seg>
+    <seg segid="133">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "the","the",C,0
+        "way","way",C,0
+        "you","you",C,0
+        "deserve,","deserve,",C,0
+      </hyp>
+    </seg>
+    <seg segid="134">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "and","and",C,0
+        "I've","I've",C,0
+        "been","been",C,0
+        "thinking","doing",S,0
+        "a","a",C,0
+        "","lot",I,0
+        "","of",I,0
+        "lot.","thinking.",S,0
+      </hyp>
+    </seg>
+    <seg segid="135">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="1.0">
+        "And","",D,0
+        "I","I",C,0
+        "want","want",C,0
+        "you","you",C,0
+        "to","to",C,0
+        "know","know",C,0
+        "that","that",C,0
+        "from","from",C,0
+        "now","now",C,0
+        "on,","on,",C,0
+      </hyp>
+    </seg>
+    <seg segid="136">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "my","my",C,0
+        "attitude","attitude",C,0
+        "is","is",C,0
+        "going","going",C,0
+        "to","to",C,0
+        "be","be",C,0
+        "another.","different.",S,0
+      </hyp>
+    </seg>
+    <seg segid="137">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "I","I",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "dedicate","dedicate",C,0
+        "myself","myself",C,0
+        "to","to",C,0
+        "you","you",C,0
+      </hyp>
+    </seg>
+    <seg segid="138">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "and","and",C,0
+        "the","the",C,0
+        "baby","baby",C,0
+        "on","on",C,0
+        "the","the",C,0
+        "way.","way.",C,0
+      </hyp>
+    </seg>
+    <seg segid="139">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "I","I",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "do","do",C,0
+        "everything","everything",C,0
+        "I","I",C,0
+        "can","can",C,0
+      </hyp>
+    </seg>
+    <seg segid="140">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "to","to",C,0
+        "make","make",C,0
+        "our","us",S,0
+        "life","into",S,0
+        "a","a",C,0
+        "real","real",C,0
+        "family.","family.",C,0
+      </hyp>
+    </seg>
+    <seg segid="141">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Pedro,","Pedro,",C,0
+        "are","are",C,0
+        "you","you",C,0
+        "sure","sure",C,0
+        "","about",I,0
+      </hyp>
+    </seg>
+    <seg segid="142">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "what","what",C,0
+        "you're","you're",C,0
+        "telling","",D,0
+        "me?","saying?",S,0
+      </hyp>
+    </seg>
+    <seg segid="143">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Of","Of",C,0
+        "course.","course.",C,0
+      </hyp>
+    </seg>
+    <seg segid="144">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "I","I",C,0
+        "don't","don't",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "","get",I,0
+        "","my",I,0
+        "","hopes",I,0
+        "hope","up",S,0
+        "in","for",S,0
+        "vain.","nothing.",S,0
+      </hyp>
+    </seg>
+    <seg segid="145">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "It","It",C,0
+        "would","would",C,0
+        "be","be",C,0
+        "very","very",C,0
+        "difficult","difficult",C,0
+      </hyp>
+    </seg>
+    <seg segid="146">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "for","",D,0
+        "me","",D,0
+        "to","to",C,0
+        "lose","lose",C,0
+        "you","you",C,0
+        "again.","again.",C,0
+      </hyp>
+    </seg>
+    <seg segid="147">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "It's","That's",S,0
+        "not","not",C,0
+        "","going",I,0
+        "gonna","to",S,0
+        "happen,","happen,",C,0
+        "Gina.","Gina.",C,0
+      </hyp>
+    </seg>
+    <seg segid="148">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "Give","Give",C,0
+        "me","me",C,0
+        "a","",D,0
+        "new","another",S,0
+        "chance,","chance,",C,0
+        "please.","please.",C,0
+      </hyp>
+    </seg>
+    <seg segid="149">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "It's","",D,0
+        "okay.","Okay.",S,0
+      </hyp>
+    </seg>
+    <seg segid="150">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "Look,","Look,",C,0
+        "all","all",C,0
+        "I","I",C,0
+        "want","want",C,0
+      </hyp>
+    </seg>
+    <seg segid="151">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "is","is",C,0
+        "what's","what's",C,0
+        "best","best",C,0
+        "for","for",C,0
+        "our","our",C,0
+        "baby.","baby.",C,0
+      </hyp>
+    </seg>
+    <seg segid="152">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="5.0">
+        "A","",D,0
+        "slate","",D,0
+        "and","",D,0
+        "a","",D,0
+        "new","Clean",S,0
+        "slate?","slate?",C,0
+      </hyp>
+    </seg>
+    <seg segid="153">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Clean","Clean",C,0
+        "slate.","slate.",C,0
+      </hyp>
+    </seg>
+    <seg segid="154">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Thank","Thank",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="155">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "How","What",S,0
+        "do","do",C,0
+        "you","you",C,0
+        "see","",D,0
+        "them,","think,",S,0
+        "Doctor?","Doctor?",C,0
+      </hyp>
+    </seg>
+    <seg segid="156">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I've","I've",C,0
+        "improved,","improved,",C,0
+        "haven't","haven't",C,0
+        "I?","I?",C,0
+      </hyp>
+    </seg>
+    <seg segid="157">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Unfortunately","Unfortunately",C,0
+        "not.","not.",C,0
+      </hyp>
+    </seg>
+    <seg segid="158">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "But","",D,0
+        "don't","",D,0
+        "tell","Don't",S,0
+        "me","say",S,0
+        "that.","that.",C,0
+      </hyp>
+    </seg>
+    <seg segid="159">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "He's","You're",S,0
+        "practically","practically",C,0
+        "the","the",C,0
+        "same","same",C,0
+      </hyp>
+    </seg>
+    <seg segid="160">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "as","as",C,0
+        "the","the",C,0
+        "first","first",C,0
+        "time","time",C,0
+        "I","I",C,0
+        "saw","saw",C,0
+        "him.","you.",S,0
+      </hyp>
+    </seg>
+    <seg segid="161">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "And","And",C,0
+        "that's","that's",C,0
+        "a","a",C,0
+        "sign","sign",C,0
+        "that","that",C,0
+        "you're","you're",C,0
+        "not","not",C,0
+      </hyp>
+    </seg>
+    <seg segid="162">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "following","doing",S,0
+        "what","what",C,0
+        "I","I",C,0
+        "told","told",C,0
+        "","you",I,0
+        "you.","to.",S,0
+      </hyp>
+    </seg>
+    <seg segid="163">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "What","What",C,0
+        "do","can",S,0
+        "you","I",S,0
+        "want,","say,",S,0
+        "Doctor?","Doctor?",C,0
+      </hyp>
+    </seg>
+    <seg segid="164">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "I've","I've",C,0
+        "given","given",C,0
+        "myself","myself",C,0
+        "","a",I,0
+        "my","few",S,0
+        "licenses.","breaks.",S,0
+      </hyp>
+    </seg>
+    <seg segid="165">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "It's","It's",C,0
+        "not","not",C,0
+        "so","that",S,0
+        "easy","easy",C,0
+        "to","to",C,0
+        "follow","follow",C,0
+        "a","",D,0
+        "diet","",D,0
+      </hyp>
+    </seg>
+    <seg segid="166">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "so","such",S,0
+        "strict","strict",C,-1
+        "from","a",S,0
+        "good","diet",S,0
+        "to","straight",S,0
+        "first.","off.",S,0
+      </hyp>
+    </seg>
+    <seg segid="167">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "Besides","Besides,",S,0
+        "I've","I've",C,0
+        "","been",I,0
+        "had","under",S,0
+      </hyp>
+    </seg>
+    <seg segid="168">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "a","a",C,0
+        "lot","lot",C,0
+        "of","of",C,0
+        "pressure","pressure",C,0
+        "and…","and…",C,0
+      </hyp>
+    </seg>
+    <seg segid="169">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "And","And",C,0
+        "that","that",C,0
+        "also","counts",S,0
+        "counts,","for",S,0
+        "doesn't","something,",S,0
+        "it?","right?",S,0
+      </hyp>
+    </seg>
+    <seg segid="170">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "Look,","Look,",C,0
+        "I","I",C,0
+        "get","get",C,0
+        "it.","it.",C,0
+      </hyp>
+    </seg>
+    <seg segid="171">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "But","But",C,0
+        "if","if",C,0
+        "you","you",C,0
+        "don't","don't",C,0
+        "follow","follow",C,0
+      </hyp>
+    </seg>
+    <seg segid="172">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "my","my",C,0
+        "directions","instructions",S,0
+        "to","to",C,0
+        "the","the",C,0
+        "letter,","letter,",C,0
+      </hyp>
+    </seg>
+    <seg segid="173">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "","you're",I,0
+        "you","at",S,0
+        "risk","risk",C,0
+        "","of",I,0
+        "dying.","dying.",C,0
+      </hyp>
+    </seg>
+    <seg segid="174">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "What","",D,0
+        "you","Your",S,0
+        "have","condition",S,0
+        "is","requires",S,0
+        "a","a",C,0
+        "great","great",C,0
+        "deal","deal",C,0
+      </hyp>
+    </seg>
+    <seg segid="175">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "of","of",C,0
+        "care","care",C,0
+        "and","and",C,0
+        "discipline.","discipline.",C,0
+      </hyp>
+    </seg>
+    <seg segid="176">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "All","",D,0
+        "right,","Okay,",S,0
+        "Doctor,","Doctor,",C,0
+        "I'm","",D,0
+        "gonna","I'll",S,0
+        "do","do",C,0
+        "my","my",C,0
+        "best.","best.",C,0
+      </hyp>
+    </seg>
+    <seg segid="177">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "Did","",D,0
+        "you","",D,0
+        "go","",D,0
+        "to","And",S,0
+        "the","the",C,0
+        "psychologist?","psychologist?",C,0
+      </hyp>
+    </seg>
+    <seg segid="178">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "","Yes,",I,0
+        "","I",I,0
+        "Yeah,","went",S,0
+        "yeah,","once,",S,0
+        "but","but",C,0
+        "with","with",C,0
+        "so","so",C,0
+        "much","much",C,0
+        "work,","work",S,0
+      </hyp>
+    </seg>
+    <seg segid="179">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "I","I",C,0
+        "couldn't","couldn't",C,0
+        "go","go",C,0
+        "to","",D,0
+        "see","",D,0
+        "him","",D,0
+        "again.","again.",C,0
+      </hyp>
+    </seg>
+    <seg segid="180">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "What","What",C,0
+        "you","you",C,0
+        "said","said",C,0
+        "to","to",C,0
+        "me","me",C,0
+        "that","before",S,0
+        "time","is",S,0
+      </hyp>
+    </seg>
+    <seg segid="181">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "is","",D,0
+        "more","more",C,0
+        "than","than",C,0
+        "enough","enough",C,0
+        "","for",I,0
+        "","me",I,0
+      </hyp>
+    </seg>
+    <seg segid="182">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "to","to",C,0
+        "understand","understand",C,0
+        "what's","what's",C,0
+        "wrong","",D,0
+        "with","",D,0
+        "me.","wrong.",S,0
+      </hyp>
+    </seg>
+    <seg segid="183">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "This","This",C,0
+        "isn't","isn't",C,0
+        "a","a",C,0
+        "game.","game.",C,0
+      </hyp>
+    </seg>
+    <seg segid="184">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "Either","Either",C,0
+        "you","you",C,0
+        "follow","follow",C,0
+        "my","my",C,0
+        "instructions,","instructions,",C,0
+      </hyp>
+    </seg>
+    <seg segid="185">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "or","or",C,0
+        "you","you",C,0
+        "may","may",C,0
+        "have","have",C,0
+        "a","a",C,0
+        "very","",D,0
+        "serious","serious",C,0
+        "crisis.","crisis.",C,0
+      </hyp>
+    </seg>
+    <seg segid="186">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Keeping","Keeping",C,0
+        "your","your",C,0
+        "diabetes","diabetes",C,0
+      </hyp>
+    </seg>
+    <seg segid="187">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "under","under",C,0
+        "control","control",C,0
+        "depends","depends",C,0
+        "on","on",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="188">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "I","I",C,0
+        "can't","can't",C,0
+        "do","do",C,0
+        "","any",I,0
+        "more.","more.",C,0
+      </hyp>
+    </seg>
+    <seg segid="189">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "I","I",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "see","see",C,0
+        "him","you",S,0
+        "in","in",C,0
+        "a","a",C,0
+        "month.","month.",C,0
+      </hyp>
+    </seg>
+    <seg segid="190">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "And","And",C,0
+        "I","I",C,0
+        "hope","hope",C,0
+        "that,","that,",C,0
+        "by","by",C,0
+        "then,","then,",C,0
+      </hyp>
+    </seg>
+    <seg segid="191">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "the","the",C,0
+        "results","results",C,0
+        "of","of",C,0
+        "your","your",C,0
+        "analysis","analysis",C,0
+      </hyp>
+    </seg>
+    <seg segid="192">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "will","will",C,0
+        "be","be",C,0
+        "another,","very",S,0
+        "definitely,","different,",S,0
+        "okay?","okay?",C,0
+      </hyp>
+    </seg>
+    <seg segid="193">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Yes,","Yes,",C,0
+        "Doctor.","Doctor.",C,0
+      </hyp>
+    </seg>
+    <seg segid="194">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Go","Go",C,0
+        "","and",I,0
+        "see","see",C,0
+        "the","the",C,0
+        "nutritionist.","nutritionist.",C,0
+      </hyp>
+    </seg>
+    <seg segid="195">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Mrs.","",D,0
+        "Andrea","Andrea",C,0
+        "answered","answered",C,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="196">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "He","She",S,0
+        "says","says",C,0
+        "","she'd",I,0
+        "enchanted","love",S,0
+      </hyp>
+    </seg>
+    <seg segid="197">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "he's","to",S,0
+        "having","have",S,0
+        "dinner","dinner",C,0
+        "with","with",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="198">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "Where","Where",C,0
+        "do","should",S,0
+        "I","I",C,0
+        "tell","tell",C,0
+        "him","her",S,0
+        "to","you're",S,0
+        "take","taking",S,0
+        "her?","her?",C,0
+      </hyp>
+    </seg>
+    <seg segid="199">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Uh,","",D,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "know…","know…",C,0
+      </hyp>
+    </seg>
+    <seg segid="200">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "It","",D,0
+        "could","How",S,0
+        "be","about",S,0
+        "the","that",S,0
+        "finite","sandwich",S,0
+        "cakes.","place?",S,0
+      </hyp>
+    </seg>
+    <seg segid="201">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "Oh,","Oh,",C,0
+        "no,","no,",C,0
+        "man.","man.",C,0
+        "As","",D,0
+        "always,","Incredible,",S,0
+        "him,","as",S,0
+        "splendid.","always.",S,0
+      </hyp>
+    </seg>
+    <seg segid="202">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="6.0">
+        "Well,","",D,0
+        "what","What",S,0
+        "do","do",C,0
+        "you","you",C,0
+        "mean,","mean",S,0
+        "the","that",S,0
+        "finite","sandwich",S,0
+        "cakes?","place?",S,0
+      </hyp>
+    </seg>
+    <seg segid="203">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "Well,","",D,0
+        "he's","",D,0
+        "gonna","",D,0
+        "freak","You'll",S,0
+        "her","scare",S,0
+        "out.","her.",S,0
+      </hyp>
+    </seg>
+    <seg segid="204">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="5.0">
+        "You","You",C,0
+        "","have",I,0
+        "beat","to",S,0
+        "her","her",C,-1
+        "up","take",S,0
+        "with","to",S,0
+        "a","a",C,0
+        "nice","nice",C,0
+        "restaurant.","restaurant.",C,0
+      </hyp>
+    </seg>
+    <seg segid="205">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "","If",I,0
+        "Well,","you",S,0
+        "even","like,",S,0
+        "on","on",C,0
+        "the","the",C,0
+        "first","first",C,0
+        "date,","date,",C,0
+      </hyp>
+    </seg>
+    <seg segid="206">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="7.0">
+        "I'd","",D,0
+        "like","",D,0
+        "to","",D,0
+        "give","invest,",S,0
+        "him","spend",S,0
+        "a","a",C,0
+        "little","",D,0
+        "bit.","little,",S,0
+      </hyp>
+    </seg>
+    <seg segid="207">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="7.0">
+        "","then",I,0
+        "","bring",I,0
+        "Then,","the",S,0
+        "then,","level",S,0
+        "it's","down",S,0
+        "coming","later",S,0
+        "down.","on.",S,0
+      </hyp>
+    </seg>
+    <seg segid="208">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="2.0">
+        "Let's","Let's",C,0
+        "see,","",D,0
+        "uh…","see…",S,0
+      </hyp>
+    </seg>
+    <seg segid="209">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "I","I",C,0
+        "know.","know.",C,0
+      </hyp>
+    </seg>
+    <seg segid="210">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Huh?","",D,0
+      </hyp>
+    </seg>
+    <seg segid="211">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "How's","",D,0
+        "that","",D,0
+        "for","How",S,0
+        "the","about",S,0
+        "pears?","Pierangelo?",S,0
+      </hyp>
+    </seg>
+    <seg segid="212">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "How","",D,0
+        "did","",D,0
+        "you…","What",S,0
+      </hyp>
+    </seg>
+    <seg segid="213">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Okay,","Okay,",C,0
+        "okay.","okay.",C,0
+      </hyp>
+    </seg>
+    <seg segid="214">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "That.","",D,0
+      </hyp>
+    </seg>
+    <seg segid="215">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "I'll","I'll",C,0
+        "write","",D,0
+        "to","message",S,0
+        "him.","her.",S,0
+      </hyp>
+    </seg>
+    <seg segid="216">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="1.0">
+        "There","Here",S,0
+        "it","it",C,0
+        "is.","is.",C,0
+      </hyp>
+    </seg>
+    <seg segid="217">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "Let's","Let's",C,0
+        "see,","",D,0
+        "uh,","see.",S,0
+        "Andrea,","Andrea,",C,0
+        "here","here",C,0
+        "it","it",C,0
+        "is.","is.",C,0
+      </hyp>
+    </seg>
+    <seg segid="218">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="3.0">
+        "","Your",I,0
+        "My","kind",S,0
+        "heart…","answer…",S,0
+      </hyp>
+    </seg>
+    <seg segid="219">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        ""Late","",D,0
+        "runaway","has",S,0
+        "with","made",S,0
+        "your","my",S,0
+        "kind","heart",S,0
+        "answer.","race.",S,0
+      </hyp>
+    </seg>
+    <seg segid="220">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "Do","",D,0
+        "you","",D,0
+        "think","",D,0
+        "it's","",D,0
+        "okay","",D,0
+      </hyp>
+    </seg>
+    <seg segid="221">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "","Would",I,0
+        "","you",I,0
+        "if","like",S,0
+        "we","to",S,0
+        "meet","meet",C,0
+        "at","at",C,0
+        "the","",D,0
+        "pier","Pierangelo",S,0
+      </hyp>
+    </seg>
+    <seg segid="222">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "tomorrow","tomorrow",C,0
+        "at","at",C,0
+        "eight","eight",C,0
+        "o'clock?","o'clock?",C,0
+      </hyp>
+    </seg>
+    <seg segid="223">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "perfect.","Perfect.",S,0
+      </hyp>
+    </seg>
+    <seg segid="224">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I","I",C,0
+        "love","love",C,0
+        "that","that",C,0
+        "restaurant.","restaurant.",C,0
+      </hyp>
+    </seg>
+    <seg segid="225">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I'll","I'll",C,0
+        "see","see",C,0
+        "you","you",C,0
+        "there.","there.",C,0
+      </hyp>
+    </seg>
+    <seg segid="226">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "He","She",S,0
+        "says","says",C,0
+        "it's","",D,0
+        "perfect.","perfect.",C,0
+      </hyp>
+    </seg>
+    <seg segid="227">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "This","This",C,0
+        "rice","a",S,0
+        "is","is",C,1
+        "already","done",S,0
+        "cooked.","deal.",S,0
+      </hyp>
+    </seg>
+    <seg segid="228">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="5.0">
+        "And","",D,0
+        "how","Why",S,0
+        "is","is",C,0
+        "it","it",C,0
+        "that,","that",S,0
+        "if","if",C,0
+        "you","you",C,0
+        "write","write",C,0
+        "those","so",S,0
+        "things,","well,",S,0
+      </hyp>
+    </seg>
+    <seg segid="229">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="6.0">
+        "the","the",C,0
+        "woman","woman",C,0
+        "who","",D,0
+        "brings","",D,0
+        "you","",D,0
+        "from","you're",S,0
+        "a","crazy",S,0
+        "wing","about",S,0
+      </hyp>
+    </seg>
+    <seg segid="230">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "doesn't","doesn't",C,0
+        "give","give",C,0
+        "you","you",C,0
+        "a","a",C,0
+        "ticket?","chance?",S,0
+      </hyp>
+    </seg>
+    <seg segid="231">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "Don't","Don't",C,0
+        "move","bring",S,0
+        "that","that",C,0
+        "little","",D,0
+        "guy,","",D,0
+        "huh?","up.",S,0
+      </hyp>
+    </seg>
+    <seg segid="232">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "That","",D,0
+        "little","",D,0
+        "thing","",D,0
+        "is","It's",S,0
+        "an","an",C,0
+        "impossible","impossible",C,0
+        "love.","love.",C,0
+      </hyp>
+    </seg>
+    <seg segid="233">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "Better,","",D,0
+        "to","",D,0
+        "what","",D,0
+        "we","Now,",S,0
+        "were,","where",S,0
+        "to","were",S,0
+        "see…","we?",S,0
+      </hyp>
+    </seg>
+    <seg segid="234">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="1.0">
+        "You","You",C,0
+        "have","have",C,0
+        "to","to",C,0
+        "say","say",C,0
+        "nice","nice",C,0
+        "things","things",C,0
+        "to","to",C,0
+        "Mrs.","",D,0
+        "Andrea.","Andrea.",C,0
+      </hyp>
+    </seg>
+    <seg segid="235">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "Tell","Tell",C,0
+        "him","her",S,0
+        "things","things",C,0
+        "that…","",D,0
+        "that","that",C,0
+        "come","come",C,0
+        "to","to",C,0
+        "him,","you,",S,0
+      </hyp>
+    </seg>
+    <seg segid="236">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "let","",D,0
+        "them","open",S,0
+        "come","soul",S,0
+        "out","up",S,0
+        "of","to",S,0
+        "your","your",C,3
+        "soul.","her.",S,0
+      </hyp>
+    </seg>
+    <seg segid="237">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Imagine","Imagine",C,0
+        "I'm","I'm",C,0
+        "her","her",C,0
+      </hyp>
+    </seg>
+    <seg segid="238">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "and","and",C,0
+        "we're","we're",C,0
+        "in","in",C,0
+        "a","a",C,0
+        "restaurant.","restaurant.",C,0
+      </hyp>
+    </seg>
+    <seg segid="239">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "What","What",C,0
+        "would","would",C,0
+        "you","you",C,0
+        "say?","say?",C,0
+      </hyp>
+    </seg>
+    <seg segid="240">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="1.0">
+        "It's","That's",S,0
+        "very","very",C,0
+        "difficult.","difficult.",C,0
+      </hyp>
+    </seg>
+    <seg segid="241">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Why?","Why?",C,0
+      </hyp>
+    </seg>
+    <seg segid="242">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "Because","Because",C,0
+        "you're","you're",C,0
+        "ugly","ugly",C,0
+        "with","with",C,0
+        "a","a",C,0
+        "capital","capital",C,0
+        "EFE.","U.",S,0
+      </hyp>
+    </seg>
+    <seg segid="243">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "It's","",D,0
+        "not","not",C,0
+        "that","",D,0
+        "I'm","I'm",C,1
+        "ugly,","ugly,",C,0
+      </hyp>
+    </seg>
+    <seg segid="244">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="5.0">
+        "I'm","I'm",C,0
+        "","just",I,0
+        "","not",I,0
+        "ill-wrapped,","at",S,0
+        "it's","my",S,0
+        "different.","best.",S,0
+      </hyp>
+    </seg>
+    <seg segid="245">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "You","You",C,0
+        "","just",I,0
+        "focus","focus",C,0
+        "on","on",C,0
+        "your","your",C,0
+        "thing.","thing.",C,0
+      </hyp>
+    </seg>
+    <seg segid="246">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "Also,","",D,0
+        "add","",D,0
+        "that","",D,0
+        "to","",D,0
+        "him.","Okay!",S,0
+      </hyp>
+    </seg>
+    <seg segid="247">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="8.0">
+        "Think","",D,0
+        "about","",D,0
+        "it.","",D,0
+        "If","",D,0
+        "you","Perhaps",S,0
+        "want,","look",S,0
+        "don't","don't",C,1
+        "see","at",S,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="248">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="2.0">
+        "Yeah,","Yeah,",C,0
+        "better,","",D,0
+        "better.","that",S,0
+      </hyp>
+    </seg>
+    <seg segid="249">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Let's","",D,0
+        "see.","",D,0
+      </hyp>
+    </seg>
+    <seg segid="250">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "Uh…","",D,0
+        "What","What",C,0
+        "would","would",C,0
+        "","you",I,0
+        "","say",I,0
+        "I","to",S,0
+        "say?","her?",S,0
+      </hyp>
+    </seg>
+    <seg segid="251">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "Andrea,","Andrea,",C,0
+        "you","you",C,0
+        "really","really",C,0
+        "have","have",C,1
+        "pretty","pretty",C,0
+        "eyes.","eyes.",C,0
+      </hyp>
+    </seg>
+    <seg segid="252">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="1.0">
+        "Are","Are",C,0
+        "these","they",S,0
+        "yours?","yours?",C,0
+      </hyp>
+    </seg>
+    <seg segid="253">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "No,","No.",S,0
+        "we're","We're",S,0
+        "screwed,","screwed,",C,0
+        "","aren't",I,0
+        "huh?","we?",S,0
+      </hyp>
+    </seg>
+    <seg segid="254">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "Let's","Let's",C,0
+        "see,","see,",C,0
+        "close","close",C,0
+        "your","your",C,0
+        "eyes.","eyes.",C,0
+      </hyp>
+    </seg>
+    <seg segid="255">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "Here,","Here,",C,0
+        "take","take",C,0
+        "a","a",C,0
+        "deep","deep",C,0
+        "breath.","breath.",C,0
+      </hyp>
+    </seg>
+    <seg segid="256">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "There,","There,",C,0
+        "imagine","imagine",C,0
+        "you're","you're",C,0
+        "with","with",C,0
+        "Mrs.","",D,0
+        "Andrea.","Andrea.",C,0
+      </hyp>
+    </seg>
+    <seg segid="257">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Let's","Let's",C,0
+        "see.","see.",C,0
+      </hyp>
+    </seg>
+    <seg segid="258">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "Watching","Watching",C,0
+        "the","the",C,0
+        "sun","sun",C,0
+        "go","go",C,0
+        "down","down",C,0
+        "on","on",C,0
+        "the","the",C,0
+        "beach.","beach.",C,0
+      </hyp>
+    </seg>
+    <seg segid="259">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "The","The",C,0
+        "rays","rays",C,0
+        "that","that",C,0
+        "hide","hide",C,0
+        "on","behind",S,0
+        "the","the",C,0
+        "horizon","horizon",C,0
+      </hyp>
+    </seg>
+    <seg segid="260">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "bounce","bounce",C,0
+        "off","off",C,0
+        "your","her",S,0
+        "blonde","blond",S,0
+        "hair.","hair.",C,0
+      </hyp>
+    </seg>
+    <seg segid="261">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Andrea,","Andrea,",C,0
+      </hyp>
+    </seg>
+    <seg segid="262">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "I","I",C,0
+        "feel","feel",C,0
+        "like","like",C,0
+        "I'm","I'm",C,0
+        "drowning","drowning",C,0
+        "in","in",C,0
+        "","the",I,0
+        "","depths",I,0
+        "your","of",S,0
+        "depth.","you.",S,0
+      </hyp>
+    </seg>
+    <seg segid="263">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Hi.","Hi.",C,0
+      </hyp>
+    </seg>
+    <seg segid="264">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Come","Come",C,0
+        "in.","in.",C,0
+      </hyp>
+    </seg>
+    <seg segid="265">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Thank","Thank",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="266">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I'm","I'm",C,0
+        "here","here",C,0
+        "to","to",C,0
+        "apologize.","apologize.",C,0
+      </hyp>
+    </seg>
+    <seg segid="267">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "I","I",C,0
+        "wasn't","wasn't",C,0
+        "very","very",C,0
+        "nice","nice",C,0
+        "to","to",C,0
+        "you","you",C,0
+        "this","this",C,0
+        "morning.","morning.",C,0
+      </hyp>
+    </seg>
+    <seg segid="268">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "Don't","Don't",C,0
+        "worry,","worry,",C,0
+        "I","I",C,0
+        "was","was",C,0
+        "just","just",C,0
+        "going","going",C,0
+        "to","to",C,0
+        "","say",I,0
+        "","hi",I,0
+      </hyp>
+    </seg>
+    <seg segid="269">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "say","",D,0
+        "hello","",D,0
+        "and","and",C,0
+        "bring","bring",C,0
+        "them","you",S,0
+        "some","some",C,0
+        "sweet","sweet",C,0
+        "bread.","bread.",C,0
+      </hyp>
+    </seg>
+    <seg segid="270">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "But","But",C,0
+        "come","come",C,0
+        "on","on",C,0
+        "in,","in,",C,0
+        "don't","don't",C,0
+        "just","just",C,0
+        "stand","stand",C,0
+        "there.","there.",C,0
+      </hyp>
+    </seg>
+    <seg segid="271">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "You","You",C,0
+        "want","want",C,0
+        "a","a",C,0
+        "","cup",I,0
+        "","of",I,0
+        "coffee,","coffee?",S,0
+        "a","A",S,0
+        "cup","cup",C,0
+        "of","of",C,0
+        "tea?","tea?",C,0
+      </hyp>
+    </seg>
+    <seg segid="272">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "Thank","Thank",C,-2
+        "you,","No,",S,0
+        "no,","you.",S,0
+        "thank","thank",C,2
+        "you","you",C,0
+        "very","very",C,0
+        "much.","much.",C,0
+      </hyp>
+    </seg>
+    <seg segid="273">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "You've","",D,0
+        "been","You",S,0
+        "talking","talked",S,0
+        "to","to",C,0
+        "Pedro,","Pedro,",C,0
+        "haven't","didn't",S,0
+        "you?","you?",C,0
+      </hyp>
+    </seg>
+    <seg segid="274">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="1.0">
+        "Yeah,","Yes,",S,0
+        "why?","why?",C,0
+      </hyp>
+    </seg>
+    <seg segid="275">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "Thanks","Thanks",C,0
+        "to","to",C,0
+        "what","what",C,0
+        "you","you",C,0
+        "told","told",C,0
+        "him,","him,",C,0
+      </hyp>
+    </seg>
+    <seg segid="276">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "Peter","Pedro",S,0
+        "decided","decided",C,0
+        "to","to",C,0
+        "change","change",C,0
+        "his","his",C,0
+        "attitude.","attitude.",C,0
+      </hyp>
+    </seg>
+    <seg segid="277">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "He's","He's",C,0
+        "willing","willing",C,0
+        "to","to",C,0
+        "do","do",C,0
+        "everything","everything",C,0
+        "for","for",C,0
+        "us","us",C,0
+      </hyp>
+    </seg>
+    <seg segid="278">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "","so",I,0
+        "","we",I,0
+        "to","can",S,0
+        "have","build",S,0
+        "a","a",C,0
+        "family","family",C,0
+        "as","as",C,0
+        "God","God",C,0
+        "commands.","intended.",S,0
+      </hyp>
+    </seg>
+    <seg segid="279">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="2.0">
+        "Oh,","",D,0
+        "that's","That's",S,0
+        "nice.","nice.",C,0
+      </hyp>
+    </seg>
+    <seg segid="280">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "You","You",C,0
+        "don't","don't",C,0
+        "know","know",C,0
+        "how","how",C,0
+        "happy","happy",C,0
+        "I","I",C,0
+        "am.","am.",C,0
+      </hyp>
+    </seg>
+    <seg segid="281">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "Peter","Pedro",S,0
+        "is","means",S,0
+        "everything","everything",C,0
+        "to","to",C,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="282">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "And","",D,0
+        "he","He",S,0
+        "promised","promised",C,0
+        "me","",D,0
+        "that","that",C,0
+        "he","he",C,0
+        "wouldn't","wouldn't",C,0
+        "think","think",C,0
+      </hyp>
+    </seg>
+    <seg segid="283">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "of","about",S,0
+        "anything","anything",C,0
+        "","other",I,0
+        "but","than",S,0
+        "us,","us,",C,0
+      </hyp>
+    </seg>
+    <seg segid="284">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "my","my",C,0
+        "baby","baby",C,0
+        "and","and",C,0
+        "me.","me.",C,0
+      </hyp>
+    </seg>
+    <seg segid="285">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Uh-huh.","Uhhuh.",S,0
+      </hyp>
+    </seg>
+    <seg segid="286">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I","I",C,0
+        "hope","hope",C,0
+        "that","that",C,0
+        "means","means",C,0
+      </hyp>
+    </seg>
+    <seg segid="287">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "he","he's",S,0
+        "forgets","forgotten",S,0
+        "about","about",C,0
+        "Elena.","Elena.",C,0
+      </hyp>
+    </seg>
+    <seg segid="288">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="5.0">
+        "Ever","Ever",C,0
+        "since","since",C,0
+        "that","",D,0
+        "woman","she",S,0
+        "appeared","came",S,0
+        "in","into",S,0
+        "her","his",S,0
+        "life,","life,",C,0
+      </hyp>
+    </seg>
+    <seg segid="289">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "she's","he's",S,0
+        "been","done",S,0
+        "nothing","nothing",C,0
+        "but","but",C,0
+        "suffering","",D,0
+        "for","",D,0
+        "him,","suffer,",S,0
+      </hyp>
+    </seg>
+    <seg segid="290">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "don't","don't",C,0
+        "you","you",C,0
+        "think?","think?",C,0
+      </hyp>
+    </seg>
+    <seg segid="291">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="6.0">
+        "You","You",C,0
+        "have","have",C,0
+        "nothing","nothing",C,0
+        "more","",D,0
+        "to","",D,0
+        "say","else",S,0
+        "to","to",C,0
+        "me","",D,0
+        "than","",D,0
+        "that?","say?",S,0
+      </hyp>
+    </seg>
+    <seg segid="292">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "What","What",C,0
+        "do","do",C,0
+        "you","you",C,0
+        "want","want",C,0
+        "me","me",C,0
+        "to","to",C,0
+        "say?","say?",C,0
+      </hyp>
+    </seg>
+    <seg segid="293">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Excuse","I'm",S,0
+        "me,","sorry,",S,0
+      </hyp>
+    </seg>
+    <seg segid="294">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="0.0">
+        "but","but",C,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "know","know",C,0
+        "what","what",C,0
+        "you","you",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "hear.","hear.",C,0
+      </hyp>
+    </seg>
+    <seg segid="295">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "At","At",C,0
+        "least","least",C,0
+        "tell","tell",C,0
+        "me","me",C,0
+        "you're","you're",C,0
+        "happy","happy",C,0
+        "for","for",C,0
+        "us.","us.",C,0
+      </hyp>
+    </seg>
+    <seg segid="296">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "No,","No,",C,0
+        "no,","",D,0
+        "of","of",C,0
+        "course","course",C,0
+        "I'm","I'm",C,0
+        "happy","happy",C,0
+        "for","for",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="297">
+      <hyp id="1" refid="" wrd_cnt="11.0" num_errs="5.0">
+        "But…","",D,0
+        "can","Can",S,0
+        "I","I",C,0
+        "get","get",C,0
+        "you","you",C,0
+        "a","a",C,0
+        "coffee,","coffee",S,0
+        "a","or",S,0
+        "cup","cup",C,2
+        "of","of",C,2
+        "tea?","tea?",C,0
+      </hyp>
+    </seg>
+    <seg segid="298">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "No,","No,",C,0
+        "no,","I'm",S,0
+        "really,","really",S,0
+        "thank","fine,",S,0
+        "you.","thanks.",S,0
+      </hyp>
+    </seg>
+    <seg segid="299">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "It","I",S,0
+        "was","wanted",S,0
+        "just","just",C,1
+        "a","to",S,0
+        "little","stop",S,0
+        "pass.","by.",S,0
+      </hyp>
+    </seg>
+    <seg segid="300">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "I'll","I'll",C,0
+        "leave","let",S,0
+        "you","you",C,0
+        "","get",I,0
+        "","to",I,0
+      </hyp>
+    </seg>
+    <seg segid="301">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "with","",D,0
+        "everything","everything",C,0
+        "you","you",C,0
+        "have","have",C,0
+        "to","to",C,0
+        "do.","do.",C,0
+      </hyp>
+    </seg>
+    <seg segid="302">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "Make","",D,0
+        "sure","",D,0
+        "it's","Take",S,0
+        "okay.","care",S,0
+      </hyp>
+    </seg>
+    <seg segid="303">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Thank","Thank",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="304">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="1.0">
+        "You,","You",S,0
+        "too.","too.",C,0
+      </hyp>
+    </seg>
+    <seg segid="305">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "Peter,","Pedro...",S,0
+        "Peter's","Pedro's",S,0
+        "never","never",C,0
+        "going","going",C,0
+        "to","to",C,0
+        "be","be",C,0
+        "happy","happy",C,0
+      </hyp>
+    </seg>
+    <seg segid="306">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="2.0">
+        "with","with",C,0
+        "this","that",S,0
+        "one","woman,",S,0
+      </hyp>
+    </seg>
+    <seg segid="307">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "even","no",S,0
+        "if","matter",S,0
+        "I","how",S,0
+        "propose","hard",S,0
+        "to","he",S,0
+        "him.","tries.",S,0
+      </hyp>
+    </seg>
+    <seg segid="308">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "So","",D,0
+        "what?","And?",S,0
+        "Aren't","Aren't",C,0
+        "you","you",C,0
+        "going","going",C,0
+        "to","to",C,0
+        "","eat",I,0
+        "eat?","lunch?",S,0
+      </hyp>
+    </seg>
+    <seg segid="309">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "I","I",C,0
+        "ate","ate",C,0
+        "with","with",C,-1
+        "Gina","early",S,0
+        "early.","Gina.",S,0
+      </hyp>
+    </seg>
+    <seg segid="310">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "You","Aren't",S,0
+        "don't","you",S,0
+        "go","going",S,0
+        "out?","out?",C,0
+      </hyp>
+    </seg>
+    <seg segid="311">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "No,","No,",C,0
+        "I","I",C,0
+        "brought","brought",C,0
+        "my","my",C,0
+        "","own",I,0
+        "food.","lunch.",S,0
+      </hyp>
+    </seg>
+    <seg segid="312">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Yeah.","Yes.",S,0
+      </hyp>
+    </seg>
+    <seg segid="313">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "What,","Are",S,0
+        "you","you",C,0
+        "","going",I,0
+        "always","to",S,0
+        "try","try",C,0
+        "the","the",C,0
+        "car","car",C,0
+        "tomorrow?","tomorrow?",C,0
+      </hyp>
+    </seg>
+    <seg segid="314">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "I","I",C,0
+        "have","have",C,0
+        "to.","to.",C,0
+      </hyp>
+    </seg>
+    <seg segid="315">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "I'd","I'd",C,0
+        "love","love",C,0
+        "to","to",C,0
+        "go","go",C,0
+        "with","with",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="316">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "With","With",C,0
+        "the","the",C,0
+        "adjustments","adjustments",C,0
+        "you","you",C,0
+        "made","",D,0
+        "to","",D,0
+        "the","",D,0
+        "machine,","made,",S,0
+      </hyp>
+    </seg>
+    <seg segid="317">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="7.0">
+        "it","it",C,0
+        "must","must",C,0
+        "have","",D,0
+        "a","",D,0
+        "little","",D,0
+        "bit","",D,0
+        "of","",D,0
+        "a","be",S,0
+        "start,","powerful,",S,0
+        "right?","right?",C,0
+      </hyp>
+    </seg>
+    <seg segid="318">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="2.0">
+        "Then","",D,0
+        "tell","Ask",S,0
+        "Nelson","Nelson",C,0
+        "to","to",C,0
+        "give","give",C,0
+        "you","you",C,0
+        "a","a",C,0
+        "chance.","chance.",C,0
+      </hyp>
+    </seg>
+    <seg segid="319">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "I","I",C,0
+        "don't","don't",C,0
+        "have","",D,0
+        "a","",D,0
+        "grudge,","mind,",S,0
+        "huh?","really.",S,0
+      </hyp>
+    </seg>
+    <seg segid="320">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "No,","No,",C,0
+        "man,","",D,0
+        "you","",D,0
+        "even","no",S,0
+        "think.","way.",S,0
+      </hyp>
+    </seg>
+    <seg segid="321">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "I've","I've",C,0
+        "had","got",S,0
+        "my","tons",S,0
+        "swab","of",S,0
+        "loaded.","work.",S,0
+      </hyp>
+    </seg>
+    <seg segid="322">
+      <hyp id="1" refid="" wrd_cnt="10.0" num_errs="7.0">
+        "Anyway,","I",S,0
+        "I'm","might",S,0
+        "gonna","even",S,0
+        "stick","stay",S,0
+        "around","late",S,0
+        "today","today",C,0
+        "to","to",C,0
+        "get","get",C,0
+        "her","",D,0
+        "out.","ahead.",S,0
+      </hyp>
+    </seg>
+    <seg segid="323">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "But,","going",S,0
+        "well,","to",S,0
+        "I'm","I'm",C,2
+        "gonna","go",S,0
+        "have","eat",S,0
+        "a","my",S,0
+        "taquito.","tacos.",S,0
+      </hyp>
+    </seg>
+    <seg segid="324">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Bon","",D,0
+        "appetit.","Enjoy.",S,0
+      </hyp>
+    </seg>
+    <seg segid="325">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "Dude,","Hey,",S,0
+        "how'd","how'd",C,0
+        "it","it",C,0
+        "go","go",C,0
+        "with","with",C,0
+        "the","the",C,0
+        "doctor?","doctor?",C,0
+      </hyp>
+    </seg>
+    <seg segid="326">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Huh?","Huh?",C,0
+      </hyp>
+    </seg>
+    <seg segid="327">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="5.0">
+        "That","What",S,0
+        "what","did",S,0
+        "Dr.","Doctor",S,0
+        "Araiza","Araiza",C,0
+        "told","tell",S,0
+        "you.","you?",S,0
+      </hyp>
+    </seg>
+    <seg segid="328">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "Uh,","",D,0
+        "yeah,","",D,0
+        "yeah,","Right,",S,0
+        "the","the",C,0
+        "doctor.","doctor.",C,0
+      </hyp>
+    </seg>
+    <seg segid="329">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "What,","",D,0
+        "what's","",D,0
+        "wrong","",D,0
+        "with","What's",S,0
+        "you?","wrong?",S,0
+      </hyp>
+    </seg>
+    <seg segid="330">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "I","",D,0
+        "interrupted","",D,0
+        "you,","You're",S,0
+        "didn't","busy,",S,0
+        "I?","right?",S,0
+      </hyp>
+    </seg>
+    <seg segid="331">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "No.","No.",C,0
+      </hyp>
+    </seg>
+    <seg segid="332">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="1.0">
+        "Well,","Well,",C,0
+        "yeah.","yes.",S,0
+      </hyp>
+    </seg>
+    <seg segid="333">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "I'm","I'm",C,0
+        "","working",I,0
+        "with","on",S,0
+        "a","a",C,0
+        "car","car",C,0
+      </hyp>
+    </seg>
+    <seg segid="334">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "that","and",S,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "know","know",C,0
+        "","what's",I,0
+        "what","wrong",S,0
+        "it's","with",S,0
+        "got.","it.",S,0
+      </hyp>
+    </seg>
+    <seg segid="335">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "Just","Just",C,0
+        "tell","tell",C,0
+        "me","me",C,0
+        "how","how",C,0
+        "it","it",C,0
+        "went,","went",S,0
+      </hyp>
+    </seg>
+    <seg segid="336">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "and","and",C,0
+        "I'm","",D,0
+        "not","I'll",S,0
+        "interrupting","leave",S,0
+        "you","you",C,0
+        "anymore.","alone.",S,0
+      </hyp>
+    </seg>
+    <seg segid="337">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "Uh,","",D,0
+        "good,","",D,0
+        "good,","",D,0
+        "good.","Good.",S,0
+      </hyp>
+    </seg>
+    <seg segid="338">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "All","",D,0
+        "right,","Great,",S,0
+        "better","better",C,0
+        "than","than",C,0
+        "I","I",C,0
+        "expected,","expected.",S,0
+        "yeah.","Yes.",S,0
+      </hyp>
+    </seg>
+    <seg segid="339">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "Oh,","",D,0
+        "good,","That's",S,0
+        "man,","great.",S,0
+      </hyp>
+    </seg>
+    <seg segid="340">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "you","You",S,0
+        "don't","don't",C,0
+        "know","know",C,0
+        "how","how",C,0
+        "","happy",I,0
+        "glad","that",S,0
+        "I","makes",S,0
+        "am.","me.",S,0
+      </hyp>
+    </seg>
+    <seg segid="341">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "Well,","let",S,0
+        "I'll","I'll",C,1
+        "leave","you",S,0
+        "you,","go.",S,0
+      </hyp>
+    </seg>
+    <seg segid="342">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "and","Keep",S,0
+        "get","working",S,0
+        "on","on",C,0
+        "with","",D,0
+        "your","your",C,0
+        "car,","car,",C,0
+        "huh?","okay?",S,0
+      </hyp>
+    </seg>
+    <seg segid="343">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "It's,","",D,0
+        "it's","",D,0
+        "good.","Okay.",S,0
+      </hyp>
+    </seg>
+    <seg segid="344">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "What's","What's",C,0
+        "going","going",C,0
+        "on?","on?",C,0
+      </hyp>
+    </seg>
+    <seg segid="345">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="1.0">
+        "I","I",C,0
+        "can't","can't",C,0
+        "get","get",C,0
+        "the","the",C,0
+        "car","car",C,0
+        "up","up",C,0
+        "to","on",S,0
+        "the","the",C,0
+        "ramp.","ramp.",C,0
+      </hyp>
+    </seg>
+    <seg segid="346">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "It","It's",S,0
+        "makes","making",S,0
+        "a","a",C,0
+        "really","",D,0
+        "weird","weird",C,0
+        "noise,","noise.",S,0
+      </hyp>
+    </seg>
+    <seg segid="347">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="2.0">
+        "and","",D,0
+        "that's","That's",S,0
+        "why","why",C,0
+        "I","I",C,0
+        "worked","worked",C,0
+        "with","with",C,0
+        "the","the",C,0
+        "towers.","towers.",C,0
+      </hyp>
+    </seg>
+    <seg segid="348">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "I'll","I'll",C,0
+        "talk","",D,0
+        "to","call",S,0
+        "the","the",C,0
+        "technician","technician",C,0
+        "tomorrow.","tomorrow.",C,0
+      </hyp>
+    </seg>
+    <seg segid="349">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Yeah.","Yes.",S,0
+      </hyp>
+    </seg>
+    <seg segid="350">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="2.0">
+        "What","What",C,0
+        "time","time",C,0
+        "are","are",C,0
+        "you","you",C,0
+        "","going",I,0
+        "gonna","to",S,0
+        "try","try",C,0
+        "the","the",C,0
+        "car?","car?",C,0
+      </hyp>
+    </seg>
+    <seg segid="351">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "No,","Well,",S,0
+        "as","as",C,0
+        "soon","soon",C,0
+        "as","as",C,0
+        "he","he",C,0
+        "gets","gets",C,0
+        "here.","here.",C,0
+      </hyp>
+    </seg>
+    <seg segid="352">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "Well,","Well,",C,0
+        "let's","let's",C,0
+        "go,","go,",C,0
+        "then.","then.",C,0
+      </hyp>
+    </seg>
+    <seg segid="353">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "Jimmy,","Jimmy,",C,0
+        "lock","lock",C,0
+        "it","things",S,0
+        "up","up",C,0
+        "when","when",C,0
+        "you","you",C,0
+        "get","",D,0
+        "out.","leave.",S,0
+      </hyp>
+    </seg>
+    <seg segid="354">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "Yeah,","Yes,",S,0
+        "boss,","boss.",S,0
+        "don't","Don't",S,0
+        "worry.","worry.",C,0
+      </hyp>
+    </seg>
+    <seg segid="355">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Thank","Thank",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="356">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "See","See",C,0
+        "you","you",C,0
+        "tomorrow.","tomorrow.",C,0
+      </hyp>
+    </seg>
+    <seg segid="357">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "Let","Have",S,0
+        "it","a",S,0
+        "be","good",S,0
+        "mild.","one.",S,0
+      </hyp>
+    </seg>
+    <seg segid="358">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "Come","",D,0
+        "on,","Okay,",S,0
+        "get","get",C,0
+        "some","some",C,0
+        "rest.","rest.",C,0
+      </hyp>
+    </seg>
+    <seg segid="359">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Thanks,","Thanks,",C,0
+        "","you",I,0
+        "anyway.","too.",S,0
+      </hyp>
+    </seg>
+    <seg segid="360">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Good","Good",C,0
+        "night,","night,",C,0
+        "Ma.","Ma.",C,0
+      </hyp>
+    </seg>
+    <seg segid="361">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Good","Good",C,0
+        "night,","night,",C,0
+        "son.","son.",C,0
+      </hyp>
+    </seg>
+    <seg segid="362">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "I","I",C,0
+        "did","made<i>",S,0
+        "sync,","sincronizadas.",S,0
+        "are","</i>Are",S,0
+        "you","you",C,0
+        "hungry?","hungry?",C,0
+      </hyp>
+    </seg>
+    <seg segid="363">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "Oh,","Yes,",S,0
+        "yes,","I",S,0
+        "actually,","actually,",C,1
+        "yes.","am.",S,0
+      </hyp>
+    </seg>
+    <seg segid="364">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "Sit","Sit",C,0
+        "down.","down.",C,0
+      </hyp>
+    </seg>
+    <seg segid="365">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Where's","Where's",C,0
+        "my","my",C,0
+        "dad?","dad?",C,0
+      </hyp>
+    </seg>
+    <seg segid="366">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="4.0">
+        "","He's",I,0
+        "He","not",S,0
+        "hasn't","home",S,0
+        "arrived.","yet.",S,0
+      </hyp>
+    </seg>
+    <seg segid="367">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="6.0">
+        "In","",D,0
+        "the","",D,0
+        "afternoon,","afternoon,",C,-5
+        "I","I",C,0
+        "talked","talked",C,0
+        "to","to",C,0
+        "","him",I,0
+        "him,","this",S,0
+        "he","he",C,0
+        "told","told",C,0
+        "","me",I,0
+      </hyp>
+    </seg>
+    <seg segid="368">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="2.0">
+        "me","",D,0
+        "he","he",C,0
+        "was","was",C,0
+        "bringing","having",S,0
+        "a","a",C,0
+        "problem","problem",C,0
+        "with","with",C,0
+        "a","a",C,0
+        "car.","car.",C,0
+      </hyp>
+    </seg>
+    <seg segid="369">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="3.0">
+        "Son,","Son,",C,0
+        "I","I",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "talk","talk",C,0
+        "to","to",C,0
+        "","you",I,0
+        "you,","about",S,0
+        "Peter.","Pedro.",S,0
+      </hyp>
+    </seg>
+    <seg segid="370">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "What","What",C,0
+        "about","about",C,0
+        "him?","him?",C,0
+      </hyp>
+    </seg>
+    <seg segid="371">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "Well,","Well,",C,0
+        "he","he",C,0
+        "told","told",C,0
+        "me","me",C,0
+        "that","that",C,0
+        "Ernesto","Ernesto",C,0
+        "told","told",C,0
+        "her","him",S,0
+      </hyp>
+    </seg>
+    <seg segid="372">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "that","that",C,0
+        "if","if",C,0
+        "she","he",S,0
+        "didn't","didn't",C,0
+        "marry","marry",C,0
+        "Gina,","Gina,",C,0
+      </hyp>
+    </seg>
+    <seg segid="373">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "Elena","Elena",C,0
+        "would","would",C,0
+        "never","never",C,0
+        "see","see",C,0
+        "Nico","Nico",C,0
+        "again.","again.",C,0
+      </hyp>
+    </seg>
+    <seg segid="374">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "And","And",C,0
+        "he","he",C,0
+        "also","also",C,0
+        "told","told",C,0
+        "me","me",C,0
+        "that","that",C,0
+      </hyp>
+    </seg>
+    <seg segid="375">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "the","the",C,0
+        "only","only",C,0
+        "one","one",C,0
+        "who","who",C,0
+        "knew","knew",C,0
+        "","about",I,0
+        "it","it",C,0
+        "was","was",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="376">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "Why","Why",C,0
+        "did","didn't",S,0
+        "you","you",C,0
+        "shut","say",S,0
+        "up?","something?",S,0
+      </hyp>
+    </seg>
+    <seg segid="377">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "We","We",C,0
+        "could","could",C,0
+        "have","have",C,0
+        "done","done",C,0
+        "something.","something.",C,0
+      </hyp>
+    </seg>
+    <seg segid="378">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "There","There",C,0
+        "was","was",C,0
+        "nothing","nothing",C,0
+        "to","to",C,0
+        "do,","do,",C,0
+        "Ma.","Ma.",C,0
+      </hyp>
+    </seg>
+    <seg segid="379">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "Ernesto","Ernesto",C,0
+        "had","had",C,0
+        "it","it",C,0
+        "all","all",C,0
+        "figured","figured",C,0
+        "out,","out,",C,0
+      </hyp>
+    </seg>
+    <seg segid="380">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "and","and",C,0
+        "if","if",C,0
+        "Peter","Pedro",S,0
+        "hadn't","hadn't",C,0
+        "married","married",C,0
+        "Gina,","Gina,",C,0
+      </hyp>
+    </seg>
+    <seg segid="381">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "Elena","Elena",C,0
+        "","would've",I,0
+        "loses","lost",S,0
+        "her","her",C,0
+        "son.","son.",C,0
+      </hyp>
+    </seg>
+    <seg segid="382">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "If","",D,0
+        "I","I",C,0
+        "didn't","didn't",C,0
+        "say","say",C,0
+        "anything,","anything",S,0
+      </hyp>
+    </seg>
+    <seg segid="383">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="4.0">
+        "it","",D,0
+        "was","",D,0
+        "because","because",C,0
+        "Peter","Pedro",S,0
+        "asked","asked",C,0
+        "me","me",C,0
+        "","not",I,0
+        "to.","to.",C,0
+      </hyp>
+    </seg>
+    <seg segid="384">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="5.0">
+        "There","Some",S,0
+        "are","are",C,-1
+        "secrets","secrets",C,0
+        "that","",D,0
+        "damage","harmful",S,0
+        "more","more",C,1
+      </hyp>
+    </seg>
+    <seg segid="385">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "if","if",C,0
+        "you","you",C,0
+        "keep","keep",C,0
+        "it","them",S,0
+        "than","than",C,0
+        "","if",I,0
+        "you","you",C,0
+        "say","tell",S,0
+        "it.","them.",S,0
+      </hyp>
+    </seg>
+    <seg segid="386">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "You're","Are",S,0
+        "not","you",S,0
+        "thinking","thinking",C,0
+        "about","about",C,0
+        "telling","telling",C,0
+        "Elena.","Elena?",S,0
+      </hyp>
+    </seg>
+    <seg segid="387">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I","I",C,0
+        "don't","don't",C,0
+        "know,","know,",C,0
+        "son.","son.",C,0
+      </hyp>
+    </seg>
+    <seg segid="388">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="5.0">
+        "At","At",C,0
+        "this","this",C,0
+        "point,","point,",C,0
+        "even","",D,0
+        "if","",D,0
+        "she","",D,0
+        "knows","",D,0
+        "it,","",D,0
+      </hyp>
+    </seg>
+    <seg segid="389">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="5.0">
+        "","her",I,0
+        "she's","finding",S,0
+        "not","out",S,0
+        "gonna","wouldn't",S,0
+        "do","fix",S,0
+        "anything.","anything.",C,0
+      </hyp>
+    </seg>
+    <seg segid="390">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "It's","It'll",S,0
+        "just","just",C,0
+        "gonna","",D,0
+        "destroy","destroy",C,0
+        "Gina's","Gina's",C,0
+        "life.","life.",C,0
+      </hyp>
+    </seg>
+    <seg segid="391">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="5.0">
+        "You","You",C,0
+        "know","know",C,0
+        "he's","she's",S,0
+        "not","not",C,0
+        "a","",D,0
+        "saint","cup",S,0
+        "of","of",C,0
+        "my","my",C,2
+        "devotion,","tea,",S,0
+      </hyp>
+    </seg>
+    <seg segid="392">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="1.0">
+        "but,","but,",C,0
+        "well,","well,",C,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "hurt","hurt",C,0
+        "him","her",S,0
+        "either.","either.",C,0
+      </hyp>
+    </seg>
+    <seg segid="393">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="5.0">
+        "Hey,","Hey,",C,0
+        "","do",I,0
+        "","you",I,0
+        "isn't","think",S,0
+        "Gina","Gina",C,0
+        "aware","knows",S,0
+        "of","about",S,0
+        "all","all",C,0
+        "this?","this?",C,0
+      </hyp>
+    </seg>
+    <seg segid="394">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "Now,","Listen,",S,0
+        "why","why",C,0
+        "did","would",S,0
+        "you","she",S,0
+        "agree","agree",C,0
+        "to","to",C,0
+        "marry","marry",C,0
+        "Peter","Pedro",S,0
+      </hyp>
+    </seg>
+    <seg segid="395">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="3.0">
+        "so","so",C,0
+        "suddenly","suddenly",C,0
+        "","when",I,0
+        "","she",I,0
+        "knowing","knows",S,0
+        "that","that",C,0
+        "he","he",C,0
+        "loves","loves",C,0
+        "Elena?","Elena?",C,0
+      </hyp>
+    </seg>
+    <seg segid="396">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "That","That",C,0
+        "would","would",C,0
+        "mean","mean",C,0
+      </hyp>
+    </seg>
+    <seg segid="397">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "that","that",C,0
+        "Gina","Gina",C,0
+        "and","and",C,0
+        "Ernesto","Ernesto",C,0
+        "are","are",C,0
+        "colluding.","colluding.",C,0
+      </hyp>
+    </seg>
+    <seg segid="398">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "And","And",C,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "even","even",C,0
+        "know","know",C,0
+      </hyp>
+    </seg>
+    <seg segid="399">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "if","if",C,0
+        "you","they",S,0
+        "know","know",C,0
+        "each","each",C,0
+        "other,","other,",C,0
+        "Ma.","Ma.",C,0
+      </hyp>
+    </seg>
+    <seg segid="400">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "Now","",D,0
+        "you've","You've",S,0
+        "gone","gone",C,0
+        "but","way",S,0
+        "even","too",S,0
+        "the","far",S,0
+        "kitchen.","now.",S,0
+      </hyp>
+    </seg>
+    <seg segid="401">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "Something","Something",C,0
+        "tells","tells",C,0
+        "me","me",C,0
+        "I'm","I'm",C,0
+        "not","not",C,0
+        "so","so",C,0
+        "wrong.","wrong.",C,0
+      </hyp>
+    </seg>
+    <seg segid="402">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Something","Something",C,0
+        "like","like",C,0
+        "what?","what?",C,0
+      </hyp>
+    </seg>
+    <seg segid="403">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="4.0">
+        "I","I",C,0
+        "don't","don't",C,0
+        "know,","know,",C,0
+        "it's","",D,0
+        "like","",D,0
+        "that,","",D,0
+        "pure","my",S,0
+        "intuition.","intuition.",C,0
+      </hyp>
+    </seg>
+    <seg segid="404">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="3.0">
+        "It's","That",S,0
+        "a","too",S,0
+        "shame,","bad,",S,0
+        "Ma,","Ma,",C,0
+      </hyp>
+    </seg>
+    <seg segid="405">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "","because",I,0
+        "that","that",C,0
+        "doesn't","doesn't",C,0
+        "prove","prove",C,0
+        "anything.","anything.",C,0
+      </hyp>
+    </seg>
+    <seg segid="406">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "Mi","",D,0
+        "amor,","Honey,",S,0
+      </hyp>
+    </seg>
+    <seg segid="407">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "I've","I've",C,0
+        "been","been",C,0
+        "thinking","thinking",C,0
+        "a","a",C,0
+        "lot","lot",C,0
+      </hyp>
+    </seg>
+    <seg segid="408">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="0.0">
+        "about","about",C,0
+        "what","what",C,0
+        "we","we",C,0
+        "talked","talked",C,0
+        "about.","about.",C,0
+      </hyp>
+    </seg>
+    <seg segid="409">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "It","It",C,0
+        "hurts,","",D,0
+        "it","",D,0
+        "hurts","hurts",C,0
+        "so","",D,0
+        "much","me.",S,0
+      </hyp>
+    </seg>
+    <seg segid="410">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "","It",I,0
+        "","really",I,0
+        "","hurts",I,0
+        "","me",I,0
+        "to","to",C,0
+        "see","see",C,0
+        "you","you",C,0
+        "so","so",C,0
+        "sad.","sad.",C,0
+      </hyp>
+    </seg>
+    <seg segid="411">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "That's","That's",C,0
+        "how","how",C,0
+        "I","I",C,0
+        "feel.","feel.",C,0
+      </hyp>
+    </seg>
+    <seg segid="412">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="7.0">
+        "You","",D,0
+        "don't","",D,0
+        "know","",D,0
+        "how","I'd",S,0
+        "I","really",S,0
+        "want","like",S,0
+        "to","to",C,0
+        "fix","fix",C,0
+        "it.","things.",S,0
+      </hyp>
+    </seg>
+    <seg segid="413">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "And","",D,0
+        "I've","I've",C,0
+        "given","",D,0
+        "it","thought",S,0
+        "a","about",S,0
+        "thousand","our",S,0
+        "laps","situation",S,0
+      </hyp>
+    </seg>
+    <seg segid="414">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="4.0">
+        "into","a",S,0
+        "the","thousand",S,0
+        "situation","times",S,0
+        "and…","over.",S,0
+      </hyp>
+    </seg>
+    <seg segid="415">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="2.0">
+        "And","And",C,0
+        "I","I",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "find","find",C,0
+        "a","a",C,0
+        "way","",D,0
+        "out.","solution.",S,0
+      </hyp>
+    </seg>
+    <seg segid="416">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Did","Did",C,0
+        "you","you",C,0
+        "find","find",C,0
+        "her?","one?",S,0
+      </hyp>
+    </seg>
+    <seg segid="417">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "I","I",C,0
+        "think","think",C,0
+        "so,","so,",C,0
+        "but…","but...",S,0
+      </hyp>
+    </seg>
+    <seg segid="418">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "The","The",C,0
+        "truth","truth",C,0
+        "is,","is,",C,0
+      </hyp>
+    </seg>
+    <seg segid="419">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "it's","I",S,0
+        "gonna","have",S,0
+        "be","make",S,0
+        "a","a",C,0
+        "sacrifice","huge",S,0
+        "to","to",C,3
+        "me.","sacrifice.",S,0
+      </hyp>
+    </seg>
+    <seg segid="420">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "But","But",C,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "see","see",C,0
+        "any","any",C,0
+        "other","other",C,0
+        "solution.","solution.",C,0
+      </hyp>
+    </seg>
+    <seg segid="421">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "Your","Your",C,0
+        "illusion","dream",S,0
+        "of","of",C,0
+        "being","being",C,0
+        "a","a",C,0
+        "mother","mom",S,0
+      </hyp>
+    </seg>
+    <seg segid="422">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "is","is",C,0
+        "what","what",C,0
+        "matters","matters",C,0
+        "now,","now,",C,0
+        "isn't","",D,0
+        "it?","right?",S,0
+      </hyp>
+    </seg>
+    <seg segid="423">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="0.0">
+        "I","I",C,0
+        "have","have",C,0
+        "no","no",C,0
+        "doubt","doubt",C,0
+        "you'll","you'll",C,0
+        "be","be",C,0
+        "a","a",C,0
+        "wonderful","wonderful",C,0
+        "mom.","mom.",C,0
+      </hyp>
+    </seg>
+    <seg segid="424">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "I","I",C,0
+        "can","can",C,0
+        "imagine","see",S,0
+        "you","you",C,0
+        "giving","giving",C,0
+      </hyp>
+    </seg>
+    <seg segid="425">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "all","all",C,0
+        "your","your",C,0
+        "love","love",C,0
+        "to","to",C,0
+        "that","that",C,0
+        "creature.","child.",S,0
+      </hyp>
+    </seg>
+    <seg segid="426">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "That's","That's",C,0
+        "why","why",C,0
+        "I","I",C,0
+        "have","have",C,0
+        "to","to",C,0
+        "put","put",C,0
+        "aside","aside",C,0
+      </hyp>
+    </seg>
+    <seg segid="427">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "my","my",C,0
+        "selfishness","selfishness",C,0
+        "and","and",C,0
+        "think","think",C,0
+        "only","only",C,0
+        "of","of",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="428">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="3.0">
+        "","Are",I,0
+        "You","you",S,0
+        "mean","saying",S,0
+      </hyp>
+    </seg>
+    <seg segid="429">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "we're","we're",C,0
+        "","going",I,0
+        "gonna","to",S,0
+        "have","have",C,0
+        "a","a",C,0
+        "kid?","child?",S,0
+      </hyp>
+    </seg>
+    <seg segid="430">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Monica,","Mónica,",S,0
+      </hyp>
+    </seg>
+    <seg segid="431">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="1.0">
+        "I","I",C,0
+        "love","love",C,0
+        "you","you",C,0
+        "more","more",C,0
+        "than","than",C,0
+        "my","my",C,0
+        "","own",I,0
+        "life.","life.",C,0
+      </hyp>
+    </seg>
+    <seg segid="432">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "And","And",C,0
+        "precisely","precisely",C,0
+        "because","because",C,0
+        "of","of",C,0
+        "that","that",C,0
+        "great","great",C,0
+        "love","love",C,0
+      </hyp>
+    </seg>
+    <seg segid="433">
+      <hyp id="1" refid="" wrd_cnt="0.0" num_errs="5.0">
+        "","that",I,0
+        "","I",I,0
+        "","feel",I,0
+        "","for",I,0
+        "","you,",I,0
+      </hyp>
+    </seg>
+    <seg segid="434">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="6.0">
+        "that","",D,0
+        "I","",D,0
+        "feel","",D,0
+        "for","",D,0
+        "you,","",D,0
+        "I'm","I'm",C,0
+        "willing","willing",C,0
+        "to…","to...",S,0
+      </hyp>
+    </seg>
+    <seg segid="435">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="2.0">
+        "let","let",C,0
+        "you","you",C,0
+        "go","be",S,0
+        "free,","free",S,0
+      </hyp>
+    </seg>
+    <seg segid="436">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="4.0">
+        "so","",D,0
+        "you","",D,0
+        "can","to",S,0
+        "find","find",C,0
+        "someone","someone",C,0
+        "","else",I,0
+      </hyp>
+    </seg>
+    <seg segid="437">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="7.0">
+        "","to",I,0
+        "","help",I,0
+        "you","you",C,0
+        "can","make",S,0
+        "fulfill","dreams",S,0
+        "your","your",C,1
+        "wish","come",S,0
+        "with.","true.",S,0
+      </hyp>
+    </seg>
+    <seg segid="438">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="2.0">
+        "Tell","",D,0
+        "me","Say",S,0
+        "something.","something.",C,0
+      </hyp>
+    </seg>
+    <seg segid="439">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "What","What",C,0
+        "do","do",C,0
+        "you","you",C,0
+        "want","want",C,0
+        "me","me",C,0
+        "to","to",C,0
+        "say?","say?",C,0
+      </hyp>
+    </seg>
+    <seg segid="440">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="3.0">
+        "You","",D,0
+        "surprise","I'm",S,0
+        "me.","surprised.",S,0
+      </hyp>
+    </seg>
+    <seg segid="441">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "I","I",C,0
+        "never","never",C,0
+        "imagined","imagined",C,0
+      </hyp>
+    </seg>
+    <seg segid="442">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="4.0">
+        "that","that",C,0
+        "was","was",C,0
+        "the","how",S,0
+        "way","you'd",S,0
+        "you","show",S,0
+        "loved.","love.",S,0
+      </hyp>
+    </seg>
+    <seg segid="443">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I","I",C,0
+        "do","do",C,0
+        "love","love",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="444">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="2.0">
+        "I","I",C,0
+        "love","love",C,0
+        "you,","you,",C,0
+        "you","",D,0
+        "never","never",C,0
+        "doubt","doubt",C,0
+        "it.","that.",S,0
+      </hyp>
+    </seg>
+    <seg segid="445">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="1.0">
+        "That's","That's",C,0
+        "why","why",C,0
+        "I'm","I'm",C,0
+        "giving","giving",C,0
+        "you","you",C,0
+        "freedom,","freedom.",S,0
+      </hyp>
+    </seg>
+    <seg segid="446">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "it's","It's",S,0
+        "an","an",C,0
+        "act","act",C,0
+        "of","of",C,0
+        "love.","love.",C,0
+      </hyp>
+    </seg>
+    <seg segid="447">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="7.0">
+        "And","",D,0
+        "you","You",S,0
+        "have","have",C,0
+        "no","no",C,0
+        "idea","idea",C,0
+        "","how",I,0
+        "","much",I,0
+        "","it",I,0
+        "","hurts",I,0
+        "","me",I,0
+      </hyp>
+    </seg>
+    <seg segid="448">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="7.0">
+        "how","",D,0
+        "much","",D,0
+        "it","",D,0
+        "hurts","make",S,0
+        "to","to",C,1
+        "sacrifice","this",S,0
+        "me.","sacrifice.",S,0
+      </hyp>
+    </seg>
+    <seg segid="449">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="6.0">
+        "Well,","Well,",C,0
+        "","thanks.",I,0
+        "thank","so",S,0
+        "you.","you.",C,-3
+        "","nice",I,0
+        "That's","That's",C,0
+        "nice.","of",S,0
+      </hyp>
+    </seg>
+    <seg segid="450">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "I","I",C,0
+        "would","would",C,0
+        "have","have",C,0
+        "preferred","preferred",C,0
+      </hyp>
+    </seg>
+    <seg segid="451">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "another","another",C,0
+        "kind","kind",C,0
+        "of","of",C,0
+        "sacrifice.","sacrifice.",C,0
+      </hyp>
+    </seg>
+    <seg segid="452">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="0.0">
+        "Like","Like",C,0
+        "what?","what?",C,0
+        "What","What",C,0
+        "do","do",C,0
+        "you","you",C,0
+        "want","want",C,0
+        "me","me",C,0
+        "to","to",C,0
+        "do?","do?",C,0
+      </hyp>
+    </seg>
+    <seg segid="453">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "Do","Do",C,0
+        "I","I",C,0
+        "have","have",C,0
+        "to","to",C,0
+        "tell","tell",C,0
+        "you?","you?",C,0
+      </hyp>
+    </seg>
+    <seg segid="454">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "If","If",C,0
+        "you","you",C,0
+        "love","love",C,0
+        "me","me",C,0
+        "so","so",C,0
+        "much,","much,",C,0
+      </hyp>
+    </seg>
+    <seg segid="455">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "sacrifice","sacrifice",C,0
+        "yourself","yourself",C,0
+        "and","and",C,0
+        "have","have",C,0
+        "a","a",C,0
+        "child.","child.",C,0
+      </hyp>
+    </seg>
+    <seg segid="456">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "But,","But,",C,0
+        "see,","see,",C,0
+        "I","I",C,0
+        "explained","explained",C,0
+        "to","to",C,0
+        "you","you",C,0
+      </hyp>
+    </seg>
+    <seg segid="457">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="1.0">
+        "why","why",C,0
+        "I","I",C,0
+        "didn't…","don't...",S,0
+      </hyp>
+    </seg>
+    <seg segid="458">
+      <hyp id="1" refid="" wrd_cnt="9.0" num_errs="3.0">
+        "Let's","",D,0
+        "see,","Okay,",S,0
+        "now.","stop.",S,0
+        "Okay,","Okay,",C,0
+        "I","I",C,0
+        "get","get",C,0
+        "it.","it.",C,0
+        "Stop","Stop",C,0
+        "it.","it.",C,0
+      </hyp>
+    </seg>
+    <seg segid="459">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "Thank","Thank",C,0
+        "you","you",C,0
+        "for","for",C,0
+        "giving","giving",C,0
+        "me","me",C,0
+        "my","my",C,0
+        "freedom.","freedom.",C,0
+      </hyp>
+    </seg>
+    <seg segid="460">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Monica.","Mónica.",S,0
+      </hyp>
+    </seg>
+    <seg segid="461">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="1.0">
+        "Monica,","Mónica,",S,0
+        "wait,","wait,",C,0
+        "let's","let's",C,0
+        "keep","keep",C,0
+        "talking.","talking.",C,0
+      </hyp>
+    </seg>
+    <seg segid="462">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Monica!","Mónica!",S,0
+      </hyp>
+    </seg>
+    <seg segid="463">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="6.0">
+        "Now","I'll",S,0
+        "I'm","take",S,0
+        "just","just",C,1
+        "gonna","this",S,0
+        "take","for",S,0
+        "this,","now.",S,0
+      </hyp>
+    </seg>
+    <seg segid="464">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="3.0">
+        "then","",D,0
+        "I'll","I'll",C,0
+        "get","get",C,0
+        "the","the",C,0
+        "","rest",I,0
+        "rest.","later.",S,0
+      </hyp>
+    </seg>
+    <seg segid="465">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Don't","Don't",C,0
+        "go,","go,",C,0
+        "please.","please.",C,0
+      </hyp>
+    </seg>
+    <seg segid="466">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="1.0">
+        "Monica,","Mónica,",S,0
+        "I","I",C,0
+        "don't","don't",C,0
+        "know","know",C,0
+        "why","why",C,0
+        "I","I",C,0
+        "said","said",C,0
+        "that.","that.",C,0
+      </hyp>
+    </seg>
+    <seg segid="467">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "Really,","Really,",C,0
+        "I","I",C,0
+        "love","love",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="468">
+      <hyp id="1" refid="" wrd_cnt="8.0" num_errs="0.0">
+        "I","I",C,0
+        "love","love",C,0
+        "you","you",C,0
+        "so","so",C,0
+        "much,","much,",C,0
+        "I","I",C,0
+        "need","need",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="469">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "You","You",C,0
+        "said","said",C,0
+        "it.","it.",C,0
+      </hyp>
+    </seg>
+    <seg segid="470">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="6.0">
+        "And","And",C,0
+        "it","you",S,0
+        "hurt","hurt",C,0
+        "deep","me",S,0
+        "in","in",C,0
+        "the","the",C,0
+        "","depths",I,0
+        "","of",I,0
+        "","my",I,0
+        "heart.","soul.",S,0
+      </hyp>
+    </seg>
+    <seg segid="471">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="2.0">
+        "Monica,","Mónica,",S,0
+        "please","please",C,0
+        "forgive","forgive",C,0
+        "me,","me,",C,0
+        "I'm","I'm",C,0
+        "sorry…","sorry...",S,0
+      </hyp>
+    </seg>
+    <seg segid="472">
+      <hyp id="1" refid="" wrd_cnt="7.0" num_errs="0.0">
+        "I","I",C,0
+        "don't","don't",C,0
+        "want","want",C,0
+        "to","to",C,0
+        "be","be",C,0
+        "here","here",C,0
+        "anymore.","anymore.",C,0
+      </hyp>
+    </seg>
+    <seg segid="473">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="0.0">
+        "No,","No,",C,0
+        "I","I",C,0
+        "can't","can't",C,0
+        "live","live",C,0
+        "without","without",C,0
+        "you.","you.",C,0
+      </hyp>
+    </seg>
+    <seg segid="474">
+      <hyp id="1" refid="" wrd_cnt="5.0" num_errs="2.0">
+        "Well,","Well,",C,0
+        "you'll","you'll",C,0
+        "have","have",C,0
+        "to","to",C,0
+        "","learn",I,0
+        "learn.","how.",S,0
+      </hyp>
+    </seg>
+    <seg segid="475">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="0.0">
+        "Hey,","Hey,",C,0
+        "don't","don't",C,0
+        "go,","go,",C,0
+        "please.","please.",C,0
+      </hyp>
+    </seg>
+    <seg segid="476">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="1.0">
+        "Let","Let",C,0
+        "me","me",C,0
+        "through.","go.",S,0
+      </hyp>
+    </seg>
+    <seg segid="477">
+      <hyp id="1" refid="" wrd_cnt="6.0" num_errs="3.0">
+        "It's","It's",C,0
+        "too","too",C,0
+        "late","late",C,0
+        "to","to",C,0
+        "","change",I,0
+        "regret","your",S,0
+        "it.","mind.",S,0
+      </hyp>
+    </seg>
+    <seg segid="478">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="0.0">
+        "No,","No,",C,0
+        "please.","please.",C,0
+      </hyp>
+    </seg>
+    <seg segid="479">
+      <hyp id="1" refid="" wrd_cnt="2.0" num_errs="2.0">
+        "No,","",D,0
+        "no.","No.",S,0
+      </hyp>
+    </seg>
+    <seg segid="480">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="1.0">
+        "Horatio.","Horacio.",S,0
+      </hyp>
+    </seg>
+    <seg segid="481">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Are","Are",C,0
+        "you","you",C,0
+        "pregnant?","pregnant?",C,0
+      </hyp>
+    </seg>
+    <seg segid="482">
+      <hyp id="1" refid="" wrd_cnt="3.0" num_errs="0.0">
+        "Are","Are",C,0
+        "you","you",C,0
+        "pregnant?","pregnant?",C,0
+      </hyp>
+    </seg>
+    <seg segid="483">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Jimmy!","Jimmy!",C,0
+      </hyp>
+    </seg>
+    <seg segid="484">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Jimmy!","Jimmy!",C,0
+      </hyp>
+    </seg>
+    <seg segid="485">
+      <hyp id="1" refid="" wrd_cnt="4.0" num_errs="1.0">
+        "Jimmy,","",D,0
+        "Jimmy!","Jimmy!",C,0
+        "Hey,","Hey,",C,0
+        "Jimmy!","Jimmy!",C,0
+      </hyp>
+    </seg>
+    <seg segid="486">
+      <hyp id="1" refid="" wrd_cnt="1.0" num_errs="0.0">
+        "Jimmy!","Jimmy!",C,0
+      </hyp>
+    </seg>
+  </doc>
+</tstset>
+</system>

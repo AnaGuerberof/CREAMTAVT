@@ -1,0 +1,3923 @@
+Sentence ID: 1:1
+Original Ref: What are you doing dressed like that?
+Original Hyp: What's with the outfit?
+Hyp After Shift: What's with the outfit?
+Alignment: (DDDSSSS)
+NumShifts: 0
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 2:1
+Original Ref: Are you coming from a First Communion or what?
+Original Hyp: Been to a First Communion or what?
+Hyp After Shift: Been to a First Communion or what?
+Alignment: (DDSS     )
+NumShifts: 0
+Score: 0.4444444444444444 (4.0/9.0)
+
+Sentence ID: 3:1
+Original Ref: No, no, I just came from the date
+Original Hyp: No, I came from the date
+Hyp After Shift: No, I came from the date
+Alignment: ( D D    )
+NumShifts: 0
+Score: 0.25 (2.0/8.0)
+
+Sentence ID: 4:1
+Original Ref: you didn't want to go to.
+Original Hyp: you didn't want to go on.
+Hyp After Shift: you didn't want to go on.
+Alignment: (     S)
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 5:1
+Original Ref: What kind of crazy did you find now?
+Original Hyp: And how crazy was she?
+Hyp After Shift: And how crazy was she?
+Alignment: (DSS DDSS)
+NumShifts: 0
+Score: 0.875 (7.0/8.0)
+
+Sentence ID: 6:1
+Original Ref: No crazy, huh?
+Original Hyp: Not crazy at all!
+Hyp After Shift: Not crazy at all!
+Alignment: (ISSS)
+NumShifts: 0
+Score: 1.3333333333333333 (4.0/3.0)
+
+Sentence ID: 7:1
+Original Ref: Mrs. Andrea is very polite, she is very fine,
+Original Hyp: Andrea is very polite, very elegant.
+Hyp After Shift: Andrea is very polite, very elegant.
+Alignment: (D    DD S)
+NumShifts: 0
+Score: 0.4444444444444444 (4.0/9.0)
+
+Sentence ID: 8:1
+Original Ref: and I'm not only saying it because I met her this morning,
+Original Hyp: Not just because I met her today,
+Hyp After Shift: Not just because I met her today,
+Alignment: (DDDDSS    DS)
+NumShifts: 0
+Score: 0.6666666666666666 (8.0/12.0)
+
+Sentence ID: 9:1
+Original Ref: but because I know whose family she's from.
+Original Hyp: but because I know who her family are.
+Hyp After Shift: but because I know who family her are.
+Alignment: (    S SS)
+NumShifts: 1
+  [6, 6, 4/4] ([family])
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 10:1
+Original Ref: Oh, yeah?
+Original Hyp: Oh yeah?
+Hyp After Shift: Oh yeah?
+Alignment: (S )
+NumShifts: 0
+Score: 0.5 (1.0/2.0)
+
+Sentence ID: 11:1
+Original Ref: Uh-huh.
+Original Hyp: 
+Hyp After Shift: 
+Alignment: (D)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 12:1
+Original Ref: How's that?
+Original Hyp: How's that?
+Hyp After Shift: How's that?
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 13:1
+Original Ref: I have to tell you the truth.
+Original Hyp: I've got something to confess.
+Hyp After Shift: to I've got something confess.
+Alignment: (DD SSSS)
+NumShifts: 1
+  [3, 3, 1/-1] ([to])
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 14:1
+Original Ref: A few days ago, I met Samuel and Gabriela.
+Original Hyp: A few days ago, I saw Samuel and Gabriela.
+Hyp After Shift: A few days ago, I saw Samuel and Gabriela.
+Alignment: (     S   )
+NumShifts: 0
+Score: 0.1111111111111111 (1.0/9.0)
+
+Sentence ID: 15:1
+Original Ref: You do know who I mean, don't you?
+Original Hyp: You do know who I mean, don't you?
+Hyp After Shift: You do know who I mean, don't you?
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 16:1
+Original Ref: Uh, that's the kid's mom's sister, from Nico.
+Original Hyp: That's Nico's mum's sister.
+Hyp After Shift: That's Nico's mum's sister.
+Alignment: (DDDDSSSS)
+NumShifts: 0
+Score: 1.0 (8.0/8.0)
+
+Sentence ID: 17:1
+Original Ref: That's right, that one, that mere.
+Original Hyp: That's right, her.
+Hyp After Shift: That's right, her.
+Alignment: (  DDDS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 18:1
+Original Ref: Well, it turns out they were there talking
+Original Hyp: Well, they were there talking
+Hyp After Shift: Well, they were there talking
+Alignment: ( DDD    )
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 19:1
+Original Ref: and they were saying that
+Original Hyp: and saying that their mum
+Hyp After Shift: and their mum saying that
+Alignment: ( SS  )
+NumShifts: 1
+  [1, 2, 4/4] ([saying, that])
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 20:1
+Original Ref: their mom had just divorced,
+Original Hyp: had just got divorced,
+Hyp After Shift: had just got divorced,
+Alignment: (DD  I )
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 21:1
+Original Ref: and that she'd like to have a new partner.
+Original Hyp: and that she'd like a new partner.
+Hyp After Shift: and that she'd like a new partner.
+Alignment: (    DD   )
+NumShifts: 0
+Score: 0.2222222222222222 (2.0/9.0)
+
+Sentence ID: 22:1
+Original Ref: So the lady… how did you…?
+Original Hyp: So the lady... what-
+Hyp After Shift: So the lady... what-
+Alignment: (  DDSS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 23:1
+Original Ref: Andrea.
+Original Hyp: Andrea.
+Hyp After Shift: Andrea.
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 24:1
+Original Ref: Andrea.
+Original Hyp: Andrea.
+Hyp After Shift: Andrea.
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 25:1
+Original Ref: Andrea is Gabriela's mom.
+Original Hyp: Andrea is Gabriela's mum.
+Hyp After Shift: Andrea is Gabriela's mum.
+Alignment: (   S)
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 26:1
+Original Ref: Exactly.
+Original Hyp: Exactly.
+Hyp After Shift: Exactly.
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 27:1
+Original Ref: So, it occurred to me, I immediately thought,
+Original Hyp: So, it immediately occurred to me
+Hyp After Shift: So, it occurred to immediately me
+Alignment: (    DD S)
+NumShifts: 1
+  [2, 2, 6/4] ([immediately])
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 28:1
+Original Ref: this lady, then, so beautiful,
+Original Hyp: that this lady, so beautiful,
+Hyp After Shift: that this lady, so beautiful,
+Alignment: (I  D  )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 29:1
+Original Ref: so delicate and elegant,
+Original Hyp: so delicate and elegant,
+Hyp After Shift: so delicate and elegant,
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 30:1
+Original Ref: well, it has to be for Don Nelson.
+Original Hyp: is perfect for Don Nelson.
+Hyp After Shift: is perfect for Don Nelson.
+Alignment: (DDDSS   )
+NumShifts: 0
+Score: 0.625 (5.0/8.0)
+
+Sentence ID: 31:1
+Original Ref: And, well, they thought it was a good idea too.
+Original Hyp: They thought the same,
+Hyp After Shift: They thought the same,
+Alignment: (DDS DDDDSS)
+NumShifts: 0
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 32:1
+Original Ref: So, we started sending him messages…
+Original Hyp: so we started sending her messages…
+Hyp After Shift: so we started sending her messages…
+Alignment: (S   S )
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 33:1
+Original Ref: How, how, how, how?
+Original Hyp: What? What?
+Hyp After Shift: What? What?
+Alignment: (DDSS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 34:1
+Original Ref: Yes, yes, in his name.
+Original Hyp: Yes, as you.
+Hyp After Shift: Yes, as you.
+Alignment: ( DDSS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 35:1
+Original Ref: You used my identity
+Original Hyp: You used my identity
+Hyp After Shift: You used my identity
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 36:1
+Original Ref: without my permission?
+Original Hyp: without my permission?
+Hyp After Shift: without my permission?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 37:1
+Original Ref: That's an abuse of trust, Augustine!
+Original Hyp: That's an abuse of my trust, Augustine!
+Hyp After Shift: That's an abuse of my trust, Augustine!
+Alignment: (    I  )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 38:1
+Original Ref: And I… and I can… I can charge you.
+Original Hyp: And I, I could, I could report you.
+Hyp After Shift: And I, I could, I could report you.
+Alignment: ( DS S SS )
+NumShifts: 0
+Score: 0.5555555555555556 (5.0/9.0)
+
+Sentence ID: 39:1
+Original Ref: No, no, wait, easy, easy.
+Original Hyp: No, wait, easy, easy.
+Hyp After Shift: No, wait, easy, easy.
+Alignment: ( D   )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 40:1
+Original Ref: Don't put yourself in that plan, relax.
+Original Hyp: Don't get like that. Relax.
+Hyp After Shift: Don't get like that. Relax.
+Alignment: ( DDSSSS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 41:1
+Original Ref: I did it for your sake, huh?
+Original Hyp: I did it for your sake.
+Hyp After Shift: I did it for your sake.
+Alignment: (     DS)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 42:1
+Original Ref: And now that I've met her in person,
+Original Hyp: And now that I've met her in person,
+Hyp After Shift: And now that I've met her in person,
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 43:1
+Original Ref: it gives me… it gives me more security.
+Original Hyp: I can be sure.
+Hyp After Shift: I can be sure.
+Alignment: (DDDDSSSS)
+NumShifts: 0
+Score: 1.0 (8.0/8.0)
+
+Sentence ID: 44:1
+Original Ref: It gives me a certainty so I can say
+Original Hyp: I can now say
+Hyp After Shift: I can now say
+Alignment: (DDDDDD  I )
+NumShifts: 0
+Score: 0.7777777777777778 (7.0/9.0)
+
+Sentence ID: 45:1
+Original Ref: that she's the perfect woman for you.
+Original Hyp: she's the perfect woman for you.
+Hyp After Shift: she's the perfect woman for you.
+Alignment: (D      )
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 46:1
+Original Ref: Why are you so sure?
+Original Hyp: Why are you so sure?
+Hyp After Shift: Why are you so sure?
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 47:1
+Original Ref: She's beautiful,
+Original Hyp: She's beautiful,
+Hyp After Shift: She's beautiful,
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 48:1
+Original Ref: she's distinguished, she's fine.
+Original Hyp: she's distinguished, she's elegant.
+Hyp After Shift: she's distinguished, she's elegant.
+Alignment: (   S)
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 49:1
+Original Ref: Besides, she's very sweet, she's kind and…
+Original Hyp: And besides that she's very sweet, she's kind and…
+Hyp After Shift: And besides that she's very sweet, she's kind and…
+Alignment: (IIS      )
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 50:1
+Original Ref: And, well, nothing to take advantage of,
+Original Hyp: And, well,
+Hyp After Shift: And, well,
+Alignment: (  DDDDD)
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 51:1
+Original Ref: the money for her, man, is the least of it.
+Original Hyp: she's not interested in money.
+Hyp After Shift: she's not interested in money.
+Alignment: (DDDDDSSSSS)
+NumShifts: 0
+Score: 1.0 (10.0/10.0)
+
+Sentence ID: 52:1
+Original Ref: She's a romantic woman.
+Original Hyp: She's a romantic.
+Hyp After Shift: She's a romantic.
+Alignment: (  DS)
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 53:1
+Original Ref: He loves the messages I send him.
+Original Hyp: She loves the messages I send her.
+Hyp After Shift: She loves the messages I send her.
+Alignment: (S     S)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 54:1
+Original Ref: We sent him, to be more precise,
+Original Hyp: We send her, to be more precise,
+Hyp After Shift: We send her, to be more precise,
+Alignment: ( SS    )
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 55:1
+Original Ref: because you're using my name.
+Original Hyp: because you're using my name.
+Hyp After Shift: because you're using my name.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 56:1
+Original Ref: Yeah, right, we send him,
+Original Hyp: Yeah, right, we send her,
+Hyp After Shift: Yeah, right, we send her,
+Alignment: (    S)
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 57:1
+Original Ref: we send him, we send him.
+Original Hyp: we send her.
+Hyp After Shift: we send her.
+Alignment: (DDD  S)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 58:1
+Original Ref: So what? Do you want to come in?
+Original Hyp: So? Would you like to go out with her?
+Hyp After Shift: So? Would you like to go out with her?
+Alignment: (DSS S IISS)
+NumShifts: 0
+Score: 1.0 (8.0/8.0)
+
+Sentence ID: 59:1
+Original Ref: Well, how would we do it?
+Original Hyp: Well, how would we do it?
+Hyp After Shift: Well, how would we do it?
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 60:1
+Original Ref: She thinks Nelson is you.
+Original Hyp: She thinks Nelson is you.
+Hyp After Shift: She thinks Nelson is you.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 61:1
+Original Ref: No, this morning I told you
+Original Hyp: This morning I told her
+Hyp After Shift: This morning I told her
+Alignment: (DS   S)
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 62:1
+Original Ref: that I was your assistant,
+Original Hyp: I'm your assistant.
+Hyp After Shift: I'm your assistant.
+Alignment: (DDS S)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 63:1
+Original Ref: that you sent me to apologize because
+Original Hyp: That you sent me to apologise because
+Hyp After Shift: That you sent me to apologise because
+Alignment: (S    S )
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 64:1
+Original Ref: you couldn't make it to the appointment.
+Original Hyp: you couldn't make it.
+Hyp After Shift: you couldn't make it.
+Alignment: (   DDDS)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 65:1
+Original Ref: I bought her a bouquet of flowers…
+Original Hyp: I bought her some flowers…
+Hyp After Shift: I bought her some flowers…
+Alignment: (   DDS )
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 66:1
+Original Ref: Oh, by the way, you owe me 250 pesos.
+Original Hyp: Oh, you owe me 250 pesos.
+Hyp After Shift: Oh, you owe me 250 pesos.
+Alignment: ( DDD     )
+NumShifts: 0
+Score: 0.3333333333333333 (3.0/9.0)
+
+Sentence ID: 67:1
+Original Ref: Hey, wait, wait, wait.
+Original Hyp: Hey, wait, wait.
+Hyp After Shift: Hey, wait, wait.
+Alignment: ( D  )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 68:1
+Original Ref: That was your idea.
+Original Hyp: That was your idea.
+Hyp After Shift: That was your idea.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 69:1
+Original Ref: Well, yeah,
+Original Hyp: Yes, but you had to
+Hyp After Shift: Yes, but you had to
+Alignment: (IIISS)
+NumShifts: 0
+Score: 2.5 (5.0/2.0)
+
+Sentence ID: 70:1
+Original Ref: but you had to get the detail.
+Original Hyp: get her something.
+Hyp After Shift: get her something.
+Alignment: (DDDD SS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 71:1
+Original Ref: I also told her that I had to have
+Original Hyp: I also told her to have some breakfast,
+Hyp After Shift: I also told her some breakfast, to have
+Alignment: (    DSS  )
+NumShifts: 1
+  [4, 5, 8/7] ([to, have])
+Score: 0.4444444444444444 (4.0/9.0)
+
+Sentence ID: 72:1
+Original Ref: some breakfast, that you invited her.
+Original Hyp: your treat.
+Hyp After Shift: your treat.
+Alignment: (DDDDSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 73:1
+Original Ref: But besides, do I have to buy you breakfast?
+Original Hyp: I have to buy her breakfast too?
+Hyp After Shift: I have to buy her breakfast too?
+Alignment: (DDD    ISS)
+NumShifts: 0
+Score: 0.6666666666666666 (6.0/9.0)
+
+Sentence ID: 74:1
+Original Ref: But… but what do you think, Augustine?
+Original Hyp: What were you thinking, Augustine?
+Hyp After Shift: What were you thinking, Augustine?
+Alignment: (DDSS S )
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 75:1
+Original Ref: No, wait, see, look.
+Original Hyp: No, wait, look.
+Hyp After Shift: No, wait, look.
+Alignment: (  D )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 76:1
+Original Ref: So you see that I'm cool, huh,
+Original Hyp: To show you
+Hyp After Shift: you To show
+Alignment: (D DDDSS)
+NumShifts: 1
+  [2, 2, 1/-1] ([you])
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 77:1
+Original Ref: that I'm in solidarity,
+Original Hyp: I'm with you on this,
+Hyp After Shift: with I'm you on this,
+Alignment: (S ISS)
+NumShifts: 1
+  [0, 0, 0/1] ([I'm])
+Score: 1.25 (5.0/4.0)
+
+Sentence ID: 78:1
+Original Ref: the flowers are on me.
+Original Hyp: the flowers are on me.
+Hyp After Shift: the flowers are on me.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 79:1
+Original Ref: And the lady didn't want any breakfast.
+Original Hyp: And she didn't want any breakfast.
+Hyp After Shift: And she didn't want any breakfast.
+Alignment: ( DS    )
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 80:1
+Original Ref: I'm telling you, she's not a profiteer.
+Original Hyp: I'm telling you, she's not a gold digger.
+Hyp After Shift: I'm telling you, she's not a gold digger.
+Alignment: (      IS)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 81:1
+Original Ref: What do you say? Does it fit?
+Original Hyp: What do you say? Will you do it?
+Hyp After Shift: What do you say? Will you do it?
+Alignment: (    ISSS)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 82:1
+Original Ref: Well, uh…
+Original Hyp: Well…
+Hyp After Shift: Well…
+Alignment: (DS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 83:1
+Original Ref: I'm curious.
+Original Hyp: I'm curious.
+Hyp After Shift: I'm curious.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 84:1
+Original Ref: And, I confess, I'm way out of shape
+Original Hyp: And, I confess, I'm way out of practice
+Hyp After Shift: And, I confess, I'm way out of practice
+Alignment: (       S)
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 85:1
+Original Ref: in these lovelies, so…
+Original Hyp: with things like this, so…
+Hyp After Shift: with things like this, so…
+Alignment: (ISSS )
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 86:1
+Original Ref: Where do I start? What's to be done?
+Original Hyp: Where do I start?
+Hyp After Shift: Where do I start?
+Alignment: (    DDDD)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 87:1
+Original Ref: Look, for the time being,
+Original Hyp: Look, for now,
+Hyp After Shift: Look, for now,
+Alignment: (  DDS)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 88:1
+Original Ref: we're going to send you a little message
+Original Hyp: we'll send a message asking her out
+Hyp After Shift: we'll a send asking her out message
+Alignment: (DSS SSS )
+NumShifts: 2
+  [1, 1, 3/2] ([send])
+  [3, 3, 7/6] ([message])
+Score: 1.0 (8.0/8.0)
+
+Sentence ID: 89:1
+Original Ref: to invite you, in remorse that you didn't go to the appointment today.
+Original Hyp: and saying sorry for today.
+Hyp After Shift: and saying sorry for today.
+Alignment: (DDDDDDDDSSSS )
+NumShifts: 0
+Score: 0.9230769230769231 (12.0/13.0)
+
+Sentence ID: 90:1
+Original Ref: Look, I'm writing it
+Original Hyp: Look, I'll write it to show you,
+Hyp After Shift: Look, I'll write it to show you,
+Alignment: ( SS III)
+NumShifts: 0
+Score: 1.25 (5.0/4.0)
+
+Sentence ID: 91:1
+Original Ref: for you to learn, okay?
+Original Hyp: okay?
+Hyp After Shift: okay?
+Alignment: (DDDD )
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 92:1
+Original Ref: distinguishable and beautiful lady…
+Original Hyp: Distinguished, beautiful lady.
+Hyp After Shift: Distinguished, beautiful lady.
+Alignment: (DS S)
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 93:1
+Original Ref: You think so?
+Original Hyp: What do you think?
+Hyp After Shift: What do you think?
+Alignment: (ISSS)
+NumShifts: 0
+Score: 1.3333333333333333 (4.0/3.0)
+
+Sentence ID: 94:1
+Original Ref: Oh, it sounds good.
+Original Hyp: Sounds good.
+Hyp After Shift: Sounds good.
+Alignment: (DDS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 95:1
+Original Ref: I'll pass you by, so you can look at them.
+Original Hyp: I'll send it to you, okay?
+Hyp After Shift: I'll send it to you, okay?
+Alignment: ( DDDDSSSSS)
+NumShifts: 0
+Score: 0.9 (9.0/10.0)
+
+Sentence ID: 96:1
+Original Ref: Okay, perfect, yeah.
+Original Hyp: Okay, perfect, yeah.
+Hyp After Shift: Okay, perfect, yeah.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 97:1
+Original Ref: Can we talk?
+Original Hyp: Can we talk?
+Hyp After Shift: Can we talk?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 98:1
+Original Ref: Excuse me.
+Original Hyp: Excuse me.
+Hyp After Shift: Excuse me.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 99:1
+Original Ref: Yeah.
+Original Hyp: Yeah.
+Hyp After Shift: Yeah.
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 100:1
+Original Ref: Have you eaten?
+Original Hyp: Have you eaten?
+Hyp After Shift: Have you eaten?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 101:1
+Original Ref: No, no, I was gonna go
+Original Hyp: No, I was going to go to
+Hyp After Shift: No, I was going to go to
+Alignment: ( D  IS I)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 102:1
+Original Ref: to Mrs. Carolina's Fonda.
+Original Hyp: La Fonda de Doña Carolina.
+Hyp After Shift: La Fonda de Doña Carolina.
+Alignment: (ISSSS)
+NumShifts: 0
+Score: 1.25 (5.0/4.0)
+
+Sentence ID: 103:1
+Original Ref: Shall we?
+Original Hyp: Shall we?
+Hyp After Shift: Shall we?
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 104:1
+Original Ref: I haven't eaten either,
+Original Hyp: I haven't eaten either,
+Hyp After Shift: I haven't eaten either,
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 105:1
+Original Ref: and, well, we could talk there.
+Original Hyp: and, well, we could talk.
+Hyp After Shift: and, well, we could talk.
+Alignment: (    DS)
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 106:1
+Original Ref: Come on.
+Original Hyp: Let's go.
+Hyp After Shift: Let's go.
+Alignment: (SS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 107:1
+Original Ref: Anything else?
+Original Hyp: Anything else?
+Hyp After Shift: Anything else?
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 108:1
+Original Ref: I don't like to see you so serious.
+Original Hyp: I don't like to see you so serious.
+Hyp After Shift: I don't like to see you so serious.
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 109:1
+Original Ref: And I know it's about
+Original Hyp: And I know
+Hyp After Shift: And I know
+Alignment: (   DD)
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 110:1
+Original Ref: the kid you want to have.
+Original Hyp: it's about the baby.
+Hyp After Shift: the it's about baby.
+Alignment: ( DDSSS)
+NumShifts: 1
+  [2, 2, -1/-1] ([the])
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 111:1
+Original Ref: Honey, I already explained the reason
+Original Hyp: Honey, I already explained why
+Hyp After Shift: Honey, I already explained why
+Alignment: (    DS)
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 112:1
+Original Ref: why I don't want to have it.
+Original Hyp: I don't want to have one.
+Hyp After Shift: I don't want to have one.
+Alignment: (D     S)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 113:1
+Original Ref: I understand your desire to be a mother,
+Original Hyp: I understand why you want to be a mother.
+Hyp After Shift: I understand why you want to be a mother.
+Alignment: (  ISS   S)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 114:1
+Original Ref: and it really pains me not to be able to keep it to you,
+Original Hyp: I'm sad not to be able to give you that,
+Hyp After Shift: I'm sad not to be able to give you that,
+Alignment: (DDDSS     DSSS)
+NumShifts: 0
+Score: 0.6428571428571429 (9.0/14.0)
+
+Sentence ID: 115:1
+Original Ref: but I've missed my time for that.
+Original Hyp: but for me the time for that has passed.
+Hyp After Shift: but for me the time for that has passed.
+Alignment: ( SSS  IIS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 116:1
+Original Ref: What I want is to enjoy what I have left
+Original Hyp: What I want is to enjoy the time
+Hyp After Shift: What I want is to enjoy the time
+Alignment: (      DDSS)
+NumShifts: 0
+Score: 0.4 (4.0/10.0)
+
+Sentence ID: 117:1
+Original Ref: of life next to you, my love.
+Original Hyp: I have left with you, my love.
+Hyp After Shift: I have left with you, my love.
+Alignment: (SSSS   )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 118:1
+Original Ref: Before you ever thought about
+Original Hyp: Before you ever thought about
+Hyp After Shift: Before you ever thought about
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 119:1
+Original Ref: getting pregnant, we were just fine.
+Original Hyp: getting pregnant, we were great.
+Hyp After Shift: getting pregnant, we were great.
+Alignment: (    DS)
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 120:1
+Original Ref: It's not like I could think of it overnight.
+Original Hyp: The idea didn't just come to me overnight.
+Hyp After Shift: The idea didn't just come to me overnight.
+Alignment: (DSSSSSSS )
+NumShifts: 0
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 121:1
+Original Ref: I've always wanted to be a mother.
+Original Hyp: I've always wanted to be a mother.
+Hyp After Shift: I've always wanted to be a mother.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 122:1
+Original Ref: And just because I love you
+Original Hyp: And because I love you
+Hyp After Shift: And because I love you
+Alignment: ( D    )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 123:1
+Original Ref: and we're finally together,
+Original Hyp: and we're finally together,
+Hyp After Shift: and we're finally together,
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 124:1
+Original Ref: I thought I could fulfill my dream.
+Original Hyp: I thought I could make
+Hyp After Shift: I thought I could make
+Alignment: (    DDS)
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 125:1
+Original Ref: I know.
+Original Hyp: that dream come true.
+Hyp After Shift: that dream come true.
+Alignment: (IISS)
+NumShifts: 0
+Score: 2.0 (4.0/2.0)
+
+Sentence ID: 126:1
+Original Ref: But it's a dream that came late.
+Original Hyp: I know, but it's a dream that it's too late for.
+Hyp After Shift: I know, but it's a dream that it's too late for.
+Alignment: (IIS    IISS)
+NumShifts: 0
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 127:1
+Original Ref: All right, I understand your position.
+Original Hyp: Okay, I understand.
+Hyp After Shift: Okay, I understand.
+Alignment: (DS DDS)
+NumShifts: 0
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 128:1
+Original Ref: Excuse me.
+Original Hyp: Excuse me.
+Hyp After Shift: Excuse me.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 129:1
+Original Ref: What do you want to talk about?
+Original Hyp: What do you want to talk about?
+Hyp After Shift: What do you want to talk about?
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 130:1
+Original Ref: Since we got married,
+Original Hyp: Since we got married,
+Hyp After Shift: Since we got married,
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 131:1
+Original Ref: I know things haven't been so good.
+Original Hyp: I know things haven't been good on my side.
+Hyp After Shift: I know things haven't been good on my side.
+Alignment: (     IISS)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 132:1
+Original Ref: And I haven't treated you
+Original Hyp: I haven't treated you
+Hyp After Shift: I haven't treated you
+Alignment: (D    )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 133:1
+Original Ref: the way you deserve,
+Original Hyp: the way you deserve,
+Hyp After Shift: the way you deserve,
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 134:1
+Original Ref: and I've been thinking a lot.
+Original Hyp: and I've been doing a lot of thinking.
+Hyp After Shift: and I've been doing a lot of thinking.
+Alignment: (   S IIS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 135:1
+Original Ref: And I want you to know that from now on,
+Original Hyp: I want you to know that from now on,
+Hyp After Shift: I want you to know that from now on,
+Alignment: (D         )
+NumShifts: 0
+Score: 0.1 (1.0/10.0)
+
+Sentence ID: 136:1
+Original Ref: my attitude is going to be another.
+Original Hyp: my attitude is going to be different.
+Hyp After Shift: my attitude is going to be different.
+Alignment: (      S)
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 137:1
+Original Ref: I want to dedicate myself to you
+Original Hyp: I want to dedicate myself to you
+Hyp After Shift: I want to dedicate myself to you
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 138:1
+Original Ref: and the baby on the way.
+Original Hyp: and the baby on the way.
+Hyp After Shift: and the baby on the way.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 139:1
+Original Ref: I want to do everything I can
+Original Hyp: I want to do everything I can
+Hyp After Shift: I want to do everything I can
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 140:1
+Original Ref: to make our life a real family.
+Original Hyp: to make us into a real family.
+Hyp After Shift: to make us into a real family.
+Alignment: (  SS   )
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 141:1
+Original Ref: Pedro, are you sure
+Original Hyp: Pedro, are you sure about
+Hyp After Shift: Pedro, are you sure about
+Alignment: (    I)
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 142:1
+Original Ref: what you're telling me?
+Original Hyp: what you're saying?
+Hyp After Shift: what you're saying?
+Alignment: (  DS)
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 143:1
+Original Ref: Of course.
+Original Hyp: Of course.
+Hyp After Shift: Of course.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 144:1
+Original Ref: I don't want to hope in vain.
+Original Hyp: I don't want to get my hopes up for nothing.
+Hyp After Shift: I don't want to get my hopes up for nothing.
+Alignment: (    IIISSS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 145:1
+Original Ref: It would be very difficult
+Original Hyp: It would be very difficult
+Hyp After Shift: It would be very difficult
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 146:1
+Original Ref: for me to lose you again.
+Original Hyp: to lose you again.
+Hyp After Shift: to lose you again.
+Alignment: (DD    )
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 147:1
+Original Ref: It's not gonna happen, Gina.
+Original Hyp: That's not going to happen, Gina.
+Hyp After Shift: That's not going to happen, Gina.
+Alignment: (S IS  )
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 148:1
+Original Ref: Give me a new chance, please.
+Original Hyp: Give me another chance, please.
+Hyp After Shift: Give me another chance, please.
+Alignment: (  DS  )
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 149:1
+Original Ref: It's okay.
+Original Hyp: Okay.
+Hyp After Shift: Okay.
+Alignment: (DS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 150:1
+Original Ref: Look, all I want
+Original Hyp: Look, all I want
+Hyp After Shift: Look, all I want
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 151:1
+Original Ref: is what's best for our baby.
+Original Hyp: is what's best for our baby.
+Hyp After Shift: is what's best for our baby.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 152:1
+Original Ref: A slate and a new slate?
+Original Hyp: Clean slate?
+Hyp After Shift: Clean slate?
+Alignment: (DDDDS )
+NumShifts: 0
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 153:1
+Original Ref: Clean slate.
+Original Hyp: Clean slate.
+Hyp After Shift: Clean slate.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 154:1
+Original Ref: Thank you.
+Original Hyp: Thank you.
+Hyp After Shift: Thank you.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 155:1
+Original Ref: How do you see them, Doctor?
+Original Hyp: What do you think, Doctor?
+Hyp After Shift: What do you think, Doctor?
+Alignment: (S  DS )
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 156:1
+Original Ref: I've improved, haven't I?
+Original Hyp: I've improved, haven't I?
+Hyp After Shift: I've improved, haven't I?
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 157:1
+Original Ref: Unfortunately not.
+Original Hyp: Unfortunately not.
+Hyp After Shift: Unfortunately not.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 158:1
+Original Ref: But don't tell me that.
+Original Hyp: Don't say that.
+Hyp After Shift: Don't say that.
+Alignment: (DDSS )
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 159:1
+Original Ref: He's practically the same
+Original Hyp: You're practically the same
+Hyp After Shift: You're practically the same
+Alignment: (S   )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 160:1
+Original Ref: as the first time I saw him.
+Original Hyp: as the first time I saw you.
+Hyp After Shift: as the first time I saw you.
+Alignment: (      S)
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 161:1
+Original Ref: And that's a sign that you're not
+Original Hyp: And that's a sign that you're not
+Hyp After Shift: And that's a sign that you're not
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 162:1
+Original Ref: following what I told you.
+Original Hyp: doing what I told you to.
+Hyp After Shift: doing what I told you to.
+Alignment: (S   IS)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 163:1
+Original Ref: What do you want, Doctor?
+Original Hyp: What can I say, Doctor?
+Hyp After Shift: What can I say, Doctor?
+Alignment: ( SSS )
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 164:1
+Original Ref: I've given myself my licenses.
+Original Hyp: I've given myself a few breaks.
+Hyp After Shift: I've given myself a few breaks.
+Alignment: (   ISS)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 165:1
+Original Ref: It's not so easy to follow a diet
+Original Hyp: It's not that easy to follow
+Hyp After Shift: It's not that easy to follow
+Alignment: (  S   DD)
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 166:1
+Original Ref: so strict from good to first.
+Original Hyp: such a strict diet straight off.
+Hyp After Shift: such strict a diet straight off.
+Alignment: (S SSSS)
+NumShifts: 1
+  [2, 2, 0/0] ([strict])
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 167:1
+Original Ref: Besides I've had
+Original Hyp: Besides, I've been under
+Hyp After Shift: Besides, I've been under
+Alignment: (S IS)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 168:1
+Original Ref: a lot of pressure and…
+Original Hyp: a lot of pressure and…
+Hyp After Shift: a lot of pressure and…
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 169:1
+Original Ref: And that also counts, doesn't it?
+Original Hyp: And that counts for something, right?
+Hyp After Shift: And that counts for something, right?
+Alignment: (  SSSS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 170:1
+Original Ref: Look, I get it.
+Original Hyp: Look, I get it.
+Hyp After Shift: Look, I get it.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 171:1
+Original Ref: But if you don't follow
+Original Hyp: But if you don't follow
+Hyp After Shift: But if you don't follow
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 172:1
+Original Ref: my directions to the letter,
+Original Hyp: my instructions to the letter,
+Hyp After Shift: my instructions to the letter,
+Alignment: ( S   )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 173:1
+Original Ref: you risk dying.
+Original Hyp: you're at risk of dying.
+Hyp After Shift: you're at risk of dying.
+Alignment: (IS I )
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 174:1
+Original Ref: What you have is a great deal
+Original Hyp: Your condition requires a great deal
+Hyp After Shift: Your condition requires a great deal
+Alignment: (DSSS   )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 175:1
+Original Ref: of care and discipline.
+Original Hyp: of care and discipline.
+Hyp After Shift: of care and discipline.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 176:1
+Original Ref: All right, Doctor, I'm gonna do my best.
+Original Hyp: Okay, Doctor, I'll do my best.
+Hyp After Shift: Okay, Doctor, I'll do my best.
+Alignment: (DS DS   )
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 177:1
+Original Ref: Did you go to the psychologist?
+Original Hyp: And the psychologist?
+Hyp After Shift: And the psychologist?
+Alignment: (DDDS  )
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 178:1
+Original Ref: Yeah, yeah, but with so much work,
+Original Hyp: Yes, I went once, but with so much work
+Hyp After Shift: Yes, I went once, but with so much work
+Alignment: (IISS    S)
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 179:1
+Original Ref: I couldn't go to see him again.
+Original Hyp: I couldn't go again.
+Hyp After Shift: I couldn't go again.
+Alignment: (   DDD )
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 180:1
+Original Ref: What you said to me that time
+Original Hyp: What you said to me before is
+Hyp After Shift: What you said to me before is
+Alignment: (     SS)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 181:1
+Original Ref: is more than enough
+Original Hyp: more than enough for me
+Hyp After Shift: more than enough for me
+Alignment: (D   II)
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 182:1
+Original Ref: to understand what's wrong with me.
+Original Hyp: to understand what's wrong.
+Hyp After Shift: to understand what's wrong.
+Alignment: (   DDS)
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 183:1
+Original Ref: This isn't a game.
+Original Hyp: This isn't a game.
+Hyp After Shift: This isn't a game.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 184:1
+Original Ref: Either you follow my instructions,
+Original Hyp: Either you follow my instructions,
+Hyp After Shift: Either you follow my instructions,
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 185:1
+Original Ref: or you may have a very serious crisis.
+Original Hyp: or you may have a serious crisis.
+Hyp After Shift: or you may have a serious crisis.
+Alignment: (     D  )
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 186:1
+Original Ref: Keeping your diabetes
+Original Hyp: Keeping your diabetes
+Hyp After Shift: Keeping your diabetes
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 187:1
+Original Ref: under control depends on you.
+Original Hyp: under control depends on you.
+Hyp After Shift: under control depends on you.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 188:1
+Original Ref: I can't do more.
+Original Hyp: I can't do any more.
+Hyp After Shift: I can't do any more.
+Alignment: (   I )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 189:1
+Original Ref: I want to see him in a month.
+Original Hyp: I want to see you in a month.
+Hyp After Shift: I want to see you in a month.
+Alignment: (    S   )
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 190:1
+Original Ref: And I hope that, by then,
+Original Hyp: And I hope that, by then,
+Hyp After Shift: And I hope that, by then,
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 191:1
+Original Ref: the results of your analysis
+Original Hyp: the results of your analysis
+Hyp After Shift: the results of your analysis
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 192:1
+Original Ref: will be another, definitely, okay?
+Original Hyp: will be very different, okay?
+Hyp After Shift: will be very different, okay?
+Alignment: (  SS )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 193:1
+Original Ref: Yes, Doctor.
+Original Hyp: Yes, Doctor.
+Hyp After Shift: Yes, Doctor.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 194:1
+Original Ref: Go see the nutritionist.
+Original Hyp: Go and see the nutritionist.
+Hyp After Shift: Go and see the nutritionist.
+Alignment: ( I   )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 195:1
+Original Ref: Mrs. Andrea answered me.
+Original Hyp: Andrea answered me.
+Hyp After Shift: Andrea answered me.
+Alignment: (D   )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 196:1
+Original Ref: He says enchanted
+Original Hyp: She says she'd love
+Hyp After Shift: She says she'd love
+Alignment: (S IS)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 197:1
+Original Ref: he's having dinner with you.
+Original Hyp: to have dinner with you.
+Hyp After Shift: to have dinner with you.
+Alignment: (SS   )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 198:1
+Original Ref: Where do I tell him to take her?
+Original Hyp: Where should I tell her you're taking her?
+Hyp After Shift: Where should I tell her you're taking her?
+Alignment: ( S  SSS )
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 199:1
+Original Ref: Uh, I don't know…
+Original Hyp: I don't know…
+Hyp After Shift: I don't know…
+Alignment: (D   )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 200:1
+Original Ref: It could be the finite cakes.
+Original Hyp: How about that sandwich place?
+Hyp After Shift: How about that sandwich place?
+Alignment: (DSSSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 201:1
+Original Ref: Oh, no, man. As always, him, splendid.
+Original Hyp: Oh, no, man. Incredible, as always.
+Hyp After Shift: Oh, no, man. Incredible, as always.
+Alignment: (   DSSS)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 202:1
+Original Ref: Well, what do you mean, the finite cakes?
+Original Hyp: What do you mean that sandwich place?
+Hyp After Shift: What do you mean that sandwich place?
+Alignment: (DS  SSSS)
+NumShifts: 0
+Score: 0.75 (6.0/8.0)
+
+Sentence ID: 203:1
+Original Ref: Well, he's gonna freak her out.
+Original Hyp: You'll scare her.
+Hyp After Shift: You'll scare her.
+Alignment: (DDDSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 204:1
+Original Ref: You beat her up with a nice restaurant.
+Original Hyp: You have to take her to a nice restaurant.
+Hyp After Shift: You have to her take to a nice restaurant.
+Alignment: ( IS SS   )
+NumShifts: 1
+  [4, 4, 1/2] ([her])
+Score: 0.625 (5.0/8.0)
+
+Sentence ID: 205:1
+Original Ref: Well, even on the first date,
+Original Hyp: If you like, on the first date,
+Hyp After Shift: If you like, on the first date,
+Alignment: (ISS    )
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 206:1
+Original Ref: I'd like to give him a little bit.
+Original Hyp: invest, spend a little,
+Hyp After Shift: invest, spend a little,
+Alignment: (DDDSS DS)
+NumShifts: 0
+Score: 0.875 (7.0/8.0)
+
+Sentence ID: 207:1
+Original Ref: Then, then, it's coming down.
+Original Hyp: then bring the level down later on.
+Hyp After Shift: then bring the level down later on.
+Alignment: (IISSSSS)
+NumShifts: 0
+Score: 1.4 (7.0/5.0)
+
+Sentence ID: 208:1
+Original Ref: Let's see, uh…
+Original Hyp: Let's see…
+Hyp After Shift: Let's see…
+Alignment: ( DS)
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 209:1
+Original Ref: I know.
+Original Hyp: I know.
+Hyp After Shift: I know.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 210:1
+Original Ref: Huh?
+Original Hyp: 
+Hyp After Shift: 
+Alignment: (D)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 211:1
+Original Ref: How's that for the pears?
+Original Hyp: How about Pierangelo?
+Hyp After Shift: How about Pierangelo?
+Alignment: (DDSSS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 212:1
+Original Ref: How did you…
+Original Hyp: What
+Hyp After Shift: What
+Alignment: (DDS)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 213:1
+Original Ref: Okay, okay.
+Original Hyp: Okay, okay.
+Hyp After Shift: Okay, okay.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 214:1
+Original Ref: That.
+Original Hyp: 
+Hyp After Shift: 
+Alignment: (D)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 215:1
+Original Ref: I'll write to him.
+Original Hyp: I'll message her.
+Hyp After Shift: I'll message her.
+Alignment: ( DSS)
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 216:1
+Original Ref: There it is.
+Original Hyp: Here it is.
+Hyp After Shift: Here it is.
+Alignment: (S  )
+NumShifts: 0
+Score: 0.3333333333333333 (1.0/3.0)
+
+Sentence ID: 217:1
+Original Ref: Let's see, uh, Andrea, here it is.
+Original Hyp: Let's see. Andrea, here it is.
+Hyp After Shift: Let's see. Andrea, here it is.
+Alignment: ( DS    )
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 218:1
+Original Ref: My heart…
+Original Hyp: Your kind answer…
+Hyp After Shift: Your kind answer…
+Alignment: (ISS)
+NumShifts: 0
+Score: 1.5 (3.0/2.0)
+
+Sentence ID: 219:1
+Original Ref: "Late runaway with your kind answer.
+Original Hyp: has made my heart race.
+Hyp After Shift: has made my heart race.
+Alignment: (DSSSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 220:1
+Original Ref: Do you think it's okay
+Original Hyp: 
+Hyp After Shift: 
+Alignment: (DDDDD)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 221:1
+Original Ref: if we meet at the pier
+Original Hyp: Would you like to meet at Pierangelo
+Hyp After Shift: Would you like to meet at Pierangelo
+Alignment: (IISS  DS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 222:1
+Original Ref: tomorrow at eight o'clock?
+Original Hyp: tomorrow at eight o'clock?
+Hyp After Shift: tomorrow at eight o'clock?
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 223:1
+Original Ref: perfect.
+Original Hyp: Perfect.
+Hyp After Shift: Perfect.
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 224:1
+Original Ref: I love that restaurant.
+Original Hyp: I love that restaurant.
+Hyp After Shift: I love that restaurant.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 225:1
+Original Ref: I'll see you there.
+Original Hyp: I'll see you there.
+Hyp After Shift: I'll see you there.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 226:1
+Original Ref: He says it's perfect.
+Original Hyp: She says perfect.
+Hyp After Shift: She says perfect.
+Alignment: (S D )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 227:1
+Original Ref: This rice is already cooked.
+Original Hyp: This is a done deal.
+Hyp After Shift: This a is done deal.
+Alignment: ( S SS)
+NumShifts: 1
+  [1, 1, 2/2] ([is])
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 228:1
+Original Ref: And how is it that, if you write those things,
+Original Hyp: Why is it that if you write so well,
+Hyp After Shift: Why is it that if you write so well,
+Alignment: (DS  S   SS)
+NumShifts: 0
+Score: 0.5 (5.0/10.0)
+
+Sentence ID: 229:1
+Original Ref: the woman who brings you from a wing
+Original Hyp: the woman you're crazy about
+Hyp After Shift: the woman you're crazy about
+Alignment: (  DDDSSS)
+NumShifts: 0
+Score: 0.75 (6.0/8.0)
+
+Sentence ID: 230:1
+Original Ref: doesn't give you a ticket?
+Original Hyp: doesn't give you a chance?
+Hyp After Shift: doesn't give you a chance?
+Alignment: (    S)
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 231:1
+Original Ref: Don't move that little guy, huh?
+Original Hyp: Don't bring that up.
+Hyp After Shift: Don't bring that up.
+Alignment: ( S DDS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 232:1
+Original Ref: That little thing is an impossible love.
+Original Hyp: It's an impossible love.
+Hyp After Shift: It's an impossible love.
+Alignment: (DDDS   )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 233:1
+Original Ref: Better, to what we were, to see…
+Original Hyp: Now, where were we?
+Hyp After Shift: Now, where were we?
+Alignment: (DDDSSSS)
+NumShifts: 0
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 234:1
+Original Ref: You have to say nice things to Mrs. Andrea.
+Original Hyp: You have to say nice things to Andrea.
+Hyp After Shift: You have to say nice things to Andrea.
+Alignment: (       D )
+NumShifts: 0
+Score: 0.1111111111111111 (1.0/9.0)
+
+Sentence ID: 235:1
+Original Ref: Tell him things that… that come to him,
+Original Hyp: Tell her things that come to you,
+Hyp After Shift: Tell her things that come to you,
+Alignment: ( S D   S)
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 236:1
+Original Ref: let them come out of your soul.
+Original Hyp: open your soul up to her.
+Hyp After Shift: open soul up to your her.
+Alignment: (DSSSS S)
+NumShifts: 1
+  [1, 1, 5/4] ([your])
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 237:1
+Original Ref: Imagine I'm her
+Original Hyp: Imagine I'm her
+Hyp After Shift: Imagine I'm her
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 238:1
+Original Ref: and we're in a restaurant.
+Original Hyp: and we're in a restaurant.
+Hyp After Shift: and we're in a restaurant.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 239:1
+Original Ref: What would you say?
+Original Hyp: What would you say?
+Hyp After Shift: What would you say?
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 240:1
+Original Ref: It's very difficult.
+Original Hyp: That's very difficult.
+Hyp After Shift: That's very difficult.
+Alignment: (S  )
+NumShifts: 0
+Score: 0.3333333333333333 (1.0/3.0)
+
+Sentence ID: 241:1
+Original Ref: Why?
+Original Hyp: Why?
+Hyp After Shift: Why?
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 242:1
+Original Ref: Because you're ugly with a capital EFE.
+Original Hyp: Because you're ugly with a capital U.
+Hyp After Shift: Because you're ugly with a capital U.
+Alignment: (      S)
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 243:1
+Original Ref: It's not that I'm ugly,
+Original Hyp: I'm not ugly,
+Hyp After Shift: not I'm ugly,
+Alignment: (D D  )
+NumShifts: 1
+  [0, 0, 3/1] ([I'm])
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 244:1
+Original Ref: I'm ill-wrapped, it's different.
+Original Hyp: I'm just not at my best.
+Hyp After Shift: I'm just not at my best.
+Alignment: ( IISSS)
+NumShifts: 0
+Score: 1.25 (5.0/4.0)
+
+Sentence ID: 245:1
+Original Ref: You focus on your thing.
+Original Hyp: You just focus on your thing.
+Hyp After Shift: You just focus on your thing.
+Alignment: ( I    )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 246:1
+Original Ref: Also, add that to him.
+Original Hyp: Okay!
+Hyp After Shift: Okay!
+Alignment: (DDDDS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 247:1
+Original Ref: Think about it. If you want, don't see me.
+Original Hyp: Perhaps don't look at me.
+Hyp After Shift: Perhaps look don't at me.
+Alignment: (DDDDSS S )
+NumShifts: 1
+  [1, 1, 6/2] ([don't])
+Score: 0.8888888888888888 (8.0/9.0)
+
+Sentence ID: 248:1
+Original Ref: Yeah, better, better.
+Original Hyp: Yeah, that
+Hyp After Shift: Yeah, that
+Alignment: ( DS)
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 249:1
+Original Ref: Let's see.
+Original Hyp: 
+Hyp After Shift: 
+Alignment: (DD)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 250:1
+Original Ref: Uh… What would I say?
+Original Hyp: What would you say to her?
+Hyp After Shift: What would you say to her?
+Alignment: (D  IISS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 251:1
+Original Ref: Andrea, you really have pretty eyes.
+Original Hyp: Andrea, you have really pretty eyes.
+Hyp After Shift: Andrea, you really have pretty eyes.
+Alignment: (      )
+NumShifts: 1
+  [2, 2, 3/3] ([have])
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 252:1
+Original Ref: Are these yours?
+Original Hyp: Are they yours?
+Hyp After Shift: Are they yours?
+Alignment: ( S )
+NumShifts: 0
+Score: 0.3333333333333333 (1.0/3.0)
+
+Sentence ID: 253:1
+Original Ref: No, we're screwed, huh?
+Original Hyp: No. We're screwed, aren't we?
+Hyp After Shift: No. We're screwed, aren't we?
+Alignment: (SS IS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 254:1
+Original Ref: Let's see, close your eyes.
+Original Hyp: Let's see, close your eyes.
+Hyp After Shift: Let's see, close your eyes.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 255:1
+Original Ref: Here, take a deep breath.
+Original Hyp: Here, take a deep breath.
+Hyp After Shift: Here, take a deep breath.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 256:1
+Original Ref: There, imagine you're with Mrs. Andrea.
+Original Hyp: There, imagine you're with Andrea.
+Hyp After Shift: There, imagine you're with Andrea.
+Alignment: (    D )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 257:1
+Original Ref: Let's see.
+Original Hyp: Let's see.
+Hyp After Shift: Let's see.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 258:1
+Original Ref: Watching the sun go down on the beach.
+Original Hyp: Watching the sun go down on the beach.
+Hyp After Shift: Watching the sun go down on the beach.
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 259:1
+Original Ref: The rays that hide on the horizon
+Original Hyp: The rays that hide behind the horizon
+Hyp After Shift: The rays that hide behind the horizon
+Alignment: (    S  )
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 260:1
+Original Ref: bounce off your blonde hair.
+Original Hyp: bounce off her blond hair.
+Hyp After Shift: bounce off her blond hair.
+Alignment: (  SS )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 261:1
+Original Ref: Andrea,
+Original Hyp: Andrea,
+Hyp After Shift: Andrea,
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 262:1
+Original Ref: I feel like I'm drowning in your depth.
+Original Hyp: I feel like I'm drowning in the depths of you.
+Hyp After Shift: I feel like I'm drowning in the depths of you.
+Alignment: (      IISS)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 263:1
+Original Ref: Hi.
+Original Hyp: Hi.
+Hyp After Shift: Hi.
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 264:1
+Original Ref: Come in.
+Original Hyp: Come in.
+Hyp After Shift: Come in.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 265:1
+Original Ref: Thank you.
+Original Hyp: Thank you.
+Hyp After Shift: Thank you.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 266:1
+Original Ref: I'm here to apologize.
+Original Hyp: I'm here to apologize.
+Hyp After Shift: I'm here to apologize.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 267:1
+Original Ref: I wasn't very nice to you this morning.
+Original Hyp: I wasn't very nice to you this morning.
+Hyp After Shift: I wasn't very nice to you this morning.
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 268:1
+Original Ref: Don't worry, I was just going to
+Original Hyp: Don't worry, I was just going to say hi
+Hyp After Shift: Don't worry, I was just going to say hi
+Alignment: (       II)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 269:1
+Original Ref: say hello and bring them some sweet bread.
+Original Hyp: and bring you some sweet bread.
+Hyp After Shift: and bring you some sweet bread.
+Alignment: (DD  S   )
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 270:1
+Original Ref: But come on in, don't just stand there.
+Original Hyp: But come on in, don't just stand there.
+Hyp After Shift: But come on in, don't just stand there.
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 271:1
+Original Ref: You want a coffee, a cup of tea?
+Original Hyp: You want a cup of coffee? A cup of tea?
+Hyp After Shift: You want a cup of coffee? A cup of tea?
+Alignment: (   IISS   )
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 272:1
+Original Ref: Thank you, no, thank you very much.
+Original Hyp: No, thank you. Thank you very much.
+Hyp After Shift: Thank No, you. thank you very much.
+Alignment: ( SS    )
+NumShifts: 2
+  [1, 1, 3/3] ([thank])
+  [2, 2, -1/-1] ([Thank])
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 273:1
+Original Ref: You've been talking to Pedro, haven't you?
+Original Hyp: You talked to Pedro, didn't you?
+Hyp After Shift: You talked to Pedro, didn't you?
+Alignment: (DSS  S )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 274:1
+Original Ref: Yeah, why?
+Original Hyp: Yes, why?
+Hyp After Shift: Yes, why?
+Alignment: (S )
+NumShifts: 0
+Score: 0.5 (1.0/2.0)
+
+Sentence ID: 275:1
+Original Ref: Thanks to what you told him,
+Original Hyp: Thanks to what you told him,
+Hyp After Shift: Thanks to what you told him,
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 276:1
+Original Ref: Peter decided to change his attitude.
+Original Hyp: Pedro decided to change his attitude.
+Hyp After Shift: Pedro decided to change his attitude.
+Alignment: (S     )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 277:1
+Original Ref: He's willing to do everything for us
+Original Hyp: He's willing to do everything for us
+Hyp After Shift: He's willing to do everything for us
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 278:1
+Original Ref: to have a family as God commands.
+Original Hyp: so we can build a family as God intended.
+Hyp After Shift: so we can build a family as God intended.
+Alignment: (IISS    S)
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 279:1
+Original Ref: Oh, that's nice.
+Original Hyp: That's nice.
+Hyp After Shift: That's nice.
+Alignment: (DS )
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 280:1
+Original Ref: You don't know how happy I am.
+Original Hyp: You don't know how happy I am.
+Hyp After Shift: You don't know how happy I am.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 281:1
+Original Ref: Peter is everything to me.
+Original Hyp: Pedro means everything to me.
+Hyp After Shift: Pedro means everything to me.
+Alignment: (SS   )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 282:1
+Original Ref: And he promised me that he wouldn't think
+Original Hyp: He promised that he wouldn't think
+Hyp After Shift: He promised that he wouldn't think
+Alignment: (DS D    )
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 283:1
+Original Ref: of anything but us,
+Original Hyp: about anything other than us,
+Hyp After Shift: about anything other than us,
+Alignment: (S IS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 284:1
+Original Ref: my baby and me.
+Original Hyp: my baby and me.
+Hyp After Shift: my baby and me.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 285:1
+Original Ref: Uh-huh.
+Original Hyp: Uhhuh.
+Hyp After Shift: Uhhuh.
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 286:1
+Original Ref: I hope that means
+Original Hyp: I hope that means
+Hyp After Shift: I hope that means
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 287:1
+Original Ref: he forgets about Elena.
+Original Hyp: he's forgotten about Elena.
+Hyp After Shift: he's forgotten about Elena.
+Alignment: (SS  )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 288:1
+Original Ref: Ever since that woman appeared in her life,
+Original Hyp: Ever since she came into his life,
+Hyp After Shift: Ever since she came into his life,
+Alignment: (  DSSSS )
+NumShifts: 0
+Score: 0.625 (5.0/8.0)
+
+Sentence ID: 289:1
+Original Ref: she's been nothing but suffering for him,
+Original Hyp: he's done nothing but suffer,
+Hyp After Shift: he's done nothing but suffer,
+Alignment: (SS  DDS)
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 290:1
+Original Ref: don't you think?
+Original Hyp: don't you think?
+Hyp After Shift: don't you think?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 291:1
+Original Ref: You have nothing more to say to me than that?
+Original Hyp: You have nothing else to say?
+Hyp After Shift: You have nothing else to say?
+Alignment: (   DDS DDS)
+NumShifts: 0
+Score: 0.6 (6.0/10.0)
+
+Sentence ID: 292:1
+Original Ref: What do you want me to say?
+Original Hyp: What do you want me to say?
+Hyp After Shift: What do you want me to say?
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 293:1
+Original Ref: Excuse me,
+Original Hyp: I'm sorry,
+Hyp After Shift: I'm sorry,
+Alignment: (SS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 294:1
+Original Ref: but I don't know what you want to hear.
+Original Hyp: but I don't know what you want to hear.
+Hyp After Shift: but I don't know what you want to hear.
+Alignment: (         )
+NumShifts: 0
+Score: 0.0 (0.0/9.0)
+
+Sentence ID: 295:1
+Original Ref: At least tell me you're happy for us.
+Original Hyp: At least tell me you're happy for us.
+Hyp After Shift: At least tell me you're happy for us.
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 296:1
+Original Ref: No, no, of course I'm happy for you.
+Original Hyp: No, of course I'm happy for you.
+Hyp After Shift: No, of course I'm happy for you.
+Alignment: ( D      )
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 297:1
+Original Ref: But… can I get you a coffee, a cup of tea?
+Original Hyp: Can I get you a cup of coffee or tea?
+Hyp After Shift: Can I get you a coffee or cup of tea?
+Alignment: (DS    SS   )
+NumShifts: 1
+  [5, 6, 9/8] ([cup, of])
+Score: 0.45454545454545453 (5.0/11.0)
+
+Sentence ID: 298:1
+Original Ref: No, no, really, thank you.
+Original Hyp: No, I'm really fine, thanks.
+Hyp After Shift: No, I'm really fine, thanks.
+Alignment: ( SSSS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 299:1
+Original Ref: It was just a little pass.
+Original Hyp: I just wanted to stop by.
+Hyp After Shift: I wanted just to stop by.
+Alignment: (SS SSS)
+NumShifts: 1
+  [1, 1, 2/2] ([just])
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 300:1
+Original Ref: I'll leave you
+Original Hyp: I'll let you get to
+Hyp After Shift: I'll let you get to
+Alignment: ( S II)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 301:1
+Original Ref: with everything you have to do.
+Original Hyp: everything you have to do.
+Hyp After Shift: everything you have to do.
+Alignment: (D     )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 302:1
+Original Ref: Make sure it's okay.
+Original Hyp: Take care
+Hyp After Shift: Take care
+Alignment: (DDSS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 303:1
+Original Ref: Thank you.
+Original Hyp: Thank you.
+Hyp After Shift: Thank you.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 304:1
+Original Ref: You, too.
+Original Hyp: You too.
+Hyp After Shift: You too.
+Alignment: (S )
+NumShifts: 0
+Score: 0.5 (1.0/2.0)
+
+Sentence ID: 305:1
+Original Ref: Peter, Peter's never going to be happy
+Original Hyp: Pedro... Pedro's never going to be happy
+Hyp After Shift: Pedro... Pedro's never going to be happy
+Alignment: (SS     )
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 306:1
+Original Ref: with this one
+Original Hyp: with that woman,
+Hyp After Shift: with that woman,
+Alignment: ( SS)
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 307:1
+Original Ref: even if I propose to him.
+Original Hyp: no matter how hard he tries.
+Hyp After Shift: no matter how hard he tries.
+Alignment: (SSSSSS)
+NumShifts: 0
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 308:1
+Original Ref: So what? Aren't you going to eat?
+Original Hyp: And? Aren't you going to eat lunch?
+Hyp After Shift: And? Aren't you going to eat lunch?
+Alignment: (DS    IS)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 309:1
+Original Ref: I ate with Gina early.
+Original Hyp: I ate early with Gina.
+Hyp After Shift: I ate with early Gina.
+Alignment: (   SS)
+NumShifts: 1
+  [3, 3, 1/1] ([with])
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 310:1
+Original Ref: You don't go out?
+Original Hyp: Aren't you going out?
+Hyp After Shift: Aren't you going out?
+Alignment: (SSS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 311:1
+Original Ref: No, I brought my food.
+Original Hyp: No, I brought my own lunch.
+Hyp After Shift: No, I brought my own lunch.
+Alignment: (    IS)
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 312:1
+Original Ref: Yeah.
+Original Hyp: Yes.
+Hyp After Shift: Yes.
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 313:1
+Original Ref: What, you always try the car tomorrow?
+Original Hyp: Are you going to try the car tomorrow?
+Hyp After Shift: Are you going to try the car tomorrow?
+Alignment: (S IS    )
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 314:1
+Original Ref: I have to.
+Original Hyp: I have to.
+Hyp After Shift: I have to.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 315:1
+Original Ref: I'd love to go with you.
+Original Hyp: I'd love to go with you.
+Hyp After Shift: I'd love to go with you.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 316:1
+Original Ref: With the adjustments you made to the machine,
+Original Hyp: With the adjustments you made,
+Hyp After Shift: With the adjustments you made,
+Alignment: (    DDDS)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 317:1
+Original Ref: it must have a little bit of a start, right?
+Original Hyp: it must be powerful, right?
+Hyp After Shift: it must be powerful, right?
+Alignment: (  DDDDDSS )
+NumShifts: 0
+Score: 0.7 (7.0/10.0)
+
+Sentence ID: 318:1
+Original Ref: Then tell Nelson to give you a chance.
+Original Hyp: Ask Nelson to give you a chance.
+Hyp After Shift: Ask Nelson to give you a chance.
+Alignment: (DS      )
+NumShifts: 0
+Score: 0.25 (2.0/8.0)
+
+Sentence ID: 319:1
+Original Ref: I don't have a grudge, huh?
+Original Hyp: I don't mind, really.
+Hyp After Shift: I don't mind, really.
+Alignment: (  DDSS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 320:1
+Original Ref: No, man, you even think.
+Original Hyp: No, no way.
+Hyp After Shift: No, no way.
+Alignment: ( DDSS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 321:1
+Original Ref: I've had my swab loaded.
+Original Hyp: I've got tons of work.
+Hyp After Shift: I've got tons of work.
+Alignment: ( SSSS)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 322:1
+Original Ref: Anyway, I'm gonna stick around today to get her out.
+Original Hyp: I might even stay late today to get ahead.
+Hyp After Shift: I might even stay late today to get ahead.
+Alignment: (SSSSS   DS)
+NumShifts: 0
+Score: 0.7 (7.0/10.0)
+
+Sentence ID: 323:1
+Original Ref: But, well, I'm gonna have a taquito.
+Original Hyp: I'm going to go eat my tacos.
+Hyp After Shift: going to I'm go eat my tacos.
+Alignment: (SS SSSS)
+NumShifts: 1
+  [0, 0, 2/2] ([I'm])
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 324:1
+Original Ref: Bon appetit.
+Original Hyp: Enjoy.
+Hyp After Shift: Enjoy.
+Alignment: (DS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 325:1
+Original Ref: Dude, how'd it go with the doctor?
+Original Hyp: Hey, how'd it go with the doctor?
+Hyp After Shift: Hey, how'd it go with the doctor?
+Alignment: (S      )
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 326:1
+Original Ref: Huh?
+Original Hyp: Huh?
+Hyp After Shift: Huh?
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 327:1
+Original Ref: That what Dr. Araiza told you.
+Original Hyp: What did Doctor Araiza tell you?
+Hyp After Shift: What did Doctor Araiza tell you?
+Alignment: (SSS SS)
+NumShifts: 0
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 328:1
+Original Ref: Uh, yeah, yeah, the doctor.
+Original Hyp: Right, the doctor.
+Hyp After Shift: Right, the doctor.
+Alignment: (DDS  )
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 329:1
+Original Ref: What, what's wrong with you?
+Original Hyp: What's wrong?
+Hyp After Shift: What's wrong?
+Alignment: (DDDSS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 330:1
+Original Ref: I interrupted you, didn't I?
+Original Hyp: You're busy, right?
+Hyp After Shift: You're busy, right?
+Alignment: (DDSSS)
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 331:1
+Original Ref: No.
+Original Hyp: No.
+Hyp After Shift: No.
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 332:1
+Original Ref: Well, yeah.
+Original Hyp: Well, yes.
+Hyp After Shift: Well, yes.
+Alignment: ( S)
+NumShifts: 0
+Score: 0.5 (1.0/2.0)
+
+Sentence ID: 333:1
+Original Ref: I'm with a car
+Original Hyp: I'm working on a car
+Hyp After Shift: I'm working on a car
+Alignment: ( IS  )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 334:1
+Original Ref: that I don't know what it's got.
+Original Hyp: and I don't know what's wrong with it.
+Hyp After Shift: and I don't know what's wrong with it.
+Alignment: (S   ISSS)
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 335:1
+Original Ref: Just tell me how it went,
+Original Hyp: Just tell me how it went
+Hyp After Shift: Just tell me how it went
+Alignment: (     S)
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 336:1
+Original Ref: and I'm not interrupting you anymore.
+Original Hyp: and I'll leave you alone.
+Hyp After Shift: and I'll leave you alone.
+Alignment: ( DSS S)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 337:1
+Original Ref: Uh, good, good, good.
+Original Hyp: Good.
+Hyp After Shift: Good.
+Alignment: (DDDS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 338:1
+Original Ref: All right, better than I expected, yeah.
+Original Hyp: Great, better than I expected. Yes.
+Hyp After Shift: Great, better than I expected. Yes.
+Alignment: (DS   SS)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 339:1
+Original Ref: Oh, good, man,
+Original Hyp: That's great.
+Hyp After Shift: That's great.
+Alignment: (DSS)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 340:1
+Original Ref: you don't know how glad I am.
+Original Hyp: You don't know how happy that makes me.
+Hyp After Shift: You don't know how happy that makes me.
+Alignment: (S   ISSS)
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 341:1
+Original Ref: Well, I'll leave you,
+Original Hyp: I'll let you go.
+Hyp After Shift: let I'll you go.
+Alignment: (S SS)
+NumShifts: 1
+  [0, 0, 1/1] ([I'll])
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 342:1
+Original Ref: and get on with your car, huh?
+Original Hyp: Keep working on your car, okay?
+Hyp After Shift: Keep working on your car, okay?
+Alignment: (SS D  S)
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 343:1
+Original Ref: It's, it's good.
+Original Hyp: Okay.
+Hyp After Shift: Okay.
+Alignment: (DDS)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 344:1
+Original Ref: What's going on?
+Original Hyp: What's going on?
+Hyp After Shift: What's going on?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 345:1
+Original Ref: I can't get the car up to the ramp.
+Original Hyp: I can't get the car up on the ramp.
+Hyp After Shift: I can't get the car up on the ramp.
+Alignment: (      S  )
+NumShifts: 0
+Score: 0.1111111111111111 (1.0/9.0)
+
+Sentence ID: 346:1
+Original Ref: It makes a really weird noise,
+Original Hyp: It's making a weird noise.
+Hyp After Shift: It's making a weird noise.
+Alignment: (SS D S)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 347:1
+Original Ref: and that's why I worked with the towers.
+Original Hyp: That's why I worked with the towers.
+Hyp After Shift: That's why I worked with the towers.
+Alignment: (DS      )
+NumShifts: 0
+Score: 0.25 (2.0/8.0)
+
+Sentence ID: 348:1
+Original Ref: I'll talk to the technician tomorrow.
+Original Hyp: I'll call the technician tomorrow.
+Hyp After Shift: I'll call the technician tomorrow.
+Alignment: ( DS   )
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 349:1
+Original Ref: Yeah.
+Original Hyp: Yes.
+Hyp After Shift: Yes.
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 350:1
+Original Ref: What time are you gonna try the car?
+Original Hyp: What time are you going to try the car?
+Hyp After Shift: What time are you going to try the car?
+Alignment: (    IS   )
+NumShifts: 0
+Score: 0.25 (2.0/8.0)
+
+Sentence ID: 351:1
+Original Ref: No, as soon as he gets here.
+Original Hyp: Well, as soon as he gets here.
+Hyp After Shift: Well, as soon as he gets here.
+Alignment: (S      )
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 352:1
+Original Ref: Well, let's go, then.
+Original Hyp: Well, let's go, then.
+Hyp After Shift: Well, let's go, then.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 353:1
+Original Ref: Jimmy, lock it up when you get out.
+Original Hyp: Jimmy, lock things up when you leave.
+Hyp After Shift: Jimmy, lock things up when you leave.
+Alignment: (  S   DS)
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 354:1
+Original Ref: Yeah, boss, don't worry.
+Original Hyp: Yes, boss. Don't worry.
+Hyp After Shift: Yes, boss. Don't worry.
+Alignment: (SSS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 355:1
+Original Ref: Thank you.
+Original Hyp: Thank you.
+Hyp After Shift: Thank you.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 356:1
+Original Ref: See you tomorrow.
+Original Hyp: See you tomorrow.
+Hyp After Shift: See you tomorrow.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 357:1
+Original Ref: Let it be mild.
+Original Hyp: Have a good one.
+Hyp After Shift: Have a good one.
+Alignment: (SSSS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 358:1
+Original Ref: Come on, get some rest.
+Original Hyp: Okay, get some rest.
+Hyp After Shift: Okay, get some rest.
+Alignment: (DS   )
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 359:1
+Original Ref: Thanks, anyway.
+Original Hyp: Thanks, you too.
+Hyp After Shift: Thanks, you too.
+Alignment: ( IS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 360:1
+Original Ref: Good night, Ma.
+Original Hyp: Good night, Ma.
+Hyp After Shift: Good night, Ma.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 361:1
+Original Ref: Good night, son.
+Original Hyp: Good night, son.
+Hyp After Shift: Good night, son.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 362:1
+Original Ref: I did sync, are you hungry?
+Original Hyp: I made<i> sincronizadas. </i>Are you hungry?
+Hyp After Shift: I made<i> sincronizadas. </i>Are you hungry?
+Alignment: ( SSS  )
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 363:1
+Original Ref: Oh, yes, actually, yes.
+Original Hyp: Yes, actually, I am.
+Hyp After Shift: Yes, I actually, am.
+Alignment: (SS S)
+NumShifts: 1
+  [1, 1, 2/2] ([actually,])
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 364:1
+Original Ref: Sit down.
+Original Hyp: Sit down.
+Hyp After Shift: Sit down.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 365:1
+Original Ref: Where's my dad?
+Original Hyp: Where's my dad?
+Hyp After Shift: Where's my dad?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 366:1
+Original Ref: He hasn't arrived.
+Original Hyp: He's not home yet.
+Hyp After Shift: He's not home yet.
+Alignment: (ISSS)
+NumShifts: 0
+Score: 1.3333333333333333 (4.0/3.0)
+
+Sentence ID: 367:1
+Original Ref: In the afternoon, I talked to him, he told
+Original Hyp: I talked to him this afternoon, he told me
+Hyp After Shift: afternoon, I talked to him this he told me
+Alignment: (DD    IS  I)
+NumShifts: 1
+  [5, 5, 2/-1] ([afternoon,])
+Score: 0.6666666666666666 (6.0/9.0)
+
+Sentence ID: 368:1
+Original Ref: me he was bringing a problem with a car.
+Original Hyp: he was having a problem with a car.
+Hyp After Shift: he was having a problem with a car.
+Alignment: (D  S     )
+NumShifts: 0
+Score: 0.2222222222222222 (2.0/9.0)
+
+Sentence ID: 369:1
+Original Ref: Son, I want to talk to you, Peter.
+Original Hyp: Son, I want to talk to you about Pedro.
+Hyp After Shift: Son, I want to talk to you about Pedro.
+Alignment: (      ISS)
+NumShifts: 0
+Score: 0.375 (3.0/8.0)
+
+Sentence ID: 370:1
+Original Ref: What about him?
+Original Hyp: What about him?
+Hyp After Shift: What about him?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 371:1
+Original Ref: Well, he told me that Ernesto told her
+Original Hyp: Well, he told me that Ernesto told him
+Hyp After Shift: Well, he told me that Ernesto told him
+Alignment: (       S)
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 372:1
+Original Ref: that if she didn't marry Gina,
+Original Hyp: that if he didn't marry Gina,
+Hyp After Shift: that if he didn't marry Gina,
+Alignment: (  S   )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 373:1
+Original Ref: Elena would never see Nico again.
+Original Hyp: Elena would never see Nico again.
+Hyp After Shift: Elena would never see Nico again.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 374:1
+Original Ref: And he also told me that
+Original Hyp: And he also told me that
+Hyp After Shift: And he also told me that
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 375:1
+Original Ref: the only one who knew it was you.
+Original Hyp: the only one who knew about it was you.
+Hyp After Shift: the only one who knew about it was you.
+Alignment: (     I   )
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 376:1
+Original Ref: Why did you shut up?
+Original Hyp: Why didn't you say something?
+Hyp After Shift: Why didn't you say something?
+Alignment: ( S SS)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 377:1
+Original Ref: We could have done something.
+Original Hyp: We could have done something.
+Hyp After Shift: We could have done something.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 378:1
+Original Ref: There was nothing to do, Ma.
+Original Hyp: There was nothing to do, Ma.
+Hyp After Shift: There was nothing to do, Ma.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 379:1
+Original Ref: Ernesto had it all figured out,
+Original Hyp: Ernesto had it all figured out,
+Hyp After Shift: Ernesto had it all figured out,
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 380:1
+Original Ref: and if Peter hadn't married Gina,
+Original Hyp: and if Pedro hadn't married Gina,
+Hyp After Shift: and if Pedro hadn't married Gina,
+Alignment: (  S   )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 381:1
+Original Ref: Elena loses her son.
+Original Hyp: Elena would've lost her son.
+Hyp After Shift: Elena would've lost her son.
+Alignment: ( IS  )
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 382:1
+Original Ref: If I didn't say anything,
+Original Hyp: I didn't say anything
+Hyp After Shift: I didn't say anything
+Alignment: (D   S)
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 383:1
+Original Ref: it was because Peter asked me to.
+Original Hyp: because Pedro asked me not to.
+Hyp After Shift: because Pedro asked me not to.
+Alignment: (DD S  I )
+NumShifts: 0
+Score: 0.5714285714285714 (4.0/7.0)
+
+Sentence ID: 384:1
+Original Ref: There are secrets that damage more
+Original Hyp: Some secrets are more harmful
+Hyp After Shift: Some are secrets harmful more
+Alignment: (S  DS )
+NumShifts: 2
+  [2, 2, 1/0] ([are])
+  [3, 3, 5/4] ([more])
+Score: 0.8333333333333334 (5.0/6.0)
+
+Sentence ID: 385:1
+Original Ref: if you keep it than you say it.
+Original Hyp: if you keep them than if you tell them.
+Hyp After Shift: if you keep them than if you tell them.
+Alignment: (   S I SS)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 386:1
+Original Ref: You're not thinking about telling Elena.
+Original Hyp: Are you thinking about telling Elena?
+Hyp After Shift: Are you thinking about telling Elena?
+Alignment: (SS   S)
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 387:1
+Original Ref: I don't know, son.
+Original Hyp: I don't know, son.
+Hyp After Shift: I don't know, son.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 388:1
+Original Ref: At this point, even if she knows it,
+Original Hyp: At this point,
+Hyp After Shift: At this point,
+Alignment: (   DDDDD)
+NumShifts: 0
+Score: 0.625 (5.0/8.0)
+
+Sentence ID: 389:1
+Original Ref: she's not gonna do anything.
+Original Hyp: her finding out wouldn't fix anything.
+Hyp After Shift: her finding out wouldn't fix anything.
+Alignment: (ISSSS )
+NumShifts: 0
+Score: 1.0 (5.0/5.0)
+
+Sentence ID: 390:1
+Original Ref: It's just gonna destroy Gina's life.
+Original Hyp: It'll just destroy Gina's life.
+Hyp After Shift: It'll just destroy Gina's life.
+Alignment: (S D   )
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 391:1
+Original Ref: You know he's not a saint of my devotion,
+Original Hyp: You know she's not my cup of tea,
+Hyp After Shift: You know she's not cup of my tea,
+Alignment: (  S DS  S)
+NumShifts: 1
+  [4, 4, 7/6] ([my])
+Score: 0.5555555555555556 (5.0/9.0)
+
+Sentence ID: 392:1
+Original Ref: but, well, I don't want to hurt him either.
+Original Hyp: but, well, I don't want to hurt her either.
+Hyp After Shift: but, well, I don't want to hurt her either.
+Alignment: (       S )
+NumShifts: 0
+Score: 0.1111111111111111 (1.0/9.0)
+
+Sentence ID: 393:1
+Original Ref: Hey, isn't Gina aware of all this?
+Original Hyp: Hey, do you think Gina knows about all this?
+Hyp After Shift: Hey, do you think Gina knows about all this?
+Alignment: ( IIS SS  )
+NumShifts: 0
+Score: 0.7142857142857143 (5.0/7.0)
+
+Sentence ID: 394:1
+Original Ref: Now, why did you agree to marry Peter
+Original Hyp: Listen, why would she agree to marry Pedro
+Hyp After Shift: Listen, why would she agree to marry Pedro
+Alignment: (S SS   S)
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 395:1
+Original Ref: so suddenly knowing that he loves Elena?
+Original Hyp: so suddenly when she knows that he loves Elena?
+Hyp After Shift: so suddenly when she knows that he loves Elena?
+Alignment: (  IIS    )
+NumShifts: 0
+Score: 0.42857142857142855 (3.0/7.0)
+
+Sentence ID: 396:1
+Original Ref: That would mean
+Original Hyp: That would mean
+Hyp After Shift: That would mean
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 397:1
+Original Ref: that Gina and Ernesto are colluding.
+Original Hyp: that Gina and Ernesto are colluding.
+Hyp After Shift: that Gina and Ernesto are colluding.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 398:1
+Original Ref: And I don't even know
+Original Hyp: And I don't even know
+Hyp After Shift: And I don't even know
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 399:1
+Original Ref: if you know each other, Ma.
+Original Hyp: if they know each other, Ma.
+Hyp After Shift: if they know each other, Ma.
+Alignment: ( S    )
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 400:1
+Original Ref: Now you've gone but even the kitchen.
+Original Hyp: You've gone way too far now.
+Hyp After Shift: You've gone way too far now.
+Alignment: (DS SSSS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 401:1
+Original Ref: Something tells me I'm not so wrong.
+Original Hyp: Something tells me I'm not so wrong.
+Hyp After Shift: Something tells me I'm not so wrong.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 402:1
+Original Ref: Something like what?
+Original Hyp: Something like what?
+Hyp After Shift: Something like what?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 403:1
+Original Ref: I don't know, it's like that, pure intuition.
+Original Hyp: I don't know, my intuition.
+Hyp After Shift: I don't know, my intuition.
+Alignment: (   DDDS )
+NumShifts: 0
+Score: 0.5 (4.0/8.0)
+
+Sentence ID: 404:1
+Original Ref: It's a shame, Ma,
+Original Hyp: That too bad, Ma,
+Hyp After Shift: That too bad, Ma,
+Alignment: (SSS )
+NumShifts: 0
+Score: 0.75 (3.0/4.0)
+
+Sentence ID: 405:1
+Original Ref: that doesn't prove anything.
+Original Hyp: because that doesn't prove anything.
+Hyp After Shift: because that doesn't prove anything.
+Alignment: (I    )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 406:1
+Original Ref: Mi amor,
+Original Hyp: Honey,
+Hyp After Shift: Honey,
+Alignment: (DS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 407:1
+Original Ref: I've been thinking a lot
+Original Hyp: I've been thinking a lot
+Hyp After Shift: I've been thinking a lot
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 408:1
+Original Ref: about what we talked about.
+Original Hyp: about what we talked about.
+Hyp After Shift: about what we talked about.
+Alignment: (     )
+NumShifts: 0
+Score: 0.0 (0.0/5.0)
+
+Sentence ID: 409:1
+Original Ref: It hurts, it hurts so much
+Original Hyp: It hurts me.
+Hyp After Shift: It hurts me.
+Alignment: ( DD DS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 410:1
+Original Ref: to see you so sad.
+Original Hyp: It really hurts me to see you so sad.
+Hyp After Shift: It really hurts me to see you so sad.
+Alignment: (IIII     )
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 411:1
+Original Ref: That's how I feel.
+Original Hyp: That's how I feel.
+Hyp After Shift: That's how I feel.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 412:1
+Original Ref: You don't know how I want to fix it.
+Original Hyp: I'd really like to fix things.
+Hyp After Shift: I'd really like to fix things.
+Alignment: (DDDSSS  S)
+NumShifts: 0
+Score: 0.7777777777777778 (7.0/9.0)
+
+Sentence ID: 413:1
+Original Ref: And I've given it a thousand laps
+Original Hyp: I've thought about our situation
+Hyp After Shift: I've thought about our situation
+Alignment: (D DSSSS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 414:1
+Original Ref: into the situation and…
+Original Hyp: a thousand times over.
+Hyp After Shift: a thousand times over.
+Alignment: (SSSS)
+NumShifts: 0
+Score: 1.0 (4.0/4.0)
+
+Sentence ID: 415:1
+Original Ref: And I want to find a way out.
+Original Hyp: And I want to find a solution.
+Hyp After Shift: And I want to find a solution.
+Alignment: (      DS)
+NumShifts: 0
+Score: 0.25 (2.0/8.0)
+
+Sentence ID: 416:1
+Original Ref: Did you find her?
+Original Hyp: Did you find one?
+Hyp After Shift: Did you find one?
+Alignment: (   S)
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 417:1
+Original Ref: I think so, but…
+Original Hyp: I think so, but...
+Hyp After Shift: I think so, but...
+Alignment: (   S)
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 418:1
+Original Ref: The truth is,
+Original Hyp: The truth is,
+Hyp After Shift: The truth is,
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 419:1
+Original Ref: it's gonna be a sacrifice to me.
+Original Hyp: I have to make a huge sacrifice.
+Hyp After Shift: I have make a huge to sacrifice.
+Alignment: (SSS S S)
+NumShifts: 1
+  [2, 2, 5/5] ([to])
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 420:1
+Original Ref: But I don't see any other solution.
+Original Hyp: But I don't see any other solution.
+Hyp After Shift: But I don't see any other solution.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 421:1
+Original Ref: Your illusion of being a mother
+Original Hyp: Your dream of being a mom
+Hyp After Shift: Your dream of being a mom
+Alignment: ( S   S)
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 422:1
+Original Ref: is what matters now, isn't it?
+Original Hyp: is what matters now, right?
+Hyp After Shift: is what matters now, right?
+Alignment: (    DS)
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 423:1
+Original Ref: I have no doubt you'll be a wonderful mom.
+Original Hyp: I have no doubt you'll be a wonderful mom.
+Hyp After Shift: I have no doubt you'll be a wonderful mom.
+Alignment: (         )
+NumShifts: 0
+Score: 0.0 (0.0/9.0)
+
+Sentence ID: 424:1
+Original Ref: I can imagine you giving
+Original Hyp: I can see you giving
+Hyp After Shift: I can see you giving
+Alignment: (  S  )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 425:1
+Original Ref: all your love to that creature.
+Original Hyp: all your love to that child.
+Hyp After Shift: all your love to that child.
+Alignment: (     S)
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 426:1
+Original Ref: That's why I have to put aside
+Original Hyp: That's why I have to put aside
+Hyp After Shift: That's why I have to put aside
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 427:1
+Original Ref: my selfishness and think only of you.
+Original Hyp: my selfishness and think only of you.
+Hyp After Shift: my selfishness and think only of you.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 428:1
+Original Ref: You mean
+Original Hyp: Are you saying
+Hyp After Shift: Are you saying
+Alignment: (ISS)
+NumShifts: 0
+Score: 1.5 (3.0/2.0)
+
+Sentence ID: 429:1
+Original Ref: we're gonna have a kid?
+Original Hyp: we're going to have a child?
+Hyp After Shift: we're going to have a child?
+Alignment: ( IS  S)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 430:1
+Original Ref: Monica,
+Original Hyp: Mónica,
+Hyp After Shift: Mónica,
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 431:1
+Original Ref: I love you more than my life.
+Original Hyp: I love you more than my own life.
+Hyp After Shift: I love you more than my own life.
+Alignment: (      I )
+NumShifts: 0
+Score: 0.14285714285714285 (1.0/7.0)
+
+Sentence ID: 432:1
+Original Ref: And precisely because of that great love
+Original Hyp: And precisely because of that great love
+Hyp After Shift: And precisely because of that great love
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 433:1
+Original Ref: 
+Original Hyp: that I feel for you,
+Hyp After Shift: that I feel for you,
+Alignment: (IIIII)
+NumShifts: 0
+Score: 1.0 (5.0/0.0)
+
+Sentence ID: 434:1
+Original Ref: that I feel for you, I'm willing to…
+Original Hyp: I'm willing to...
+Hyp After Shift: I'm willing to...
+Alignment: (DDDDD  S)
+NumShifts: 0
+Score: 0.75 (6.0/8.0)
+
+Sentence ID: 435:1
+Original Ref: let you go free,
+Original Hyp: let you be free
+Hyp After Shift: let you be free
+Alignment: (  SS)
+NumShifts: 0
+Score: 0.5 (2.0/4.0)
+
+Sentence ID: 436:1
+Original Ref: so you can find someone
+Original Hyp: to find someone else
+Hyp After Shift: to find someone else
+Alignment: (DDS  I)
+NumShifts: 0
+Score: 0.8 (4.0/5.0)
+
+Sentence ID: 437:1
+Original Ref: you can fulfill your wish with.
+Original Hyp: to help you make your dreams come true.
+Hyp After Shift: to help you make dreams your come true.
+Alignment: (II SS SS)
+NumShifts: 1
+  [4, 4, 3/5] ([your])
+Score: 1.1666666666666667 (7.0/6.0)
+
+Sentence ID: 438:1
+Original Ref: Tell me something.
+Original Hyp: Say something.
+Hyp After Shift: Say something.
+Alignment: (DS )
+NumShifts: 0
+Score: 0.6666666666666666 (2.0/3.0)
+
+Sentence ID: 439:1
+Original Ref: What do you want me to say?
+Original Hyp: What do you want me to say?
+Hyp After Shift: What do you want me to say?
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 440:1
+Original Ref: You surprise me.
+Original Hyp: I'm surprised.
+Hyp After Shift: I'm surprised.
+Alignment: (DSS)
+NumShifts: 0
+Score: 1.0 (3.0/3.0)
+
+Sentence ID: 441:1
+Original Ref: I never imagined
+Original Hyp: I never imagined
+Hyp After Shift: I never imagined
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 442:1
+Original Ref: that was the way you loved.
+Original Hyp: that was how you'd show love.
+Hyp After Shift: that was how you'd show love.
+Alignment: (  SSSS)
+NumShifts: 0
+Score: 0.6666666666666666 (4.0/6.0)
+
+Sentence ID: 443:1
+Original Ref: I do love you.
+Original Hyp: I do love you.
+Hyp After Shift: I do love you.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 444:1
+Original Ref: I love you, you never doubt it.
+Original Hyp: I love you, never doubt that.
+Hyp After Shift: I love you, never doubt that.
+Alignment: (   D  S)
+NumShifts: 0
+Score: 0.2857142857142857 (2.0/7.0)
+
+Sentence ID: 445:1
+Original Ref: That's why I'm giving you freedom,
+Original Hyp: That's why I'm giving you freedom.
+Hyp After Shift: That's why I'm giving you freedom.
+Alignment: (     S)
+NumShifts: 0
+Score: 0.16666666666666666 (1.0/6.0)
+
+Sentence ID: 446:1
+Original Ref: it's an act of love.
+Original Hyp: It's an act of love.
+Hyp After Shift: It's an act of love.
+Alignment: (S    )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 447:1
+Original Ref: And you have no idea
+Original Hyp: You have no idea how much it hurts me
+Hyp After Shift: You have no idea how much it hurts me
+Alignment: (DS   IIIII)
+NumShifts: 0
+Score: 1.4 (7.0/5.0)
+
+Sentence ID: 448:1
+Original Ref: how much it hurts to sacrifice me.
+Original Hyp: to make this sacrifice.
+Hyp After Shift: make to this sacrifice.
+Alignment: (DDDS SS)
+NumShifts: 1
+  [0, 0, 4/1] ([to])
+Score: 1.0 (7.0/7.0)
+
+Sentence ID: 449:1
+Original Ref: Well, thank you. That's nice.
+Original Hyp: Well, thanks. That's so nice of you.
+Hyp After Shift: Well, thanks. so you. nice That's of
+Alignment: ( IS I S)
+NumShifts: 2
+  [2, 2, 2/4] ([That's])
+  [6, 6, 1/2] ([you.])
+Score: 1.2 (6.0/5.0)
+
+Sentence ID: 450:1
+Original Ref: I would have preferred
+Original Hyp: I would have preferred
+Hyp After Shift: I would have preferred
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 451:1
+Original Ref: another kind of sacrifice.
+Original Hyp: another kind of sacrifice.
+Hyp After Shift: another kind of sacrifice.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 452:1
+Original Ref: Like what? What do you want me to do?
+Original Hyp: Like what? What do you want me to do?
+Hyp After Shift: Like what? What do you want me to do?
+Alignment: (         )
+NumShifts: 0
+Score: 0.0 (0.0/9.0)
+
+Sentence ID: 453:1
+Original Ref: Do I have to tell you?
+Original Hyp: Do I have to tell you?
+Hyp After Shift: Do I have to tell you?
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 454:1
+Original Ref: If you love me so much,
+Original Hyp: If you love me so much,
+Hyp After Shift: If you love me so much,
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 455:1
+Original Ref: sacrifice yourself and have a child.
+Original Hyp: sacrifice yourself and have a child.
+Hyp After Shift: sacrifice yourself and have a child.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 456:1
+Original Ref: But, see, I explained to you
+Original Hyp: But, see, I explained to you
+Hyp After Shift: But, see, I explained to you
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 457:1
+Original Ref: why I didn't…
+Original Hyp: why I don't...
+Hyp After Shift: why I don't...
+Alignment: (  S)
+NumShifts: 0
+Score: 0.3333333333333333 (1.0/3.0)
+
+Sentence ID: 458:1
+Original Ref: Let's see, now. Okay, I get it. Stop it.
+Original Hyp: Okay, stop. Okay, I get it. Stop it.
+Hyp After Shift: Okay, stop. Okay, I get it. Stop it.
+Alignment: (DSS      )
+NumShifts: 0
+Score: 0.3333333333333333 (3.0/9.0)
+
+Sentence ID: 459:1
+Original Ref: Thank you for giving me my freedom.
+Original Hyp: Thank you for giving me my freedom.
+Hyp After Shift: Thank you for giving me my freedom.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 460:1
+Original Ref: Monica.
+Original Hyp: Mónica.
+Hyp After Shift: Mónica.
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 461:1
+Original Ref: Monica, wait, let's keep talking.
+Original Hyp: Mónica, wait, let's keep talking.
+Hyp After Shift: Mónica, wait, let's keep talking.
+Alignment: (S    )
+NumShifts: 0
+Score: 0.2 (1.0/5.0)
+
+Sentence ID: 462:1
+Original Ref: Monica!
+Original Hyp: Mónica!
+Hyp After Shift: Mónica!
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 463:1
+Original Ref: Now I'm just gonna take this,
+Original Hyp: I'll just take this for now.
+Hyp After Shift: I'll take just this for now.
+Alignment: (SS SSS)
+NumShifts: 1
+  [1, 1, 2/2] ([just])
+Score: 1.0 (6.0/6.0)
+
+Sentence ID: 464:1
+Original Ref: then I'll get the rest.
+Original Hyp: I'll get the rest later.
+Hyp After Shift: I'll get the rest later.
+Alignment: (D   IS)
+NumShifts: 0
+Score: 0.6 (3.0/5.0)
+
+Sentence ID: 465:1
+Original Ref: Don't go, please.
+Original Hyp: Don't go, please.
+Hyp After Shift: Don't go, please.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 466:1
+Original Ref: Monica, I don't know why I said that.
+Original Hyp: Mónica, I don't know why I said that.
+Hyp After Shift: Mónica, I don't know why I said that.
+Alignment: (S       )
+NumShifts: 0
+Score: 0.125 (1.0/8.0)
+
+Sentence ID: 467:1
+Original Ref: Really, I love you.
+Original Hyp: Really, I love you.
+Hyp After Shift: Really, I love you.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 468:1
+Original Ref: I love you so much, I need you.
+Original Hyp: I love you so much, I need you.
+Hyp After Shift: I love you so much, I need you.
+Alignment: (        )
+NumShifts: 0
+Score: 0.0 (0.0/8.0)
+
+Sentence ID: 469:1
+Original Ref: You said it.
+Original Hyp: You said it.
+Hyp After Shift: You said it.
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 470:1
+Original Ref: And it hurt deep in the heart.
+Original Hyp: And you hurt me in the depths of my soul.
+Hyp After Shift: And you hurt me in the depths of my soul.
+Alignment: ( S S  IIIS)
+NumShifts: 0
+Score: 0.8571428571428571 (6.0/7.0)
+
+Sentence ID: 471:1
+Original Ref: Monica, please forgive me, I'm sorry…
+Original Hyp: Mónica, please forgive me, I'm sorry...
+Hyp After Shift: Mónica, please forgive me, I'm sorry...
+Alignment: (S    S)
+NumShifts: 0
+Score: 0.3333333333333333 (2.0/6.0)
+
+Sentence ID: 472:1
+Original Ref: I don't want to be here anymore.
+Original Hyp: I don't want to be here anymore.
+Hyp After Shift: I don't want to be here anymore.
+Alignment: (       )
+NumShifts: 0
+Score: 0.0 (0.0/7.0)
+
+Sentence ID: 473:1
+Original Ref: No, I can't live without you.
+Original Hyp: No, I can't live without you.
+Hyp After Shift: No, I can't live without you.
+Alignment: (      )
+NumShifts: 0
+Score: 0.0 (0.0/6.0)
+
+Sentence ID: 474:1
+Original Ref: Well, you'll have to learn.
+Original Hyp: Well, you'll have to learn how.
+Hyp After Shift: Well, you'll have to learn how.
+Alignment: (    IS)
+NumShifts: 0
+Score: 0.4 (2.0/5.0)
+
+Sentence ID: 475:1
+Original Ref: Hey, don't go, please.
+Original Hyp: Hey, don't go, please.
+Hyp After Shift: Hey, don't go, please.
+Alignment: (    )
+NumShifts: 0
+Score: 0.0 (0.0/4.0)
+
+Sentence ID: 476:1
+Original Ref: Let me through.
+Original Hyp: Let me go.
+Hyp After Shift: Let me go.
+Alignment: (  S)
+NumShifts: 0
+Score: 0.3333333333333333 (1.0/3.0)
+
+Sentence ID: 477:1
+Original Ref: It's too late to regret it.
+Original Hyp: It's too late to change your mind.
+Hyp After Shift: It's too late to change your mind.
+Alignment: (    ISS)
+NumShifts: 0
+Score: 0.5 (3.0/6.0)
+
+Sentence ID: 478:1
+Original Ref: No, please.
+Original Hyp: No, please.
+Hyp After Shift: No, please.
+Alignment: (  )
+NumShifts: 0
+Score: 0.0 (0.0/2.0)
+
+Sentence ID: 479:1
+Original Ref: No, no.
+Original Hyp: No.
+Hyp After Shift: No.
+Alignment: (DS)
+NumShifts: 0
+Score: 1.0 (2.0/2.0)
+
+Sentence ID: 480:1
+Original Ref: Horatio.
+Original Hyp: Horacio.
+Hyp After Shift: Horacio.
+Alignment: (S)
+NumShifts: 0
+Score: 1.0 (1.0/1.0)
+
+Sentence ID: 481:1
+Original Ref: Are you pregnant?
+Original Hyp: Are you pregnant?
+Hyp After Shift: Are you pregnant?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 482:1
+Original Ref: Are you pregnant?
+Original Hyp: Are you pregnant?
+Hyp After Shift: Are you pregnant?
+Alignment: (   )
+NumShifts: 0
+Score: 0.0 (0.0/3.0)
+
+Sentence ID: 483:1
+Original Ref: Jimmy!
+Original Hyp: Jimmy!
+Hyp After Shift: Jimmy!
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 484:1
+Original Ref: Jimmy!
+Original Hyp: Jimmy!
+Hyp After Shift: Jimmy!
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
+Sentence ID: 485:1
+Original Ref: Jimmy, Jimmy! Hey, Jimmy!
+Original Hyp: Jimmy! Hey, Jimmy!
+Hyp After Shift: Jimmy! Hey, Jimmy!
+Alignment: (D   )
+NumShifts: 0
+Score: 0.25 (1.0/4.0)
+
+Sentence ID: 486:1
+Original Ref: Jimmy!
+Original Hyp: Jimmy!
+Hyp After Shift: Jimmy!
+Alignment: ( )
+NumShifts: 0
+Score: 0.0 (0.0/1.0)
+
